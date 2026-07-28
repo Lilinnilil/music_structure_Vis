@@ -16,9 +16,7 @@ let viewDNotes = [];
 let lineAnchorCache = [];
 let lineAnchorByTrack = new Map();
 let lineAnchorsDirty = true;
-let rhythmPercussionOverlays = null;
 let showPercussion = true;
-let showRhythmWheel = true; // 控制节奏轮和小节线的显示
 function isPercussionTrack(trackName) {
     if (!trackName) return false;
     const t = trackName.toLowerCase();
@@ -42,13 +40,10 @@ yScale = null;
 xAxisGroup = null;
 yAxisGroup = null;
 timeLabel = null;
-rhythmPolygon = null;
-beatPoints = null;
 displayMode = 0;
 statusButton = d3.select("#playPauseBtn");
 toggleDisplayModeButton = d3.select("#toggleDisplayModeBtn");
 togglePercussionButton = d3.select("#togglePercussionBtn");
-toggleRhythmWheelButton = d3.select("#toggleRhythmWheelBtn");
 xScrollbar = document.getElementById("x-scrollbar");
 
 TRANSLATION_PIXEL_RANGE = 0;
@@ -87,90 +82,6 @@ function drawPlayhead() {
         .attr("width", 2)
         .attr("height", CONFIG.DRAWING_HEIGHT)
         .attr("fill", "url(#playheadGradient)");
-}
-
-function drawRhythmWheel() {
-    const container = d3.select("#rhythm-viz");
-    const containerNode = container.node();
-    const padding = 12; // 留出边距，防止描边被裁切
-    const fallbackSize = CONFIG.RHYTHM_RADIUS * 2 + padding * 2;
-    const availableW = containerNode ? Math.max(containerNode.clientWidth || 0, fallbackSize) : fallbackSize;
-    const availableH = containerNode ? Math.max(containerNode.clientHeight || 0, fallbackSize) : fallbackSize;
-    const usableSize = Math.max(140, Math.min(availableW, availableH));
-    const radius = Math.max(32, Math.min(CONFIG.RHYTHM_RADIUS, (usableSize / 2) - padding));
-    const svgSize = Math.max(usableSize, radius * 2 + padding * 2);
-    const center = svgSize / 2;
-
-    container.select('svg').remove();
-    const rhythmSVG = container
-        .append("svg")
-        .attr("width", svgSize)
-        .attr("height", svgSize)
-        .attr("viewBox", `0 0 ${svgSize} ${svgSize}`)
-        .attr("preserveAspectRatio", "xMidYMid meet")
-        .append("g")
-        .attr("transform", `translate(${center}, ${center})`);
-
-    rhythmSVG.append("circle")
-        .attr("class", "rhythm-beat-circle")
-        .attr("r", radius);
-        
-    rhythmSVG.selectAll(".rhythm-polygon, .rhythm-beat-point").remove();
-
-    const totalBeats = beatNumerator;
-    const pointsData = d3.range(totalBeats).map(i => {
-        const angle = (i / totalBeats) * (2 * Math.PI);
-        return getCoords(angle, radius);
-    });
-
-    if (beatNumerator >= 3) {
-        const line = d3.line().x(d => d.x).y(d => d.y).curve(d3.curveLinearClosed);
-        rhythmPolygon = rhythmSVG.append("path")
-            .attr("class", "rhythm-polygon")
-            .attr("d", line(pointsData))
-            .style("stroke", "white")
-            .style("stroke-width", "1.5px")
-            .style("fill", "none");
-    } else if (beatNumerator === 2) {
-        // For 2/2 或 2/4 拍：使用一条直径白线代替多边形
-        const [p1, p2] = pointsData;
-        rhythmPolygon = rhythmSVG.append("line")
-            .attr("class", "rhythm-polygon")
-            .attr("x1", p1.x).attr("y1", p1.y)
-            .attr("x2", p2.x).attr("y2", p2.y)
-            .style("stroke", "white")
-            .style("stroke-width", "1.5px")
-            .style("fill", "none");
-    } else {
-        rhythmPolygon = null;
-    }
-
-    const beatPointRadius = Math.max(4, radius * 0.07);
-    const overlayRadius = Math.max(7, beatPointRadius + 4);
-
-    beatPoints = rhythmSVG.selectAll(".rhythm-beat-point")
-        .data(pointsData)
-        .enter().append("circle")
-        .attr("class", "rhythm-beat-point")
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y)
-        .attr("r", beatPointRadius);
-    
-    rhythmPercussionOverlays = rhythmSVG.selectAll(".percussion-beat-overlay")
-        .data(pointsData)
-        .enter().append("circle")
-        .attr("class", "percussion-beat-overlay")
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y)
-        .attr("r", overlayRadius)
-        .style("display", "none");
-
-    // Ensure the yellow beat points render above the percussion halo,
-    // while the halo stays above the base rhythm wheel.
-    rhythmPercussionOverlays.raise();
-    beatPoints.raise();
-        
-    rhythmSVG.attr("transform", `translate(${center}, ${center})`);
 }
 
 function drawLegend(trackNames) {
@@ -336,14 +247,36 @@ function rebuildLineAnchors() {
     lineAnchorsDirty = false;
 }
 
+function normalizeNotesData(notesData) {
+    if (!Array.isArray(notesData)) return [];
+    return notesData.map((note) => {
+        const normalized = { ...note };
+        const numericFields = ['time_start_sec', 'duration_sec', 'time_end_sec', 'pitch', 'velocity', 'time_start_tick', 'duration_tick'];
+        numericFields.forEach((field) => {
+            const rawValue = normalized[field];
+            const parsed = rawValue === '' || rawValue === null || rawValue === undefined ? 0 : Number(rawValue);
+            normalized[field] = Number.isFinite(parsed) ? parsed : 0;
+        });
+        if (!Number.isFinite(normalized.time_end_sec)) {
+            normalized.time_end_sec = normalized.time_start_sec + normalized.duration_sec;
+        }
+        return normalized;
+    });
+}
+
 function drawPianoRollElements(notes) {
     lineAnchorsDirty = true;
-    const min_pitch = d3.min(notes, d => d.pitch);
-    const max_pitch = d3.max(notes, d => d.pitch);
+    const normalizedNotes = normalizeNotesData(notes);
+    if (!normalizedNotes || !normalizedNotes.length) return;
+
+    const min_pitch = d3.min(normalizedNotes, d => d.pitch);
+    const max_pitch = d3.max(normalizedNotes, d => d.pitch);
+    const safeHeight = Math.max(120, CONFIG.DRAWING_HEIGHT || 240);
+    const safeWidth = Math.max(200, CONFIG.DRAWING_WIDTH || 800);
     
     // Y 比例尺和音符高度
-    yScale = d3.scaleLinear().domain([min_pitch - 1, max_pitch + 1]).range([CONFIG.DRAWING_HEIGHT, 0]);
-    const rectHeight = CONFIG.DRAWING_HEIGHT / (max_pitch - min_pitch + 2);
+    yScale = d3.scaleLinear().domain([min_pitch - 1, max_pitch + 1]).range([safeHeight, 0]);
+    const rectHeight = safeHeight / (max_pitch - min_pitch + 2);
     const pitchRange = d3.range(min_pitch, max_pitch + 1, 1);
 
     // 清理旧的轴和标签
@@ -352,11 +285,11 @@ function drawPianoRollElements(notes) {
     // 绘制黑键背景
     chartGroup.selectAll(".black-key-bg").data(pitchRange).enter().insert("rect", ":first-child")
         .attr("class", "black-key-bg").attr("y", d => yScale(d + 0.5) - rectHeight / 2).attr("x", 0)
-        .attr("width", xScale(originalMaxTime + CONFIG.END_DELAY_SECONDS)).attr("height", rectHeight).filter(d => CONFIG.BLACK_KEYS_INDICES.includes(d % 12));
+        .attr("width", Math.max(1, xScale(originalMaxTime + CONFIG.END_DELAY_SECONDS) || safeWidth)).attr("height", rectHeight).filter(d => CONFIG.BLACK_KEYS_INDICES.includes(d % 12));
 
     // 绘制白键网格线
     chartGroup.selectAll(".grid-line-y").data(pitchRange.filter(d => CONFIG.WHITE_KEY_INDICES.includes(d % 12))).enter().insert("line", ":first-child")
-        .attr("class", "grid-line grid-line-y").attr("x1", 0).attr("x2", xScale(originalMaxTime + CONFIG.END_DELAY_SECONDS)).attr("y1", d => yScale(d) + rectHeight / 2).attr("y2", d => yScale(d) + rectHeight / 2);
+        .attr("class", "grid-line grid-line-y").attr("x1", 0).attr("x2", Math.max(1, xScale(originalMaxTime + CONFIG.END_DELAY_SECONDS) || safeWidth)).attr("y1", d => yScale(d) + rectHeight / 2).attr("y2", d => yScale(d) + rectHeight / 2);
 
     // 绘制小节/节拍线
     const beatTicks = d3.range(0, originalMaxTime + CONFIG.END_DELAY_SECONDS, beatDurationSec);
@@ -393,7 +326,7 @@ function drawPianoRollElements(notes) {
 
     // 绘制音符矩形
     chartGroup.selectAll(".note")
-        .data(notes)
+        .data(normalizedNotes)
         .join("rect")
         .attr("class", "note")
         .attr("x", d => xScale(d.time_start_sec))
@@ -418,14 +351,14 @@ function drawPianoRollElements(notes) {
 
     // --- 绘制音轨连线 ---
     // Keep melodic lines free of percussion: separate notes collection
-    const NON_PERCUSSION_NOTES = notes.filter(d => !isPercussionTrack(d.track_new));
+    const NON_PERCUSSION_NOTES = normalizedNotes.filter(d => !isPercussionTrack(d.track_new));
 
     const LONG_ABSENCE_BARS = 0.25;
     const BAR_THRESHOLD = LONG_ABSENCE_BARS * barDurationSec;
     const MIN_ABSOLUTE_THRESHOLD = 0.5;
     const FINAL_THRESHOLD = Math.max(BAR_THRESHOLD, MIN_ABSOLUTE_THRESHOLD);
     
-    const notesByTrackAll = d3.group(notes, d => d.track_new);
+    const notesByTrackAll = d3.group(normalizedNotes, d => d.track_new);
     const notesByTrack = d3.group(NON_PERCUSSION_NOTES, d => d.track_new);
     
     const allVoiceSegments = []; 
@@ -904,7 +837,7 @@ function drawPianoRollElements(notes) {
 
     // --- 5) Percussion kit notes: white vertical markers for Beat and Line modes ---
     // Filter percussion kit notes
-    const percussionNotes = notes.filter(d => isPercussionTrack(d.track_new));
+    const percussionNotes = normalizedNotes.filter(d => isPercussionTrack(d.track_new));
 
     // Draw white vertical markers for percussion notes (similar to beat-marker, but white)
     // Opacity encodes velocity
@@ -979,10 +912,6 @@ function drawPianoRollElements(notes) {
 
     rebuildLineAnchors();
     
-    // 应用节奏轮和小节线的显示状态
-    if (typeof updateRhythmWheelVisibility === 'function') {
-        updateRhythmWheelVisibility();
-    }
 }
 
 
@@ -995,35 +924,6 @@ function toggleDisplayMode() {
 function updatePercussionButtonLabel() {
     if (!togglePercussionButton || togglePercussionButton.empty()) return;
     togglePercussionButton.text(showPercussion ? "Percussion: On" : "Percussion: Off");
-}
-
-function toggleRhythmWheel() {
-    showRhythmWheel = !showRhythmWheel;
-    updateRhythmWheelVisibility();
-}
-
-function updateRhythmWheelVisibility() {
-    // 控制节奏轮容器的显示/隐藏
-    const rhythmVizContainer = d3.select("#rhythm-viz");
-    if (rhythmVizContainer.node()) {
-        rhythmVizContainer.style("display", showRhythmWheel ? "flex" : "none");
-    }
-    
-    // 控制小节线和节拍线的显示/隐藏
-    if (chartGroup) {
-        chartGroup.selectAll(".bar-line").style("display", showRhythmWheel ? "inline" : "none");
-        chartGroup.selectAll(".beat-line").style("display", showRhythmWheel ? "inline" : "none");
-    }
-    
-    // 控制小节数字标注的显示/隐藏
-    if (barLabelGroup) {
-        barLabelGroup.selectAll(".bar-label").style("display", showRhythmWheel ? "inline" : "none");
-    }
-    
-    // 更新按钮文本
-    if (toggleRhythmWheelButton && !toggleRhythmWheelButton.empty()) {
-        toggleRhythmWheelButton.text(showRhythmWheel ? "Hide" : "Show");
-    }
 }
 
 function applyDisplayMode() {
@@ -1082,42 +982,6 @@ function applyDisplayMode() {
     updateVizD(Tone.Transport.state === 'stopped', false);
 }
 
-function updateRhythmWheel() {
-    if (!beatPoints || beatDurationSec <= 0 || beatNumerator <= 0) return;
-
-    const currentSeconds = Tone.Transport.seconds;
-    const timeInBar = currentSeconds % barDurationSec;
-    const currentBeatIndex = Math.floor(timeInBar / beatDurationSec) % beatNumerator;
-
-    const barStart = Math.floor(currentSeconds / barDurationSec) * barDurationSec;
-    const barEnd = barStart + barDurationSec;
-    const percussionBeatSet = new Set();
-    if (Array.isArray(viewDNotes)) {
-        viewDNotes.forEach(n => {
-            const tn = (n.track_new || '').toLowerCase();
-            if (!isPercussionTrack(n.track_new)) return;
-            if (n.time_start_sec >= barStart && n.time_start_sec < barEnd) {
-                const idx = Math.floor((n.time_start_sec - barStart) / beatDurationSec);
-                if (idx >= 0 && idx < beatNumerator) percussionBeatSet.add(idx);
-            }
-        });
-    }
-
-    beatPoints.each(function(d, i) {
-        const isCurrentBeat = i === currentBeatIndex;
-        d3.select(this).classed("highlight", isCurrentBeat);
-    });
-    
-    if (rhythmPercussionOverlays) {
-        rhythmPercussionOverlays.each(function(d, i) {
-            const overlay = d3.select(this);
-            const isPerc = percussionBeatSet.has(i);
-            overlay.style("display", isPerc ? "inline" : "none");
-            overlay.classed("active-percussion-overlay", isPerc);
-        });
-    }
-}
-
 function updateScrollbarValue() {
     if (!xScrollbar || TRANSLATION_PIXEL_RANGE <= 0) return;
     const normalizedValue = (maxTranslationX - currentTranslationX) / TRANSLATION_PIXEL_RANGE;
@@ -1151,12 +1015,15 @@ function setupAutoStopD() {
 
 function togglePlayback() {
     if (!allAssetsLoaded) return;
-    togglePlaybackCallback();
+    if (typeof togglePlaybackCallback === 'function') {
+        togglePlaybackCallback();
+    }
 }
 
 
 function animate() {
-    if (Tone.Transport.state !== 'started') {
+    const shouldAnimate = (window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
+    if (!shouldAnimate) {
         clearTimeout(vizUpdateLoop);
         vizUpdateLoop = null;
         return;
@@ -1173,13 +1040,14 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
     if (!xScale || !xAxisGroup) return;
 
     // --- Update time and position ---
+    const isPlaybackActive = (window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
     if (isStopping) {
         currentTime = 0;
         currentTranslationX = maxTranslationX;
         updateScrollbarValue();
         clearTimeout(vizUpdateLoop);
         vizUpdateLoop = null;
-    } else if (Tone.Transport.state === 'started' && !skipGlowUpdates) {
+    } else if (isPlaybackActive && !skipGlowUpdates) {
         currentTime = Tone.Transport.seconds;
         currentTranslationX = playheadX - xScale(currentTime);
         updateScrollbarValue(); 
@@ -1317,13 +1185,12 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
 
     if (!isStopping && !skipGlowUpdates) {
         if (displayMode === 0) {
-            notes.filter(function(d) {
+            const activeNoteData = notes.filter(function(d) {
                 return d.time_start_sec - TOLERANCE <= currentTime && d.time_end_sec > currentTime - TOLERANCE;
-            }).each(function(d) {
+            });
+            activeNoteData.each(function(d) {
                 d3.select(this)
                     .classed("glow", true)
-                    // Temporarily bring the fill fully opaque for the glow effect; we modify fill-opacity
-                    // (not element opacity) so other visual effects/strokes remain independent.
                     .attr("fill-opacity", 1)
                     .attr("fill", function() { return d3.select(this).attr("data-track-color-light"); });
                 this.parentNode.appendChild(this);
@@ -1580,13 +1447,11 @@ if (activeTracks.size > 0) {
     legendItems.style('opacity', 0.35).style('filter', 'grayscale(60%)');
 }
     
-    // Start the animation loop if it's not already running
-    if (Tone.Transport.state === 'started' && !vizUpdateLoop) {
-        // Use setTimeout to break the synchronous call chain and prevent the browser from freezing
+    const shouldAnimate = (window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
+    if (shouldAnimate && !vizUpdateLoop) {
         setTimeout(animate, 0);
     }
     
-    updateRhythmWheel();
 }
 
 
@@ -1623,21 +1488,21 @@ const dragHandler = d3.drag()
  * 暴露给 main.js：D 视图的初始化入口。
  */
 async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerInstance, callbacks) {
-    viewDNotes = notesData; // Store notes data locally
+    const normalizedNotes = normalizeNotesData(notesData);
+    viewDNotes = normalizedNotes; // Store notes data locally
     
     // 获取容器的实时尺寸
     const containerNode = document.getElementById(containerId.replace('#', ''));
-    let innerWidth = containerNode.clientWidth - CONFIG.MARGIN.left - CONFIG.MARGIN.right;
-    let innerHeight = containerNode.clientHeight - CONFIG.MARGIN.top - CONFIG.MARGIN.bottom;
+    const fallbackWidth = 900;
+    const fallbackHeight = 420;
+    let innerWidth = (containerNode && containerNode.clientWidth > 10 ? containerNode.clientWidth : fallbackWidth) - CONFIG.MARGIN.left - CONFIG.MARGIN.right;
+    let innerHeight = (containerNode && containerNode.clientHeight > 10 ? containerNode.clientHeight : fallbackHeight) - CONFIG.MARGIN.top - CONFIG.MARGIN.bottom;
 
     // --- 关键 Debug 检查和尺寸修复 ---
-    if (containerNode.clientWidth <= 10 || containerNode.clientHeight <= 10) {
-        // 尺寸异常，可能是 Flexbox/CSS 尚未计算完成
-        console.error(`[View D Debug] 容器 ${containerId} 尺寸异常。clientWidth: ${containerNode.clientWidth}, clientHeight: ${containerNode.clientHeight}. 请检查 index.html 中的 CSS 布局，确保 #view-D-dataviz 具有明确高度/flex-grow。将使用回退尺寸。`);
-        
-        // 使用一个合理的固定尺寸作为回退，防止 D3 崩溃
-        innerWidth = 700 - CONFIG.MARGIN.left - CONFIG.MARGIN.right;
-        innerHeight = 300 - CONFIG.MARGIN.top - CONFIG.MARGIN.bottom;
+    if (!containerNode || containerNode.clientWidth <= 10 || containerNode.clientHeight <= 10) {
+        console.warn(`[View D Debug] 容器 ${containerId} 尺寸异常，使用回退尺寸 ${fallbackWidth}x${fallbackHeight}。`);
+        innerWidth = fallbackWidth - CONFIG.MARGIN.left - CONFIG.MARGIN.right;
+        innerHeight = fallbackHeight - CONFIG.MARGIN.top - CONFIG.MARGIN.bottom;
     }
     // ---------------------------------
 
@@ -1651,11 +1516,14 @@ async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerI
     d3.select(containerId).select('svg').remove();
 
     // 创建主 SVG 元素
-    svg = d3.select(containerId)
+    const container = d3.select(containerId);
+    container.selectAll('svg').remove();
+    svg = container
         .append("svg")
         .attr("width", outerWidth)
         .attr("height", outerHeight)
         .attr("class", "draggable-chart")
+        .style("display", "block")
         .append("g")
         .attr("transform", `translate(${CONFIG.MARGIN.left},${CONFIG.MARGIN.top})`);
         
@@ -1696,7 +1564,7 @@ async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerI
     d3.select("#rhythm-info").text(`BPM: ${currentBPM.toFixed(1)} | Time Signature: ${beatNumerator}/${beatDenominator}`);
 
     // 音轨名称和颜色比例尺
-    const trackNames = Array.from(new Set(notesData.map(d => d.track_new)));
+    const trackNames = Array.from(new Set(normalizedNotes.map(d => d.track_new)));
     // 创建 colorScale 时排除 percussion
 const melodicTrackNames = trackNames.filter(t => !isPercussionTrack(t));
 colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau10);
@@ -1730,27 +1598,29 @@ colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau1
     // 绘制核心元素
     setupDefs();
     drawPlayhead();
-    drawPianoRollElements(notesData);	
-    drawRhythmWheel();
+    drawPianoRollElements(normalizedNotes);
 
 
     allAssetsLoaded = true;
-    statusButton.text("▶ Play (Ready)").on("click", togglePlayback);
+    statusButton.text("▶ Play");
+    if (window.__VIEWD_STANDALONE__) {
+        statusButton.on("click", null);
+    } else {
+        statusButton.on("click", () => {
+            if (typeof togglePlayback === 'function') {
+                togglePlayback();
+            }
+        });
+    }
     toggleDisplayModeButton.on("click", toggleDisplayMode); // 确保绑定
     if (togglePercussionButton && !togglePercussionButton.empty()) {
         togglePercussionButton.on("click", () => {
             showPercussion = !showPercussion;
             updatePercussionButtonLabel();
             applyDisplayMode();
-            updateRhythmWheel();
         });
         updatePercussionButtonLabel();
     }
-    if (toggleRhythmWheelButton && !toggleRhythmWheelButton.empty()) {
-        toggleRhythmWheelButton.on("click", toggleRhythmWheel);
-        updateRhythmWheelVisibility();
-    }
-
     // 初始化位置
     currentTranslationX = maxTranslationX;	
     chartGroup.attr("transform", `translate(${currentTranslationX}, 0)`);

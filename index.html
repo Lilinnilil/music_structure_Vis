@@ -3,225 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="docTitle">多视图可视化页面</title>
+    <title>ViewD Standalone</title>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/tone@14.7.58/build/Tone.js"></script>
 
     <style>
-        /* ==================================== */
-        /* === 核心布局样式 (Flexbox) === */
-        /* ==================================== */
+        :root {
+            color-scheme: dark;
+        }
+
         body, html {
             margin: 0;
             padding: 0;
-            height: 100vh; 
+            height: 100%;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #000;
+            background: #000;
             color: #fff;
         }
 
-        :root {
-            --view-b-height: 20%;
-            --view-c-height: 20%;
-            --view-d-height: 60%;
-            --view-gap: 8px;
-        }
-
-        /* 整体容器：水平 Flexbox */
-        #visualization-container {
-            display: flex; 
-            width: 100%;
-            height: 100vh;
-            overflow-x: hidden;
-            overflow-y: hidden; 
-        }
-        
-        /* A. 左侧边栏 (更宽，A 视图更扁) */
-        #view-A-container {
-            flex: 0 0 28%;
-            max-width: 34%;
-            min-width: 320px;
-            padding: 10px;
-            background-color: #000;
-            border-right: 1px solid #333;
+        body {
             display: flex;
             flex-direction: column;
-            height: 100vh;
-            overflow: hidden;
         }
 
-        /* B, C, D. 右侧主内容区域 (适度收窄) */
-        #main-content {
-            flex: 1 1 72%; 
-            min-width: 0;
+        #page-shell {
             display: flex;
-            flex-direction: column; 
-            padding: 10px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            gap: var(--view-gap);
+            flex-direction: column;
+            height: 100%;
         }
 
-        /* A 视图尺寸 & 分区控制，避免与 Rhythm Wheel 重叠 */
-        #view-A-dataviz {
-            flex: 0 0 46vh;
-            min-height: 60px;
-            width: 100%;
-            overflow: hidden;
+        #toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            background: #111;
+            border-bottom: 1px solid #333;
         }
-        #resize-handle-a {
-            flex: 0 0 10px;
-            background: linear-gradient(180deg, #111 0%, #0c0c0c 100%);
-            border: 1px solid #222;
-            border-left: none;
-            border-right: none;
+
+        #toolbar select,
+        #toolbar button {
+            background: #222;
+            color: #fff;
+            border: 1px solid #555;
             border-radius: 4px;
-            cursor: row-resize;
-            user-select: none;
-            touch-action: none;
-            box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.05);
-            transition: background-color 0.15s ease;
-            margin: 4px 0;
-        }
-        #resize-handle-a:hover, #resize-handle-a.active {
-            background: #1a1a1a;
-        }
-        #info-controls {
-            flex: 0 1 auto;
-            min-height: 100px;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 6px;
-            overflow-y: auto;
-            overflow-x: hidden;
+            padding: 6px 10px;
+            font-size: 12px;
         }
 
-        /* 右侧各视图的容器样式 */
-        .main-view-box {
-            background-color: #000;
-            border: 1px solid #333;
-            margin-bottom: 0;
-            box-sizing: border-box;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+        #toolbar select {
+            min-width: 320px;
         }
 
-        /* 垂直高度分配 (使用 flex-basis 定义基础比例) */
-        #view-B-container { flex: 0 1 var(--view-b-height); min-height: 120px; }
-        #view-C-container { flex: 0 1 var(--view-c-height); min-height: 120px; } 
-        #view-D-container { 
-            flex: 1 1 var(--view-d-height); /* 以默认占比为基础，并允许伸缩以填充剩余空间 */
+        #view-D-container {
+            flex: 1;
             display: flex;
             flex-direction: column;
             min-height: 0;
+            padding: 10px;
+            gap: 8px;
         }
 
-        .main-view-box { min-height: 0; }
-        .dataviz-area { flex: 1 1 auto; min-height: 0; }
-
-        /* 分隔拖拽条 */
-        .resize-handle {
-            flex: 0 0 10px;
-            background: linear-gradient(180deg, #111 0%, #0c0c0c 100%);
-            border: 1px solid #222;
-            border-left: none;
-            border-right: none;
-            border-radius: 4px;
-            cursor: row-resize;
-            user-select: none;
-            touch-action: none;
-            box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.05);
-            transition: background-color 0.15s ease;
-        }
-        .resize-handle:hover, .resize-handle.active {
-            background: #1a1a1a;
+        #view-D-dataviz {
+            flex: 1;
+            min-height: 0;
+            border: 1px solid #333;
+            background: #000;
+            overflow: hidden;
         }
 
-        /* 标题和控制区 (沿用原有风格) */
-        .view-title {
-            font-size: 1.2em;
-            padding: 5px 10px;
-            margin: 0;
-            color: #fff;
-            font-weight: 500;
-        }
-
-        /* D3 绘图区域 */
-        .dataviz-area {
-            flex-grow: 1;
-        }
-        
-        /* 播放控制和滚动条容器（D 视图） */
-        #d-controls-container {
-            padding: 5px 10px;
-            background-color: #111;
+        #controls-row {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 8px;
             align-items: center;
         }
+
+        #current-track-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #FFD700;
+            min-height: 20px;
+        }
+
+        #rhythm-info {
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        #legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            padding: 6px 0;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: #eee;
+        }
+
+        .legend-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+        }
+
+        #d-controls-container {
+            padding: 4px 0 0;
+        }
+
         #x-scrollbar {
             width: 100%;
-            height: 12px;
+            height: 10px;
             cursor: pointer;
-            -webkit-appearance: none;
             appearance: none;
             background: #222;
             border-radius: 6px;
         }
-        /* 滚动条圆球（thumb）为黄色 */
+
         #x-scrollbar::-webkit-slider-thumb {
-            -webkit-appearance: none;
             appearance: none;
-            width: 9px;
-            height: 9px;
+            width: 12px;
+            height: 12px;
             border-radius: 50%;
             background: #b1b1b1;
-            transition: background 0.2s, transform 0.1s;
         }
-        #x-scrollbar:focus::-webkit-slider-thumb {
-            outline: 2px solid #b1b1b1;
-        }
-        #x-scrollbar::-moz-range-thumb {
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            background: #b1b1b1;
-            transition: background 0.2s, transform 0.1s;
-        }
-        #x-scrollbar:focus::-moz-range-thumb {
-            outline: 2px solid #b1b1b1;
-        }
-        #x-scrollbar::-ms-thumb {
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            background: #b1b1b1;
-            transition: background 0.2s, transform 0.1s;
-        }
-        #x-scrollbar:focus::-ms-thumb {
-            outline: 2px solid #b1b1b1;
-        }
-        /* 兼容 Firefox */
-        #x-scrollbar::-moz-focus-outer {
-            border: 0;
-        }
-        /* 兼容 IE */
-        #x-scrollbar::-ms-fill-lower {
-            background: #222;
-        }
-        #x-scrollbar::-ms-fill-upper {
-            background: #222;
-        }
-        /* 兼容性补充 */
-        #x-scrollbar:focus {
-            outline: none;
-        }
-        
-        /* 沿用原 pianoRoll.js 的 SVG 样式 */
+
         .draggable-chart { cursor: grab; }
         .draggable-chart:active { cursor: grabbing; }
         .note { stroke: none; transition: opacity 0.03s ease-out, filter 0.1s; cursor: default; }
@@ -237,128 +151,33 @@
         .rhythm-beat-point.highlight { fill: #FFD700; filter: drop-shadow(0 0 5px #FFD700); }
         .percussion-beat-overlay { fill: none; stroke: rgba(255, 255, 255, 0.75); stroke-width: 5px; filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.9)); pointer-events: none; }
         .percussion-beat-overlay.active-percussion-overlay { display: inline; }
-        #legend { margin: 10px 0; padding: 5px; border: 1px solid #333; background-color: #111; display: flex; flex-wrap: wrap; justify-content: center; border-radius: 6px; }
-        .legend-item { display: flex; align-items: center; margin: 5px 10px; font-size: 12px; color: #fff; }
-        .legend-color { width: 10px; height: 10px; margin-right: 5px; border-radius: 2px; }
-        #current-track-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: #FFD700;
-            margin: 6px 0 10px;
-            line-height: 1.3;
-        }
-        #info-controls h2 {
-            font-size: 1rem;
-            margin: 4px 0;
-            font-weight: 600;
-            letter-spacing: 0.2px;
-        }
-        #rhythm-info {
-            font-size: 12px !important;
-        }
-        #rhythm-viz {
-            width: 100%;
-            min-height: 130px;
-            max-height: 170px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        #rhythm-viz svg {
-            width: 100%;
-            height: auto;
-            max-height: 170px;
-            display: block;
-        }
-        
-        /* 添加这个关键的 CSS 类来确保模式切换可以隐藏元素 */
-        .hidden {
-            display: none !important;
-        }
-        
-        /* 按钮通用样式 */
-        button {
-            background-color: #333;
-            color: #fff;
-            border: 1px solid #555;
-            border-radius: 4px;
-            padding: 6px 12px;
-            font-size: 12px;
-            cursor: pointer;
-            transition: background-color 0.2s ease;
-        }
-        button:hover {
-            background-color: #444;
-        }
-        button:active {
-            background-color: #222;
-        }
-        
-        /* 节奏轮切换按钮特殊样式（更小） */
-        #toggleRhythmWheelBtn {
-            padding: 4px 8px;
-            font-size: 11px;
-        }
     </style>
 </head>
 <body>
+    <div id="page-shell">
+        <div id="toolbar">
+            <label for="viewd-file-select">Data file</label>
+            <select id="viewd-file-select"></select>
+            <button id="playPauseBtn">▶ Play / Preparing...</button>
+            <button id="toggleDisplayModeBtn">Mode: Piano Roll</button>
+            <button id="togglePercussionBtn">Percussion: On</button>
+        </div>
 
-    <div id="visualization-container">
-        <div id="view-A-container">
-            <h2 class="view-title">Data</h2>
-            <div id="view-A-dataviz" class="dataviz-area">
-                </div>
-            <div class="resize-handle" id="resize-handle-a" aria-label="调整视图 A 和下方内容的高度"></div>
-                <div id="info-controls">
+        <div id="view-D-container">
+            <div id="controls-row">
                 <div id="current-track-title">Now Playing: --</div>
-                <div id="rhythm-info" style="font-size: 14px; color: #aaa;"></div>
-                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
-                    <h2 style="margin: 0;">Rhythm Wheel</h2>
-                    <button id="toggleRhythmWheelBtn">Hide</button>
-                </div>
-                <div id="rhythm-viz"></div>
-                <button id="playPauseBtn">▶ Play / Preparing...</button>
-                <button id="toggleDisplayModeBtn">Mode: Piano Roll</button> 
-                <button id="togglePercussionBtn">Percussion: On</button> 
+                <div id="rhythm-info"></div>
+            </div>
+            <div id="controls-row">
                 <div id="legend"></div>
             </div>
-        </div>
-
-        <div id="main-content">
-            
-            <div id="view-B-container" class="main-view-box">
-                <h2 class="view-title">Dynamics</h2>
-                <div id="view-B-dataviz" class="dataviz-area">
-                    </div>
+            <div id="view-D-dataviz"></div>
+            <div id="d-controls-container">
+                <input type="range" id="x-scrollbar" min="0" max="10000" value="0">
             </div>
-
-            <div class="resize-handle" id="resize-handle-bc" aria-label="调整视图 B 和 C 的高度"></div>
-
-            <div id="view-C-container" class="main-view-box">
-                <h2 class="view-title">Repeating Motifs</h2>
-                <div id="view-C-dataviz" class="dataviz-area">
-                    </div>
-            </div>
-
-            <div class="resize-handle" id="resize-handle-cd" aria-label="调整视图 C 和 D 的高度"></div>
-
-            <div id="view-D-container" class="main-view-box">
-                <h2 class="view-title">Details</h2>
-                <div id="view-D-dataviz" class="dataviz-area">
-                    </div>
-                <div id="d-controls-container">
-                    <input type="range" id="x-scrollbar" min="0" max="10000" value="0">
-                </div>
-            </div>
-
         </div>
     </div>
-    
-    <script src="src/config.js"></script>
-    <script src="src/views/viewA.js"></script>
-    <script src="src/views/viewB.js"></script>
-    <script src="src/views/viewC.js"></script>
-    <script src="src/views/viewD.js"></script>
-    <script src="src/main.js"></script>
-</body>
-</html>
+
+    <script src="src/config.js?v=20260728b"></script>
+    <script src="src/views/viewD.js?v=20260728b"></script>
+    <script src="src/views/viewD-standalone.js?v=20260728b"></script>

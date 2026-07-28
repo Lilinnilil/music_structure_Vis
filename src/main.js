@@ -211,6 +211,9 @@ function setupLeftPanelResizer() {
 }
 
 function setupResizablePanels() {
+    const hasLegacyLayout = Boolean(document.getElementById('view-B-container') && document.getElementById('view-C-container') && document.getElementById('view-D-container'));
+    if (!hasLegacyLayout) return;
+
     applyViewHeights();
     setupVerticalResizer('resize-handle-bc', 'view-B-container', 'view-C-container', 'b', 'c');
     setupVerticalResizer('resize-handle-cd', 'view-C-container', 'view-D-container', 'c', 'd');
@@ -482,6 +485,11 @@ async function loadTrackData(meta) {
 }
 
 async function bootstrap() {
+    const hasLegacyLayout = Boolean(document.getElementById('view-A-container') && document.getElementById('view-B-container') && document.getElementById('view-C-container'));
+    if (!hasLegacyLayout) {
+        return;
+    }
+
     statusButton.text("Loading all data...");
     setNowPlaying("Loading...");
     const dataMeta = await discoverDataEntries();
