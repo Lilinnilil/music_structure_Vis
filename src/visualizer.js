@@ -12,7 +12,7 @@ beatDurationSec = 0;
 barDurationSec = 0;
 currentBPM = 120;
 beatNumerator = 4;
-let viewDNotes = [];
+let visualizerNotes = [];
 let lineAnchorCache = [];
 let lineAnchorByTrack = new Map();
 let lineAnchorsDirty = true;
@@ -28,7 +28,7 @@ function isPercussionTrack(trackName) {
     return keywords.some(kw => t.includes(kw));
 }
 
-togglePlaybackCallback = () => console.error("Toggle playback callback not set in viewD.");
+togglePlaybackCallback = () => console.error("Toggle playback callback not set in visualizer.");
 
 // Track stroke-width mapping (adjustable)
 const TRACK_MIN_STROKE = 0.8;
@@ -63,7 +63,7 @@ function setupDefs() {
     playheadGradient.append("stop").attr("offset", "0%").attr("stop-color", CONFIG.HIGHLIGHT_COLOR).attr("stop-opacity", 0.1);
     playheadGradient.append("stop").attr("offset", "100%").attr("stop-color", CONFIG.PLAYHEAD_COLOR).attr("stop-opacity", 0.9);
 
-    // 辉光滤镜
+    // 辉�E滤镁E
     const filter = defs.append("filter")
         .attr("id", "glow")
         .attr("x", "-50%").attr("y", "-50%").attr("width", "200%").attr("height", "200%");
@@ -87,7 +87,7 @@ function drawPlayhead() {
 function drawLegend(trackNames) {
     const legendContainer = d3.select("#legend");
     legendContainer.selectAll(".legend-item").remove();
-    // 分离 percussion 和 melodic tracks
+    // 刁E�� percussion 咁Emelodic tracks
     const percussionTracks = trackNames.filter(isPercussionTrack);
     const melodicTracks = trackNames.filter(t => !isPercussionTrack(t));
     // Melodic tracks
@@ -100,7 +100,7 @@ function drawLegend(trackNames) {
         .attr("class", "legend-color")
         .style("background-color", d => colorScale(d));
     melodicItems.append("span").text(d => d);
-    // Percussion tracks（白色）
+    // Percussion tracks�E�白色�E�E
     const percussionItems = legendContainer.selectAll(".legend-item-percussion")
         .data(percussionTracks)
         .enter()
@@ -110,7 +110,7 @@ function drawLegend(trackNames) {
         .attr("class", "legend-color")
         .style("background-color", "white");
     percussionItems.append("span").text(d => d);
-    // 初始状态使所有图例灰度/低透明度
+    // 初始状态使所有图例�E度/低透�E度
     legendContainer.selectAll('.legend-item').style('opacity', 0.35).style('filter', 'grayscale(60%)');
 }
 
@@ -282,7 +282,7 @@ function drawPianoRollElements(notes) {
     const rectHeight = safeHeight / (max_pitch - min_pitch + 2);
     const pitchRange = d3.range(min_pitch, max_pitch + 1, 1);
 
-    // 清理旧的轴和标签
+    // 渁E��旧皁E��和栁E��
     svg.selectAll(".axis, .C4-label, .bar-label").remove();
 
     // 绘制黑键背景
@@ -304,7 +304,7 @@ function drawPianoRollElements(notes) {
     chartGroup.selectAll(".bar-line").data(barTicks).enter().insert("line", ":first-child")
         .attr("class", "bar-line").attr("x1", d => xScale(d)).attr("x2", d => xScale(d)).attr("y1", 0).attr("y2", CONFIG.DRAWING_HEIGHT);
     
-    // 绘制小节标签
+    // 绘制小节栁E��
     barLabelGroup.selectAll(".bar-label")
         .data(barTicks)
         .enter()
@@ -324,7 +324,7 @@ function drawPianoRollElements(notes) {
     yAxisGroup = svg.append("g").attr("class", "axis y-axis-flow").call(d3.axisLeft(yScale).tickValues(pitchRange.filter(d => CONFIG.WHITE_KEY_INDICES.includes(d % 12))).tickFormat(midi => midiToNoteName(midi)).tickSize(0).tickPadding(8));
     yAxisGroup.selectAll(".tick").filter(d => d === 60).select("text").attr("class", "C4-label");
 
-    // 绘制时间标签
+    // 绘制时间栁E��
     timeLabel = svg.append("text").attr("x", playheadX).attr("y", CONFIG.DRAWING_HEIGHT + CONFIG.MARGIN.bottom - 10).style("text-anchor", "middle").attr("fill", CONFIG.HIGHLIGHT_COLOR).style("font-size", "14px").style("font-weight", "bold").text("0.00s");
 
     // 绘制音符矩形
@@ -367,7 +367,7 @@ function drawPianoRollElements(notes) {
     const allVoiceSegments = []; 
     const allRhythmicGroups = []; // { trackName, time, minPitch, maxPitch, notes }
 
-    // 1) Rhythmic/arpeggio detection - 创建所有音轨的节奏组
+    // 1) Rhythmic/arpeggio detection - 创建所有音轨皁E��奏绁E
     notesByTrackAll.forEach((trackNotes, trackName) => {
         const { melodicNotes: _unused, rhythmicGroups } = identifyRhythmicGroups(trackNotes);
         rhythmicGroups.forEach(groupNotes => {
@@ -381,7 +381,7 @@ function drawPianoRollElements(notes) {
         });
     });
 
-    // === 琶音检测逻辑 (提前定义 connectedSet) ===
+    // === 琶音检测逻辁E(提前定乁EconnectedSet) ===
     // 1.1) Detect connected arpeggio sequences per track
     const arpeggioSequences = []; // each { trackName, seq: [groupObjs...] }
     const GROUP_TIME_GAP_THRESHOLD = Math.max(beatDurationSec, barDurationSec / 2); // threshold for 'consecutive'
@@ -422,7 +422,7 @@ function drawPianoRollElements(notes) {
     const MAX_VOICE_GAP_SEC = 0.8; 
     const MAX_PITCH_DIFF_FOR_VOICE = 12; 
     const MAX_ALLOWED_OVERLAP_SEC = 0.1; 
-    const LONG_NOTE_DURATION_THRESHOLD = 0.43; // 孤立长音阈值：0.43 秒
+    const LONG_NOTE_DURATION_THRESHOLD = 0.43; // 孤立长音阈值�E�E.43 私E
 
     // 2) Melodic voice separation and Line Generation (Multi-note voices)
     notesByTrack.forEach((trackNotes, trackName) => {
@@ -498,10 +498,10 @@ function drawPianoRollElements(notes) {
 
     // 3) 孤立长音 Line Generation (start -> end) - 单音
     NON_PERCUSSION_NOTES.forEach(n => {
-        // 检查是否：未参与多音符声部连线 AND 未参与节奏组 AND 持续时间超过阈值
+        // 检查是否�E�未参与多音符声部连线 AND 未参与节奏绁EAND 持续时间趁E��E�E值
         if (!voiceNoteSet.has(n) && !rhythmicNoteSet.has(n)) {
             if ((n.duration_sec || 0) >= LONG_NOTE_DURATION_THRESHOLD) {
-                // 孤立长音：[duration起点] -> [duration终点]
+                // 孤立长音�E�[duration起点] -> [duration终点]
                 allVoiceSegments.push({
                     trackName: n.track_new,
                     voiceId: `${n.track_new}-long-${n.time_start_sec}-${n.pitch}`, // Unique ID
@@ -521,30 +521,30 @@ function drawPianoRollElements(notes) {
     });
 
     // =========================================================================
-    // 4) 孤立长音 Rhythmic Group Line Generation (用于 Arpeggio Melody Mode)
-    //    新逻辑：仅对组内 duration 超过阈值的单音符绘制长线。
+    // 4) 孤立长音 Rhythmic Group Line Generation (用亁EArpeggio Melody Mode)
+    //    新逻辑：仁E��绁E�E duration 趁E��E�E值皁E��音符绘制长线、E
     // =========================================================================
     allRhythmicGroups.forEach(g => {
         const tnl = g.trackName.toLowerCase();
         
-        // 1. 排除打击乐音轨
+        // 1. 排除打�E乐音轨
         if (isPercussionTrack(g.trackName)) {
             return;
         }
-        // 2. 排除已连接成琶音序列的组 (连接的琶音序列由步骤 3 的 arpeggio-line 处理)
+        // 2. 排除已连接成琶音序�E皁E��E(连接皁E��音序�E由步骤 3 皁Earpeggio-line 夁E��)
         if (connectedSet.has(`${g.trackName}-${g.time}`)) {
             return;
         }
 
-        // 3. 遍历组内每个音符，并检查其持续时间
+        // 3. 遍历绁E�E每个音符�E�并检查其持续时间
         g.notes.forEach((n, noteIndex) => {
-            // 检查该音符是否为长音（duration 超过阈值）
+            // 检查该音符是否为长音�E�Euration 趁E��E�E值�E�E
             if ((n.duration_sec || 0) >= LONG_NOTE_DURATION_THRESHOLD) {
                 
-                // 绘制单个音符的孤立长琶音线 (从开始时间到结束时间)
+                // 绘制单个音符皁E��立长琶音线 (从开始时间到结束时间)
                 allVoiceSegments.push({
                     trackName: n.track_new,
-                    // 使用唯一的 ID，防止与其他 segments 冲突
+                    // 使用唯一皁EID�E�防止与�E仁Esegments 冲突E
                     voiceId: `${n.track_new}-arp-long-note-${n.time_start_sec}-${n.pitch}-${noteIndex}`, 
                     segments: [{
                         x1: xScale(n.time_start_sec),
@@ -556,14 +556,14 @@ function drawPianoRollElements(notes) {
                         velocity: n.velocity || 0,
                     }],
                     avgVelocity: n.velocity || 0, 
-                    isIsolatedArpGroup: true // <--- 关键标记：用于 D3 绑定时添加 class
+                    isIsolatedArpGroup: true // <--- 关键栁E���E�用亁ED3 绑定时添加 class
                 });
             }
         });
     });
     // =========================================================================
 
-    // 5) D3 绑定：使用新的 segment 数据结构和自定义路径生成器
+    // 5) D3 绑定：使用新皁Esegment 数据结构和�E定义路征E��成器
     
     // Custom path generator that handles the segment array structure (x1, y1, x2, y2)
     const segmentPathGenerator = d => {
@@ -582,7 +582,7 @@ function drawPianoRollElements(notes) {
     chartGroup.selectAll(".track-line")
         .data(allVoiceSegments, d => d.voiceId) // Bind data by unique voice ID
         .join("path")
-        // === 关键修改：根据标记添加不同的 class ===
+        // === 关键修改�E�根据栁E��添加不同皁Eclass ===
         .attr("class", d => "track-line" + (d.isIsolatedArpGroup ? " arp-long-group-line" : ""))
         // ======================================
         .attr("fill", "none")
@@ -593,7 +593,7 @@ function drawPianoRollElements(notes) {
     chartGroup.selectAll(".line-highlight-point")
         .data(allVoiceSegments, d => d.voiceId) // Bind data by unique voice ID
         .join("circle")
-        // === 关键修改：圆球也添加对应的 class (.arp-long-group-line-highlight) ===
+        // === 关键修改�E�圆琁E��添加对应的 class (.arp-long-group-line-highlight) ===
         .attr("class", d => "line-highlight-point" + (d.isIsolatedArpGroup ? " arp-long-group-line-highlight" : ""))
         // ======================================
         .attr("r", 6)
@@ -626,7 +626,7 @@ function drawPianoRollElements(notes) {
     // --- END: MODIFIED VOICE SEGMENTATION AND LINE GENERATION ---
 
     // --- 2) Draw rhythmic vertical lines & highlight rects, but hide those that are part of arpeggio sequences ---
-    // 【Lines Mode Display - 排除打击乐】: 过滤节奏线和高亮矩形的数据源，排除打击乐音轨。
+    // 【Lines Mode Display - 排除打�E乐、E 迁E��节奏线和高亮矩形皁E��据源，排除打�E乐音轨、E
     const nonPercussionRhythmicGroups = allRhythmicGroups.filter(d => !isPercussionTrack(d.trackName));
 
     chartGroup.selectAll(".rhythmic-line")
@@ -662,7 +662,7 @@ function drawPianoRollElements(notes) {
     const arpeggioPathsData = [];
     arpeggioSequences.forEach(s => {
         const tnl = s.trackName.toLowerCase();
-        // 【Lines Mode Display - 排除打击乐】: 过滤 Arpeggio 连线数据源，排除打击乐音轨。
+        // 【Lines Mode Display - 排除打�E乐、E 迁E�� Arpeggio 连线数据源，排除打�E乐音轨、E
         if (isPercussionTrack(s.trackName)) {
             return;
         }
@@ -954,7 +954,7 @@ function applyDisplayMode() {
     rhythmicLines.style("display", (showRhythmicFramework || showRhythmicMelody || showMonoMelody) ? "inline" : "none");    arpeggioLines.style("display", (showExpandedMelody || showRhythmicMelody) ? "inline" : "none");
     arpMelodyLines.style('display', (showExpandedMelody || showRhythmicMelody) ? 'inline' : 'none');
     chartGroup.selectAll('.arp-melody-highlight-point').style('display', showExpandedMelody ? 'inline' : 'none');
-    // Arpeggio highlight points仅在 Expanded Melody 中展示；Monophonic 不展示
+    // Arpeggio highlight points仁E�� Expanded Melody 中展示�E�Monophonic 不展示
     arpeggioHighlights.style("display", showExpandedMelody ? "inline" : "none");
     lineHighlights.style('display', (showMonoMelody || showExpandedMelody) ? 'inline' : 'none');
     beatMarkers.style('display', showRhythmicFramework ? 'inline' : 'none');
@@ -982,7 +982,7 @@ function applyDisplayMode() {
         isolatedArpHighlights.style('display', 'none');
     }
     
-    updateVizD(Tone.Transport.state === 'stopped', false);
+    updateVisualizer(Tone.Transport.state === 'stopped', false);
 }
 
 function updateScrollbarValue() {
@@ -1003,12 +1003,12 @@ function handleScrollbarInput(event) {
     currentTime = xScale.invert(playheadX - currentTranslationX);
     Tone.Transport.seconds = currentTime;
     
-    updateVizD(false, true);
+    updateVisualizer(false, true);
 
     window.dispatchEvent(new CustomEvent('timejump', { detail: { time: currentTime } }));
 }
 
-function setupAutoStopD() {
+function setupVisualizerAutoStop() {
     if (transportScheduleId !== null) { Tone.Transport.clear(transportScheduleId); }
     const stopTime = originalMaxTime + CONFIG.END_DELAY_SECONDS;
     transportScheduleId = Tone.Transport.scheduleOnce(() => {
@@ -1025,7 +1025,7 @@ function togglePlayback() {
 
 
 function animate() {
-    const shouldAnimate = (window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
+    const shouldAnimate = (window.__VISUALIZER_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
     if (!shouldAnimate) {
         clearTimeout(vizUpdateLoop);
         vizUpdateLoop = null;
@@ -1033,17 +1033,17 @@ function animate() {
     }
 
     // This is the core animation loop
-    updateVizD(false, false);
+    updateVisualizer(false, false);
 
     vizUpdateLoop = setTimeout(animate, CONFIG.FRAME_RATE);
 }
 
-function updateVizD(isStopping = false, skipGlowUpdates = false) { 
+function updateVisualizer(isStopping = false, skipGlowUpdates = false) { 
     const TOLERANCE = 0.05;
     if (!xScale || !xAxisGroup) return;
 
     // --- Update time and position ---
-    const isPlaybackActive = (window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
+    const isPlaybackActive = (window.__VISUALIZER_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
     if (isStopping) {
         currentTime = 0;
         currentTranslationX = maxTranslationX;
@@ -1326,7 +1326,7 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
                 });
             }
 
-            // Expanded Melody: hide flashing circles，仅保留连续圆球
+            // Expanded Melody: hide flashing circles�E�仁E��留连续圁E��
             if (isExpandedMelody) {
                 // Hide all flashing circles in Melody mode
                 chartGroup.selectAll('.arpeggio-hit-circle').style('opacity', 0);
@@ -1334,7 +1334,7 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
                 chartGroup.selectAll('.rhythmic-highlight-circle').style('opacity', 0);
             }
 
-            // Rhythmic Melody: 只保留激活闪烁（无连续圆球）
+            // Rhythmic Melody: 只保留激活闪烁E��无连续圁E���E�E
             // All Beat mode flashing logic is handled in the Beat mode section above (displayMode === 1 || displayMode === 4)
             // Here we just ensure Melody mode continuous moving circles are hidden
             if (isRhythmicMelody) {
@@ -1371,7 +1371,7 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
 
                 // ... (其他样式更新逻辑保持不变) ...
 
-                // 4) Move arpeggio highlight points along their path (仅 Expanded Melody 显示)
+                // 4) Move arpeggio highlight points along their path (仁EExpanded Melody 显示)
                 const arpHighlights = chartGroup.selectAll('.arpeggio-highlight-point');
                 if (isExpandedMelody) {
                     arpHighlights.each(function(d) {
@@ -1408,7 +1408,7 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
                     arpHighlights.style('opacity', 0);
                 }
 
-                // ... (琶音高亮点的样式更新逻辑保持不变) ...
+                // ... (琶音高亮点皁E��式更新逻辑保持不变) ...
 
                 // Move and style highlight points for long-note segments (arp-melody segments) (略...)
                 const arpMelHighlights = chartGroup.selectAll('.arp-melody-highlight-point');
@@ -1421,7 +1421,7 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
                     const cx = xScale(currentTime);
                     const cy = yScale(d.pitch);
 
-                    // ... (计算半径和透明度逻辑保持不变) ...
+                    // ... (计算半征E��透�E度逻辑保持不变) ...
 
                     pt.attr('cx', cx).attr('cy', cy).attr('r', rM).style('opacity', opacityM);
 
@@ -1437,7 +1437,7 @@ function updateVizD(isStopping = false, skipGlowUpdates = false) {
 const legendItems = d3.selectAll('#legend .legend-item');
 if (activeTracks.size > 0) {
     legendItems.style('opacity', d => {
-        // percussion track 单独处理
+        // percussion track 单独夁E��
         const isPercussion = isPercussionTrack(d);
         const isActive = activeTracks.has(d);
         return isActive ? 1 : 0.35;
@@ -1450,7 +1450,7 @@ if (activeTracks.size > 0) {
     legendItems.style('opacity', 0.35).style('filter', 'grayscale(60%)');
 }
     
-    const shouldAnimate = (window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
+    const shouldAnimate = (window.__VISUALIZER_PLAYBACK_ACTIVE__ === true) || Tone.Transport.state === 'started';
     if (shouldAnimate && !vizUpdateLoop) {
         setTimeout(animate, 0);
     }
@@ -1475,35 +1475,35 @@ const dragHandler = d3.drag()
             Tone.Transport.seconds = currentTime;
             
             updateScrollbarValue();
-            updateVizD(false, true); 
+            updateVisualizer(false, true); 
         }
     })
     .on("end", function(event) {
         if (Tone.Transport.state !== 'started') {
-            updateVizD(false, false); 
+            updateVisualizer(false, false); 
         }
     });
 
 
-// --- 4. 核心初始化函数 (VIEW D) ---
+// --- 4. 核忁E�E始化函数 (Visualizer) ---
 
 /**
- * 暴露给 main.js：D 视图的初始化入口。
+ * 暴露绁Eapp.js�E�D 见E��皁E�E始化入口、E
  */
-async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerInstance, callbacks) {
+async function initVisualizer(containerId, notesData, infoData, maxTime, audioPlayerInstance, callbacks) {
     const normalizedNotes = normalizeNotesData(notesData);
-    viewDNotes = normalizedNotes; // Store notes data locally
+    visualizerNotes = normalizedNotes; // Store notes data locally
     
-    // 获取容器的实时尺寸
+    // 获取容器皁E��时尺寸
     const containerNode = document.getElementById(containerId.replace('#', ''));
     const fallbackWidth = 900;
     const fallbackHeight = 420;
     let innerWidth = (containerNode && containerNode.clientWidth > 10 ? containerNode.clientWidth : fallbackWidth) - CONFIG.MARGIN.left - CONFIG.MARGIN.right;
     let innerHeight = (containerNode && containerNode.clientHeight > 10 ? containerNode.clientHeight : fallbackHeight) - CONFIG.MARGIN.top - CONFIG.MARGIN.bottom;
 
-    // --- 关键 Debug 检查和尺寸修复 ---
+    // --- 关键 Debug 检查和尺寸修夁E---
     if (!containerNode || containerNode.clientWidth <= 10 || containerNode.clientHeight <= 10) {
-        console.warn(`[View D Debug] 容器 ${containerId} 尺寸异常，使用回退尺寸 ${fallbackWidth}x${fallbackHeight}。`);
+        console.warn(`[Visualizer Debug] 容器 ${containerId} 尺寸异常�E�使用回退尺寸 ${fallbackWidth}x${fallbackHeight}。`);
         innerWidth = fallbackWidth - CONFIG.MARGIN.left - CONFIG.MARGIN.right;
         innerHeight = fallbackHeight - CONFIG.MARGIN.top - CONFIG.MARGIN.bottom;
     }
@@ -1515,10 +1515,10 @@ async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerI
     const outerWidth = innerWidth + CONFIG.MARGIN.left + CONFIG.MARGIN.right;
     const outerHeight = innerHeight + CONFIG.MARGIN.top + CONFIG.MARGIN.bottom;
 
-    // 移除旧的 SVG
+    // 移除旧皁ESVG
     d3.select(containerId).select('svg').remove();
 
-    // 创建主 SVG 元素
+    // 创建主 SVG 允E��
     const container = d3.select(containerId);
     container.selectAll('svg').remove();
     svg = container
@@ -1534,7 +1534,7 @@ async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerI
     chartGroup = svg.append("g").attr("class", "chart-group");
     barLabelGroup = svg.append("g").attr("class", "bar-label-group");
 
-    // 创建浮动提示框（全局，仅一次）
+    // 创建浮动提示桁E���E局�E�仁E��次�E�E
     if (d3.select('#line-tooltip').empty()) {
         d3.select('body').append('div')
             .attr('id', 'line-tooltip')
@@ -1549,11 +1549,11 @@ async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerI
             .style('display', 'none');
     }
     
-    // 设置回调和音频引用
+    // 设置回谁E��音频引用
     togglePlaybackCallback = callbacks.togglePlayback;
     audioPlayer = audioPlayerInstance;
 
-    // --- 音乐配置 ---
+    // --- 音乐�E置 ---
     currentBPM = infoData.bpm || 120;
     beatNumerator = infoData.numerator || 4;
     const beatDenominator = infoData.denominator || 4;
@@ -1564,7 +1564,6 @@ async function initViewD(containerId, notesData, infoData, maxTime, audioPlayerI
     beatDurationSec = (60 / currentBPM) * (4 / beatDenominator);
     barDurationSec = beatDurationSec * beatNumerator;
 
-    d3.select("#rhythm-info").text(`BPM: ${currentBPM.toFixed(1)} | Time Signature: ${beatNumerator}/${beatDenominator}`);
 
     // 音轨名称和颜色比例尺
     const trackNames = Array.from(new Set(normalizedNotes.map(d => d.track_new)));
@@ -1573,7 +1572,7 @@ const melodicTrackNames = trackNames.filter(t => !isPercussionTrack(t));
 colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau10);
     drawLegend(trackNames);
 
-    // --- 比例尺定义 ---
+    // --- 比例尺定乁E---
     originalMaxTime = maxTime - CONFIG.END_DELAY_SECONDS; 
     
     const FIXED_DETAIL_WINDOW_SEC = 8; 
@@ -1595,10 +1594,10 @@ colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau1
         xScrollbar.addEventListener('input', handleScrollbarInput);
         xScrollbar.hasListener = true;
     }
-    // --- 比例尺定义 (结束) ---
+    // --- 比例尺定乁E(结束) ---
 
 
-    // 绘制核心元素
+    // 绘制核忁E�E素
     setupDefs();
     drawPlayhead();
     drawPianoRollElements(normalizedNotes);
@@ -1606,7 +1605,7 @@ colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau1
 
     allAssetsLoaded = true;
     statusButton.text("▶ Play");
-    if (window.__VIEWD_STANDALONE__) {
+    if (window.__VISUALIZER_APP__) {
         statusButton.on("click", null);
     } else {
         statusButton.on("click", () => {
@@ -1615,7 +1614,7 @@ colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau1
             }
         });
     }
-    toggleDisplayModeButton.on("click", toggleDisplayMode); // 确保绑定
+    toggleDisplayModeButton.on("click", toggleDisplayMode); // 确保绑宁E
     if (togglePercussionButton && !togglePercussionButton.empty()) {
         togglePercussionButton.on("click", () => {
             showPercussion = !showPercussion;
@@ -1632,8 +1631,8 @@ colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau1
     
     updateScrollbarValue();	
     
-    // 初始状态运行一次完整的 updateViz
-    updateVizD(false, false);
+    // 初始状态运行一次完整皁EupdateViz
+    updateVisualizer(false, false);
     
     // Apply the initial display mode to hide lines by default
     applyDisplayMode();
@@ -1642,16 +1641,16 @@ colorScale = d3.scaleOrdinal().domain(melodicTrackNames).range(d3.schemeTableau1
 }
 
 
-// --- 暴露全局接口 (供 main.js 协调器调用) ---
+// --- 暴露全局接口 (侁Eapp.js 协谁E��谁E��) ---
 
-/** @function initViewD - D 视图的初始化函数。 */
-window.initViewD = initViewD;
+/** @function initVisualizer - D 见E��皁E�E始化函数、E*/
+window.initVisualizer = initVisualizer;
 
-/** @function updateVizD - D 视图的动画/同步更新函数。 */
-window.updateVizD = updateVizD;
+/** @function updateVisualizer - D 见E��皁E��画/同步更新函数、E*/
+window.updateVisualizer = updateVisualizer;
 
-/** @function setupAutoStopD - 设置播放自动停止的函数。 */
-window.setupAutoStopD = setupAutoStopD;
+/** @function setupVisualizerAutoStop - 设置播放自动停止皁E�E数、E*/
+window.setupVisualizerAutoStop = setupVisualizerAutoStop;
 
-/** @function getOriginalMaxTimeD - 暴露总时长，供外部组件计算比例尺。 */
-window.getOriginalMaxTimeD = () => originalMaxTime + CONFIG.END_DELAY_SECONDS;
+/** @function getVisualizerMaxTime - 暴露总时长�E�供外部绁E��计算比例尺、E*/
+window.getVisualizerMaxTime = () => originalMaxTime + CONFIG.END_DELAY_SECONDS;

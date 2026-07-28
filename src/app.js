@@ -1,28 +1,25 @@
 (function () {
-    window.__VIEWD_STANDALONE__ = true;
+    window.__VISUALIZER_APP__ = true;
 
-    const selectEl = document.getElementById('viewd-file-select');
-    const statusEl = document.getElementById('current-track-title');
+    const selectEl = document.getElementById('track-select');
     let activePlaybackHandler = null;
     let activeAudioPlayer = null;
     let activeTrackName = null;
     let activeAudioUrl = null;
     let activeSelectionToken = 0;
-    let standalonePlaybackActive = false;
-    let standalonePlaybackOffset = 0;
-    let standalonePlaybackStartedAt = 0;
-    let standaloneAnimationFrameId = null;
+    let playbackActive = false;
+    let playbackOffset = 0;
+    let playbackStartedAt = 0;
+    let playbackAnimationFrameId = null;
 
     function setStatus(message) {
-        if (statusEl) {
-            statusEl.textContent = message;
-        }
+        if (message && message.includes('Failed')) console.warn(message);
     }
 
     function updatePlayButtonLabel(state) {
         const playButton = document.getElementById('playPauseBtn');
         if (!playButton) return;
-        playButton.textContent = state === 'started' ? '⏸ Pause' : '▶ Play';
+        playButton.textContent = state === 'started' ? 'Pause' : 'Play';
     }
 
     function stopCurrentAudioPlayer() {
@@ -46,30 +43,30 @@
         activeAudioPlayer = null;
     }
 
-    function stopStandalonePlaybackLoop() {
-        if (standaloneAnimationFrameId !== null) {
-            cancelAnimationFrame(standaloneAnimationFrameId);
-            standaloneAnimationFrameId = null;
+    function stopPlaybackLoop() {
+        if (playbackAnimationFrameId !== null) {
+            cancelAnimationFrame(playbackAnimationFrameId);
+            playbackAnimationFrameId = null;
         }
     }
 
-    function startStandalonePlaybackLoop() {
-        if (standaloneAnimationFrameId !== null) {
-            cancelAnimationFrame(standaloneAnimationFrameId);
+    function startPlaybackLoop() {
+        if (playbackAnimationFrameId !== null) {
+            cancelAnimationFrame(playbackAnimationFrameId);
         }
 
         const tick = (timestamp) => {
-            if (!standalonePlaybackActive) return;
-            const elapsed = (timestamp - standalonePlaybackStartedAt) / 1000;
-            Tone.Transport.seconds = standalonePlaybackOffset + elapsed;
-            if (typeof window.updateVizD === 'function') {
-                window.updateVizD(false, false);
+            if (!playbackActive) return;
+            const elapsed = (timestamp - playbackStartedAt) / 1000;
+            Tone.Transport.seconds = playbackOffset + elapsed;
+            if (typeof window.updateVisualizer === 'function') {
+                window.updateVisualizer(false, false);
             }
-            standaloneAnimationFrameId = requestAnimationFrame(tick);
+            playbackAnimationFrameId = requestAnimationFrame(tick);
         };
 
-        standalonePlaybackStartedAt = performance.now();
-        standaloneAnimationFrameId = requestAnimationFrame(tick);
+        playbackStartedAt = performance.now();
+        playbackAnimationFrameId = requestAnimationFrame(tick);
     }
 
     function bindTransportToAudio() {
@@ -107,26 +104,25 @@
 
         const transport = Tone.Transport;
 
-        if (standalonePlaybackActive) {
-            standalonePlaybackActive = false;
-            window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ = false;
-            standalonePlaybackOffset = transport.seconds || standalonePlaybackOffset;
-            stopStandalonePlaybackLoop();
+        if (playbackActive) {
+            playbackActive = false;
+            window.__VISUALIZER_PLAYBACK_ACTIVE__ = false;
+            playbackOffset = transport.seconds || playbackOffset;
+            stopPlaybackLoop();
             stopCurrentAudioPlayer();
             transport.pause();
-            setStatus('Paused');
             updatePlayButtonLabel('paused');
-            if (typeof window.updateVizD === 'function') {
-                window.updateVizD(false, false);
+            if (typeof window.updateVisualizer === 'function') {
+                window.updateVisualizer(false, false);
             }
             return;
         }
 
-        standalonePlaybackActive = true;
-        window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ = true;
-        standalonePlaybackOffset = Math.max(0, transport.seconds || 0);
+        playbackActive = true;
+        window.__VISUALIZER_PLAYBACK_ACTIVE__ = true;
+        playbackOffset = Math.max(0, transport.seconds || 0);
         if (transport.state === 'stopped') {
-            transport.seconds = standalonePlaybackOffset;
+            transport.seconds = playbackOffset;
         }
         if (transport.state !== 'started') {
             transport.start();
@@ -134,16 +130,15 @@
         if (activeAudioPlayer && typeof activeAudioPlayer.start === 'function') {
             try {
                 stopCurrentAudioPlayer();
-                activeAudioPlayer.start(undefined, standalonePlaybackOffset);
+                activeAudioPlayer.start(undefined, playbackOffset);
             } catch (error) {
-                console.warn('Failed to sync standalone audio start', error);
+                console.warn('Failed to sync audio start', error);
             }
         }
-        setStatus('Playing');
         updatePlayButtonLabel('started');
-        startStandalonePlaybackLoop();
-        if (typeof window.updateVizD === 'function') {
-            window.updateVizD(false, false);
+        startPlaybackLoop();
+        if (typeof window.updateVisualizer === 'function') {
+            window.updateVisualizer(false, false);
         }
     }
 
@@ -164,7 +159,7 @@
                 event.preventDefault();
                 handler();
             };
-            playButton.textContent = '▶ Play';
+            playButton.textContent = 'Play';
         }
     }
 
@@ -176,9 +171,9 @@
 
         stopCurrentAudioPlayer();
         disposeCurrentAudioPlayer();
-        standalonePlaybackActive = false;
-        window.__VIEWD_STANDALONE_PLAYBACK_ACTIVE__ = false;
-        stopStandalonePlaybackLoop();
+        playbackActive = false;
+        window.__VISUALIZER_PLAYBACK_ACTIVE__ = false;
+        stopPlaybackLoop();
         if (window.Tone && window.Tone.Transport) {
             Tone.Transport.stop();
             Tone.Transport.seconds = 0;
@@ -223,8 +218,8 @@
             activeAudioPlayer = audioPlayer;
             activeTrackName = fileName;
             activeAudioUrl = audioUrl;
-            window.__VIEWD_STANDALONE_TRACK_NAME__ = fileName;
-            window.__VIEWD_STANDALONE_AUDIO_URL__ = audioUrl;
+            window.__VISUALIZER_TRACK_NAME__ = fileName;
+            window.__VISUALIZER_AUDIO_URL__ = audioUrl;
             bindTransportToAudio();
             const callbacks = createToggleCallbacks();
             activePlaybackHandler = () => handlePlayback(activeAudioPlayer);
@@ -234,14 +229,14 @@
                 window.FILE_PATHS.FILENAME = fileName;
             }
 
-            if (typeof window.initViewD === 'function') {
-                window.initViewD('#view-D-dataviz', notes, info, maxTime, audioPlayer, callbacks);
+            if (typeof window.initVisualizer === 'function') {
+                window.initVisualizer('#visualizer-canvas', notes, info, maxTime, audioPlayer, callbacks);
                 setStatus(`${fileName}`);
             } else {
-                setStatus('ViewD initialization failed');
+                setStatus('Visualizer initialization failed');
             }
         } catch (error) {
-            console.error('Failed to load standalone ViewD data', error);
+            console.error('Failed to load visualizer data', error);
             setStatus('Failed to load selected data');
         }
     }

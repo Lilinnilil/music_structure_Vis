@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ViewD Standalone</title>
+    <title>Music Structure Visualizer</title>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/tone@14.7.58/build/Tone.js"></script>
@@ -38,7 +38,7 @@
             flex-wrap: wrap;
             align-items: center;
             gap: 10px;
-            padding: 10px 12px;
+            padding: 8px 12px;
             background: #111;
             border-bottom: 1px solid #333;
         }
@@ -54,19 +54,20 @@
         }
 
         #toolbar select {
-            min-width: 320px;
+            min-width: min(360px, 100%);
+            flex: 1 1 360px;
         }
 
-        #view-D-container {
+        #visualizer-container {
             flex: 1;
             display: flex;
             flex-direction: column;
             min-height: 0;
-            padding: 10px;
-            gap: 8px;
+            padding: 8px 10px 10px;
+            gap: 6px;
         }
 
-        #view-D-dataviz {
+        #visualizer-canvas {
             flex: 1;
             min-height: 0;
             border: 1px solid #333;
@@ -74,23 +75,11 @@
             overflow: hidden;
         }
 
-        #controls-row {
+        #legend-row {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             align-items: center;
-        }
-
-        #current-track-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: #FFD700;
-            min-height: 20px;
-        }
-
-        #rhythm-info {
-            font-size: 12px;
-            color: #aaa;
         }
 
         #legend {
@@ -115,7 +104,7 @@
             border-radius: 2px;
         }
 
-        #d-controls-container {
+        #timeline-controls {
             padding: 4px 0 0;
         }
 
@@ -156,28 +145,24 @@
 <body>
     <div id="page-shell">
         <div id="toolbar">
-            <label for="viewd-file-select">Data file</label>
-            <select id="viewd-file-select"></select>
-            <button id="playPauseBtn">▶ Play / Preparing...</button>
+            <label for="track-select">Data file</label>
+            <select id="track-select"></select>
+            <button id="playPauseBtn">Play / Preparing...</button>
             <button id="toggleDisplayModeBtn">Mode: Piano Roll</button>
             <button id="togglePercussionBtn">Percussion: On</button>
         </div>
 
-        <div id="view-D-container">
-            <div id="controls-row">
-                <div id="current-track-title">Now Playing: --</div>
-                <div id="rhythm-info"></div>
-            </div>
-            <div id="controls-row">
+        <div id="visualizer-container">
+            <div id="legend-row">
                 <div id="legend"></div>
             </div>
-            <div id="view-D-dataviz"></div>
-            <div id="d-controls-container">
+            <div id="visualizer-canvas"></div>
+            <div id="timeline-controls">
                 <input type="range" id="x-scrollbar" min="0" max="10000" value="0">
             </div>
         </div>
     </div>
 
     <script src="src/config.js?v=20260728b"></script>
-    <script src="src/views/viewD.js?v=20260728b"></script>
-    <script src="src/views/viewD-standalone.js?v=20260728b"></script>
+    <script src="src/visualizer.js?v=20260728b"></script>
+    <script src="src/app.js?v=20260728b"></script>

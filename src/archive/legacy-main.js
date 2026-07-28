@@ -459,8 +459,6 @@ async function loadTrackData(meta) {
     updateDocumentTitle(meta);
     renderNowPlaying(meta);
 
-    d3.select("#rhythm-info").text(`BPM: ${Tone.Transport.bpm.value.toFixed(1)} | Time Signature: ${Tone.Transport.timeSignature[0]}/${Tone.Transport.timeSignature[1]}`);
-
     if (typeof initViewD === 'function') {
         initViewD("#view-D-dataviz", sharedState.notes, sharedState.info, sharedState.maxTime, sharedState.audioPlayer, {
             togglePlayback: togglePlayback,
