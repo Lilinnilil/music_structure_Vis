@@ -1,0 +1,1105 @@
+time_start_sec,duration_sec,pitch,velocity,track,time_start_tick,duration_tick,instrument
+0.0,0.15,67,100,Solo Harpsichord with 2 Manuals,0,120,Acoustic Grand Piano _ 2
+0.15,0.15,66,100,Solo Harpsichord with 2 Manuals,120,120,Acoustic Grand Piano _ 2
+0.3,0.45,67,100,Solo Harpsichord with 2 Manuals,240,360,Acoustic Grand Piano _ 2
+0.75,0.15000000000000002,62,100,Solo Harpsichord with 2 Manuals,600,120,Acoustic Grand Piano _ 2
+0.9,0.15000000000000002,64,100,Solo Harpsichord with 2 Manuals,720,120,Acoustic Grand Piano _ 2
+1.05,0.1499999999999999,66,100,Solo Harpsichord with 2 Manuals,840,120,Acoustic Grand Piano _ 2
+1.2,0.15000000000000013,67,100,Solo Harpsichord with 2 Manuals,960,120,Acoustic Grand Piano _ 2
+1.35,0.1499999999999999,69,100,Solo Harpsichord with 2 Manuals,1080,120,Acoustic Grand Piano _ 2
+1.5,0.15000000000000013,71,100,Solo Harpsichord with 2 Manuals,1200,120,Acoustic Grand Piano _ 2
+1.6500000000000001,0.1499999999999999,73,100,Solo Harpsichord with 2 Manuals,1320,120,Acoustic Grand Piano _ 2
+1.8,0.1499999999999999,74,100,Solo Harpsichord with 2 Manuals,1440,120,Acoustic Grand Piano _ 2
+1.95,0.15000000000000013,73,100,Solo Harpsichord with 2 Manuals,1560,120,Acoustic Grand Piano _ 2
+2.1,0.4500000000000002,74,100,Solo Harpsichord with 2 Manuals,1680,360,Acoustic Grand Piano _ 2
+2.5500000000000003,0.1499999999999999,69,100,Solo Harpsichord with 2 Manuals,2040,120,Acoustic Grand Piano _ 2
+2.7,0.1499999999999999,71,100,Solo Harpsichord with 2 Manuals,2160,120,Acoustic Grand Piano _ 2
+2.85,0.1499999999999999,73,100,Solo Harpsichord with 2 Manuals,2280,120,Acoustic Grand Piano _ 2
+3.0,0.1499999999999999,74,100,Solo Harpsichord with 2 Manuals,2400,120,Acoustic Grand Piano _ 2
+3.15,0.15000000000000036,76,100,Solo Harpsichord with 2 Manuals,2520,120,Acoustic Grand Piano _ 2
+3.3000000000000003,0.1499999999999999,78,100,Solo Harpsichord with 2 Manuals,2640,120,Acoustic Grand Piano _ 2
+3.45,0.1499999999999999,74,100,Solo Harpsichord with 2 Manuals,2760,120,Acoustic Grand Piano _ 2
+3.6,0.1499999999999999,79,100,Solo Harpsichord with 2 Manuals,2880,120,Acoustic Grand Piano _ 2
+3.75,0.1499999999999999,78,100,Solo Harpsichord with 2 Manuals,3000,120,Acoustic Grand Piano _ 2
+3.9,0.4500000000000006,79,100,Solo Harpsichord with 2 Manuals,3120,360,Acoustic Grand Piano _ 2
+4.3500000000000005,0.14999999999999947,78,100,Solo Harpsichord with 2 Manuals,3480,120,Acoustic Grand Piano _ 2
+4.5,0.15000000000000036,76,100,Solo Harpsichord with 2 Manuals,3600,120,Acoustic Grand Piano _ 2
+4.65,0.14999999999999947,74,100,Solo Harpsichord with 2 Manuals,3720,120,Acoustic Grand Piano _ 2
+4.8,0.15000000000000036,73,100,Solo Harpsichord with 2 Manuals,3840,120,Acoustic Grand Piano _ 2
+4.95,0.15000000000000036,76,100,Solo Harpsichord with 2 Manuals,3960,120,Acoustic Grand Piano _ 2
+5.1000000000000005,0.14999999999999947,69,100,Solo Harpsichord with 2 Manuals,4080,120,Acoustic Grand Piano _ 2
+5.25,0.15000000000000036,67,100,Solo Harpsichord with 2 Manuals,4200,120,Acoustic Grand Piano _ 2
+5.4,0.14999999999999947,66,100,Solo Harpsichord with 2 Manuals,4320,120,Acoustic Grand Piano _ 2
+5.55,0.15000000000000036,64,100,Solo Harpsichord with 2 Manuals,4440,120,Acoustic Grand Piano _ 2
+5.7,0.15000000000000036,62,100,Solo Harpsichord with 2 Manuals,4560,120,Acoustic Grand Piano _ 2
+5.8500000000000005,0.14999999999999947,61,100,Solo Harpsichord with 2 Manuals,4680,120,Acoustic Grand Piano _ 2
+6.0,0.15000000000000036,62,100,Solo Harpsichord with 2 Manuals,4800,120,Acoustic Grand Piano _ 2
+6.15,0.14999999999999947,66,100,Solo Harpsichord with 2 Manuals,4920,120,Acoustic Grand Piano _ 2
+6.3,0.15000000000000036,57,100,Solo Harpsichord with 2 Manuals,5040,120,Acoustic Grand Piano _ 2
+6.45,0.15000000000000036,55,100,Solo Harpsichord with 2 Manuals,5160,120,Acoustic Grand Piano _ 2
+6.6000000000000005,0.14999999999999947,54,100,Solo Harpsichord with 2 Manuals,5280,120,Acoustic Grand Piano _ 2
+6.75,0.15000000000000036,57,100,Solo Harpsichord with 2 Manuals,5400,120,Acoustic Grand Piano _ 2
+6.9,0.2999999999999998,50,100,Solo Harpsichord with 2 Manuals,5520,240,Acoustic Grand Piano _ 2
+7.5,0.15000000000000036,74,100,Solo Harpsichord with 2 Manuals,6000,120,Acoustic Grand Piano _ 2
+7.65,0.14999999999999947,72,100,Solo Harpsichord with 2 Manuals,6120,120,Acoustic Grand Piano _ 2
+7.8,0.2999999999999998,74,100,Solo Harpsichord with 2 Manuals,6240,240,Acoustic Grand Piano _ 2
+8.1,0.3000000000000007,67,100,Solo Harpsichord with 2 Manuals,6480,240,Acoustic Grand Piano _ 2
+8.4,0.3000000000000007,59,100,Solo Harpsichord with 2 Manuals,6720,240,Acoustic Grand Piano _ 2
+8.700000000000001,0.29999999999999893,74,100,Solo Harpsichord with 2 Manuals,6960,240,Acoustic Grand Piano _ 2
+9.3,0.15000000000000036,76,100,Solo Harpsichord with 2 Manuals,7440,120,Acoustic Grand Piano _ 2
+9.450000000000001,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,7560,120,Acoustic Grand Piano _ 2
+9.6,0.3000000000000007,76,100,Solo Harpsichord with 2 Manuals,7680,240,Acoustic Grand Piano _ 2
+9.9,0.3000000000000007,69,100,Solo Harpsichord with 2 Manuals,7920,240,Acoustic Grand Piano _ 2
+10.200000000000001,0.29999999999999893,60,100,Solo Harpsichord with 2 Manuals,8160,240,Acoustic Grand Piano _ 2
+10.5,0.3000000000000007,76,100,Solo Harpsichord with 2 Manuals,8400,240,Acoustic Grand Piano _ 2
+11.1,0.15000000000000036,78,100,Solo Harpsichord with 2 Manuals,8880,120,Acoustic Grand Piano _ 2
+11.25,0.15000000000000036,76,100,Solo Harpsichord with 2 Manuals,9000,120,Acoustic Grand Piano _ 2
+11.4,0.3000000000000007,78,100,Solo Harpsichord with 2 Manuals,9120,240,Acoustic Grand Piano _ 2
+11.700000000000001,0.29999999999999893,74,100,Solo Harpsichord with 2 Manuals,9360,240,Acoustic Grand Piano _ 2
+12.0,0.3000000000000007,81,100,Solo Harpsichord with 2 Manuals,9600,240,Acoustic Grand Piano _ 2
+12.3,0.5999999999999996,72,100,Solo Harpsichord with 2 Manuals,9840,480,Acoustic Grand Piano _ 2
+12.9,0.3000000000000007,71,100,Solo Harpsichord with 2 Manuals,10320,240,Acoustic Grand Piano _ 2
+13.35,0.15000000000000036,67,100,Solo Harpsichord with 2 Manuals,10680,120,Acoustic Grand Piano _ 2
+13.5,0.15000000000000036,71,100,Solo Harpsichord with 2 Manuals,10800,120,Acoustic Grand Piano _ 2
+13.65,0.15000000000000036,74,100,Solo Harpsichord with 2 Manuals,10920,120,Acoustic Grand Piano _ 2
+13.8,0.15000000000000036,79,100,Solo Harpsichord with 2 Manuals,11040,120,Acoustic Grand Piano _ 2
+13.950000000000001,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,11160,120,Acoustic Grand Piano _ 2
+14.1,0.15000000000000036,79,100,Solo Harpsichord with 2 Manuals,11280,120,Acoustic Grand Piano _ 2
+14.25,0.15000000000000036,81,100,Solo Harpsichord with 2 Manuals,11400,120,Acoustic Grand Piano _ 2
+14.4,0.15000000000000036,83,100,Solo Harpsichord with 2 Manuals,11520,120,Acoustic Grand Piano _ 2
+14.55,0.15000000000000036,79,100,Solo Harpsichord with 2 Manuals,11640,120,Acoustic Grand Piano _ 2
+14.700000000000001,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,11760,120,Acoustic Grand Piano _ 2
+14.85,0.15000000000000036,71,100,Solo Harpsichord with 2 Manuals,11880,120,Acoustic Grand Piano _ 2
+15.0,0.15000000000000036,67,100,Solo Harpsichord with 2 Manuals,12000,120,Acoustic Grand Piano _ 2
+15.15,0.15000000000000036,71,100,Solo Harpsichord with 2 Manuals,12120,120,Acoustic Grand Piano _ 2
+15.3,0.15000000000000036,74,100,Solo Harpsichord with 2 Manuals,12240,120,Acoustic Grand Piano _ 2
+15.450000000000001,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,12360,120,Acoustic Grand Piano _ 2
+15.6,0.15000000000000036,83,100,Solo Harpsichord with 2 Manuals,12480,120,Acoustic Grand Piano _ 2
+15.75,0.15000000000000036,79,100,Solo Harpsichord with 2 Manuals,12600,120,Acoustic Grand Piano _ 2
+15.9,0.15000000000000036,78,100,Solo Harpsichord with 2 Manuals,12720,120,Acoustic Grand Piano _ 2
+16.05,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,12840,120,Acoustic Grand Piano _ 2
+16.2,0.15000000000000213,81,100,Solo Harpsichord with 2 Manuals,12960,120,Acoustic Grand Piano _ 2
+16.35,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,13080,120,Acoustic Grand Piano _ 2
+16.5,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,13200,120,Acoustic Grand Piano _ 2
+16.65,0.15000000000000213,69,100,Solo Harpsichord with 2 Manuals,13320,120,Acoustic Grand Piano _ 2
+16.8,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,13440,120,Acoustic Grand Piano _ 2
+16.95,0.15000000000000213,69,100,Solo Harpsichord with 2 Manuals,13560,120,Acoustic Grand Piano _ 2
+17.1,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,13680,120,Acoustic Grand Piano _ 2
+17.25,0.15000000000000213,76,100,Solo Harpsichord with 2 Manuals,13800,120,Acoustic Grand Piano _ 2
+17.400000000000002,0.14999999999999858,81,100,Solo Harpsichord with 2 Manuals,13920,120,Acoustic Grand Piano _ 2
+17.55,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,14040,120,Acoustic Grand Piano _ 2
+17.7,0.15000000000000213,76,100,Solo Harpsichord with 2 Manuals,14160,120,Acoustic Grand Piano _ 2
+17.85,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,14280,120,Acoustic Grand Piano _ 2
+18.0,0.15000000000000213,79,100,Solo Harpsichord with 2 Manuals,14400,120,Acoustic Grand Piano _ 2
+18.150000000000002,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,14520,120,Acoustic Grand Piano _ 2
+18.3,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,14640,120,Acoustic Grand Piano _ 2
+18.45,0.15000000000000213,67,100,Solo Harpsichord with 2 Manuals,14760,120,Acoustic Grand Piano _ 2
+18.6,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,14880,120,Acoustic Grand Piano _ 2
+18.75,0.15000000000000213,67,100,Solo Harpsichord with 2 Manuals,15000,120,Acoustic Grand Piano _ 2
+18.900000000000002,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,15120,120,Acoustic Grand Piano _ 2
+19.05,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,15240,120,Acoustic Grand Piano _ 2
+19.2,0.15000000000000213,79,100,Solo Harpsichord with 2 Manuals,15360,120,Acoustic Grand Piano _ 2
+19.35,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,15480,120,Acoustic Grand Piano _ 2
+19.5,0.15000000000000213,76,100,Solo Harpsichord with 2 Manuals,15600,120,Acoustic Grand Piano _ 2
+19.650000000000002,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,15720,120,Acoustic Grand Piano _ 2
+19.8,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,15840,120,Acoustic Grand Piano _ 2
+19.95,0.15000000000000213,67,100,Solo Harpsichord with 2 Manuals,15960,120,Acoustic Grand Piano _ 2
+20.1,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,16080,120,Acoustic Grand Piano _ 2
+20.25,0.15000000000000213,61,100,Solo Harpsichord with 2 Manuals,16200,120,Acoustic Grand Piano _ 2
+20.400000000000002,0.14999999999999858,57,100,Solo Harpsichord with 2 Manuals,16320,120,Acoustic Grand Piano _ 2
+20.55,0.14999999999999858,61,100,Solo Harpsichord with 2 Manuals,16440,120,Acoustic Grand Piano _ 2
+20.7,0.15000000000000213,64,100,Solo Harpsichord with 2 Manuals,16560,120,Acoustic Grand Piano _ 2
+20.85,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,16680,120,Acoustic Grand Piano _ 2
+21.0,0.15000000000000213,73,100,Solo Harpsichord with 2 Manuals,16800,120,Acoustic Grand Piano _ 2
+21.150000000000002,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,16920,120,Acoustic Grand Piano _ 2
+21.3,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,17040,120,Acoustic Grand Piano _ 2
+21.45,0.15000000000000213,73,100,Solo Harpsichord with 2 Manuals,17160,120,Acoustic Grand Piano _ 2
+21.6,0.3000000000000007,74,100,Solo Harpsichord with 2 Manuals,17280,240,Acoustic Grand Piano _ 2
+21.900000000000002,0.29999999999999716,54,100,Solo Harpsichord with 2 Manuals,17520,240,Acoustic Grand Piano _ 2
+22.2,0.3000000000000007,54,100,Solo Harpsichord with 2 Manuals,17760,240,Acoustic Grand Piano _ 2
+22.5,0.3000000000000007,69,100,Solo Harpsichord with 2 Manuals,18000,240,Acoustic Grand Piano _ 2
+22.8,0.3000000000000007,74,100,Solo Harpsichord with 2 Manuals,18240,240,Acoustic Grand Piano _ 2
+23.1,0.3000000000000007,78,100,Solo Harpsichord with 2 Manuals,18480,240,Acoustic Grand Piano _ 2
+23.400000000000002,0.29999999999999716,71,100,Solo Harpsichord with 2 Manuals,18720,240,Acoustic Grand Piano _ 2
+23.7,0.3000000000000007,55,100,Solo Harpsichord with 2 Manuals,18960,240,Acoustic Grand Piano _ 2
+24.0,0.3000000000000007,55,100,Solo Harpsichord with 2 Manuals,19200,240,Acoustic Grand Piano _ 2
+24.3,0.3000000000000007,71,100,Solo Harpsichord with 2 Manuals,19440,240,Acoustic Grand Piano _ 2
+24.6,0.3000000000000007,76,100,Solo Harpsichord with 2 Manuals,19680,240,Acoustic Grand Piano _ 2
+24.900000000000002,0.29999999999999716,79,100,Solo Harpsichord with 2 Manuals,19920,240,Acoustic Grand Piano _ 2
+25.2,0.15000000000000213,73,100,Solo Harpsichord with 2 Manuals,20160,120,Acoustic Grand Piano _ 2
+25.35,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,20280,120,Acoustic Grand Piano _ 2
+25.5,0.15000000000000213,69,100,Solo Harpsichord with 2 Manuals,20400,120,Acoustic Grand Piano _ 2
+25.650000000000002,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,20520,120,Acoustic Grand Piano _ 2
+25.8,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,20640,120,Acoustic Grand Piano _ 2
+25.95,0.15000000000000213,69,100,Solo Harpsichord with 2 Manuals,20760,120,Acoustic Grand Piano _ 2
+26.1,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,20880,120,Acoustic Grand Piano _ 2
+26.25,0.15000000000000213,78,100,Solo Harpsichord with 2 Manuals,21000,120,Acoustic Grand Piano _ 2
+26.400000000000002,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,21120,120,Acoustic Grand Piano _ 2
+26.55,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,21240,120,Acoustic Grand Piano _ 2
+26.7,0.15000000000000213,74,100,Solo Harpsichord with 2 Manuals,21360,120,Acoustic Grand Piano _ 2
+26.85,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,21480,120,Acoustic Grand Piano _ 2
+27.0,0.15000000000000213,78,100,Solo Harpsichord with 2 Manuals,21600,120,Acoustic Grand Piano _ 2
+27.150000000000002,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,21720,120,Acoustic Grand Piano _ 2
+27.3,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,21840,120,Acoustic Grand Piano _ 2
+27.45,0.15000000000000213,71,100,Solo Harpsichord with 2 Manuals,21960,120,Acoustic Grand Piano _ 2
+27.6,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,22080,120,Acoustic Grand Piano _ 2
+27.75,0.15000000000000213,67,100,Solo Harpsichord with 2 Manuals,22200,120,Acoustic Grand Piano _ 2
+27.900000000000002,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,22320,120,Acoustic Grand Piano _ 2
+28.05,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,22440,120,Acoustic Grand Piano _ 2
+28.2,0.6000000000000014,62,100,Solo Harpsichord with 2 Manuals,22560,480,Acoustic Grand Piano _ 2
+28.8,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,23040,120,Acoustic Grand Piano _ 2
+28.95,0.15000000000000213,66,100,Solo Harpsichord with 2 Manuals,23160,120,Acoustic Grand Piano _ 2
+29.1,0.4499999999999993,67,100,Solo Harpsichord with 2 Manuals,23280,360,Acoustic Grand Piano _ 2
+29.55,0.14999999999999858,62,100,Solo Harpsichord with 2 Manuals,23640,120,Acoustic Grand Piano _ 2
+29.7,0.15000000000000213,64,100,Solo Harpsichord with 2 Manuals,23760,120,Acoustic Grand Piano _ 2
+29.85,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,23880,120,Acoustic Grand Piano _ 2
+30.0,0.15000000000000213,67,100,Solo Harpsichord with 2 Manuals,24000,120,Acoustic Grand Piano _ 2
+30.150000000000002,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,24120,120,Acoustic Grand Piano _ 2
+30.3,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,24240,120,Acoustic Grand Piano _ 2
+30.45,0.15000000000000213,73,100,Solo Harpsichord with 2 Manuals,24360,120,Acoustic Grand Piano _ 2
+30.6,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,24480,120,Acoustic Grand Piano _ 2
+30.75,0.15000000000000213,73,100,Solo Harpsichord with 2 Manuals,24600,120,Acoustic Grand Piano _ 2
+30.900000000000002,0.4499999999999993,74,100,Solo Harpsichord with 2 Manuals,24720,360,Acoustic Grand Piano _ 2
+31.35,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,25080,120,Acoustic Grand Piano _ 2
+31.5,0.15000000000000213,71,100,Solo Harpsichord with 2 Manuals,25200,120,Acoustic Grand Piano _ 2
+31.650000000000002,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,25320,120,Acoustic Grand Piano _ 2
+31.8,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,25440,120,Acoustic Grand Piano _ 2
+31.95,0.15000000000000213,76,100,Solo Harpsichord with 2 Manuals,25560,120,Acoustic Grand Piano _ 2
+32.1,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,25680,120,Acoustic Grand Piano _ 2
+32.25,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,25800,120,Acoustic Grand Piano _ 2
+32.4,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,25920,120,Acoustic Grand Piano _ 2
+32.55,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,26040,120,Acoustic Grand Piano _ 2
+32.7,0.44999999999999574,79,100,Solo Harpsichord with 2 Manuals,26160,360,Acoustic Grand Piano _ 2
+33.15,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,26520,120,Acoustic Grand Piano _ 2
+33.3,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,26640,120,Acoustic Grand Piano _ 2
+33.45,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,26760,120,Acoustic Grand Piano _ 2
+33.6,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,26880,120,Acoustic Grand Piano _ 2
+33.75,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,27000,120,Acoustic Grand Piano _ 2
+33.9,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,27120,120,Acoustic Grand Piano _ 2
+34.05,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,27240,120,Acoustic Grand Piano _ 2
+34.2,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,27360,120,Acoustic Grand Piano _ 2
+34.35,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,27480,120,Acoustic Grand Piano _ 2
+34.5,0.14999999999999858,62,100,Solo Harpsichord with 2 Manuals,27600,120,Acoustic Grand Piano _ 2
+34.65,0.15000000000000568,61,100,Solo Harpsichord with 2 Manuals,27720,120,Acoustic Grand Piano _ 2
+34.800000000000004,0.14999999999999858,62,100,Solo Harpsichord with 2 Manuals,27840,120,Acoustic Grand Piano _ 2
+34.95,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,27960,120,Acoustic Grand Piano _ 2
+35.1,0.14999999999999858,57,100,Solo Harpsichord with 2 Manuals,28080,120,Acoustic Grand Piano _ 2
+35.25,0.14999999999999858,55,100,Solo Harpsichord with 2 Manuals,28200,120,Acoustic Grand Piano _ 2
+35.4,0.15000000000000568,54,100,Solo Harpsichord with 2 Manuals,28320,120,Acoustic Grand Piano _ 2
+35.550000000000004,0.14999999999999858,57,100,Solo Harpsichord with 2 Manuals,28440,120,Acoustic Grand Piano _ 2
+35.7,0.29999999999999716,50,100,Solo Harpsichord with 2 Manuals,28560,240,Acoustic Grand Piano _ 2
+36.300000000000004,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,29040,120,Acoustic Grand Piano _ 2
+36.45,0.14999999999999858,72,100,Solo Harpsichord with 2 Manuals,29160,120,Acoustic Grand Piano _ 2
+36.6,0.29999999999999716,74,100,Solo Harpsichord with 2 Manuals,29280,240,Acoustic Grand Piano _ 2
+36.9,0.30000000000000426,67,100,Solo Harpsichord with 2 Manuals,29520,240,Acoustic Grand Piano _ 2
+37.2,0.29999999999999716,59,100,Solo Harpsichord with 2 Manuals,29760,240,Acoustic Grand Piano _ 2
+37.5,0.30000000000000426,74,100,Solo Harpsichord with 2 Manuals,30000,240,Acoustic Grand Piano _ 2
+38.1,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,30480,120,Acoustic Grand Piano _ 2
+38.25,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,30600,120,Acoustic Grand Piano _ 2
+38.4,0.30000000000000426,76,100,Solo Harpsichord with 2 Manuals,30720,240,Acoustic Grand Piano _ 2
+38.7,0.29999999999999716,69,100,Solo Harpsichord with 2 Manuals,30960,240,Acoustic Grand Piano _ 2
+39.0,0.30000000000000426,60,100,Solo Harpsichord with 2 Manuals,31200,240,Acoustic Grand Piano _ 2
+39.300000000000004,0.29999999999999716,76,100,Solo Harpsichord with 2 Manuals,31440,240,Acoustic Grand Piano _ 2
+39.9,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,31920,120,Acoustic Grand Piano _ 2
+40.050000000000004,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,32040,120,Acoustic Grand Piano _ 2
+40.2,0.29999999999999716,78,100,Solo Harpsichord with 2 Manuals,32160,240,Acoustic Grand Piano _ 2
+40.5,0.30000000000000426,74,100,Solo Harpsichord with 2 Manuals,32400,240,Acoustic Grand Piano _ 2
+40.800000000000004,0.29999999999999716,81,100,Solo Harpsichord with 2 Manuals,32640,240,Acoustic Grand Piano _ 2
+41.1,0.6000000000000014,72,100,Solo Harpsichord with 2 Manuals,32880,480,Acoustic Grand Piano _ 2
+41.7,0.29999999999999716,71,100,Solo Harpsichord with 2 Manuals,33360,240,Acoustic Grand Piano _ 2
+42.15,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,33720,120,Acoustic Grand Piano _ 2
+42.300000000000004,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,33840,120,Acoustic Grand Piano _ 2
+42.45,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,33960,120,Acoustic Grand Piano _ 2
+42.6,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,34080,120,Acoustic Grand Piano _ 2
+42.75,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,34200,120,Acoustic Grand Piano _ 2
+42.9,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,34320,120,Acoustic Grand Piano _ 2
+43.050000000000004,0.14999999999999858,81,100,Solo Harpsichord with 2 Manuals,34440,120,Acoustic Grand Piano _ 2
+43.2,0.14999999999999858,83,100,Solo Harpsichord with 2 Manuals,34560,120,Acoustic Grand Piano _ 2
+43.35,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,34680,120,Acoustic Grand Piano _ 2
+43.5,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,34800,120,Acoustic Grand Piano _ 2
+43.65,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,34920,120,Acoustic Grand Piano _ 2
+43.800000000000004,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,35040,120,Acoustic Grand Piano _ 2
+43.95,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,35160,120,Acoustic Grand Piano _ 2
+44.1,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,35280,120,Acoustic Grand Piano _ 2
+44.25,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,35400,120,Acoustic Grand Piano _ 2
+44.4,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,35520,120,Acoustic Grand Piano _ 2
+44.550000000000004,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,35640,120,Acoustic Grand Piano _ 2
+44.7,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,35760,120,Acoustic Grand Piano _ 2
+44.85,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,35880,120,Acoustic Grand Piano _ 2
+45.0,0.14999999999999858,81,100,Solo Harpsichord with 2 Manuals,36000,120,Acoustic Grand Piano _ 2
+45.15,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,36120,120,Acoustic Grand Piano _ 2
+45.300000000000004,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,36240,120,Acoustic Grand Piano _ 2
+45.45,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,36360,120,Acoustic Grand Piano _ 2
+45.6,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,36480,120,Acoustic Grand Piano _ 2
+45.75,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,36600,120,Acoustic Grand Piano _ 2
+45.9,0.15000000000000568,73,100,Solo Harpsichord with 2 Manuals,36720,120,Acoustic Grand Piano _ 2
+46.050000000000004,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,36840,120,Acoustic Grand Piano _ 2
+46.2,0.14999999999999858,81,100,Solo Harpsichord with 2 Manuals,36960,120,Acoustic Grand Piano _ 2
+46.35,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,37080,120,Acoustic Grand Piano _ 2
+46.5,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,37200,120,Acoustic Grand Piano _ 2
+46.65,0.15000000000000568,74,100,Solo Harpsichord with 2 Manuals,37320,120,Acoustic Grand Piano _ 2
+46.800000000000004,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,37440,120,Acoustic Grand Piano _ 2
+46.95,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,37560,120,Acoustic Grand Piano _ 2
+47.1,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,37680,120,Acoustic Grand Piano _ 2
+47.25,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,37800,120,Acoustic Grand Piano _ 2
+47.4,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,37920,120,Acoustic Grand Piano _ 2
+47.550000000000004,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,38040,120,Acoustic Grand Piano _ 2
+47.7,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,38160,120,Acoustic Grand Piano _ 2
+47.85,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,38280,120,Acoustic Grand Piano _ 2
+48.0,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,38400,120,Acoustic Grand Piano _ 2
+48.15,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,38520,120,Acoustic Grand Piano _ 2
+48.300000000000004,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,38640,120,Acoustic Grand Piano _ 2
+48.45,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,38760,120,Acoustic Grand Piano _ 2
+48.6,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,38880,120,Acoustic Grand Piano _ 2
+48.75,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,39000,120,Acoustic Grand Piano _ 2
+48.9,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,39120,120,Acoustic Grand Piano _ 2
+49.050000000000004,0.14999999999999858,61,100,Solo Harpsichord with 2 Manuals,39240,120,Acoustic Grand Piano _ 2
+49.2,0.14999999999999858,57,100,Solo Harpsichord with 2 Manuals,39360,120,Acoustic Grand Piano _ 2
+49.35,0.14999999999999858,61,100,Solo Harpsichord with 2 Manuals,39480,120,Acoustic Grand Piano _ 2
+49.5,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,39600,120,Acoustic Grand Piano _ 2
+49.65,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,39720,120,Acoustic Grand Piano _ 2
+49.800000000000004,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,39840,120,Acoustic Grand Piano _ 2
+49.95,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,39960,120,Acoustic Grand Piano _ 2
+50.1,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,40080,120,Acoustic Grand Piano _ 2
+50.25,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,40200,120,Acoustic Grand Piano _ 2
+50.4,0.30000000000000426,74,100,Solo Harpsichord with 2 Manuals,40320,240,Acoustic Grand Piano _ 2
+50.7,0.29999999999999716,54,100,Solo Harpsichord with 2 Manuals,40560,240,Acoustic Grand Piano _ 2
+51.0,0.30000000000000426,54,100,Solo Harpsichord with 2 Manuals,40800,240,Acoustic Grand Piano _ 2
+51.300000000000004,0.29999999999999716,69,100,Solo Harpsichord with 2 Manuals,41040,240,Acoustic Grand Piano _ 2
+51.6,0.29999999999999716,74,100,Solo Harpsichord with 2 Manuals,41280,240,Acoustic Grand Piano _ 2
+51.9,0.30000000000000426,78,100,Solo Harpsichord with 2 Manuals,41520,240,Acoustic Grand Piano _ 2
+52.2,0.29999999999999716,71,100,Solo Harpsichord with 2 Manuals,41760,240,Acoustic Grand Piano _ 2
+52.5,0.30000000000000426,55,100,Solo Harpsichord with 2 Manuals,42000,240,Acoustic Grand Piano _ 2
+52.800000000000004,0.29999999999999716,55,100,Solo Harpsichord with 2 Manuals,42240,240,Acoustic Grand Piano _ 2
+53.1,0.29999999999999716,71,100,Solo Harpsichord with 2 Manuals,42480,240,Acoustic Grand Piano _ 2
+53.4,0.30000000000000426,76,100,Solo Harpsichord with 2 Manuals,42720,240,Acoustic Grand Piano _ 2
+53.7,0.29999999999999716,79,100,Solo Harpsichord with 2 Manuals,42960,240,Acoustic Grand Piano _ 2
+54.0,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,43200,120,Acoustic Grand Piano _ 2
+54.15,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,43320,120,Acoustic Grand Piano _ 2
+54.300000000000004,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,43440,120,Acoustic Grand Piano _ 2
+54.45,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,43560,120,Acoustic Grand Piano _ 2
+54.6,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,43680,120,Acoustic Grand Piano _ 2
+54.75,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,43800,120,Acoustic Grand Piano _ 2
+54.9,0.15000000000000568,74,100,Solo Harpsichord with 2 Manuals,43920,120,Acoustic Grand Piano _ 2
+55.050000000000004,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,44040,120,Acoustic Grand Piano _ 2
+55.2,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,44160,120,Acoustic Grand Piano _ 2
+55.35,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,44280,120,Acoustic Grand Piano _ 2
+55.5,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,44400,120,Acoustic Grand Piano _ 2
+55.65,0.15000000000000568,73,100,Solo Harpsichord with 2 Manuals,44520,120,Acoustic Grand Piano _ 2
+55.800000000000004,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,44640,120,Acoustic Grand Piano _ 2
+55.95,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,44760,120,Acoustic Grand Piano _ 2
+56.1,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,44880,120,Acoustic Grand Piano _ 2
+56.25,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,45000,120,Acoustic Grand Piano _ 2
+56.4,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,45120,120,Acoustic Grand Piano _ 2
+56.550000000000004,0.14999999999999858,67,100,Solo Harpsichord with 2 Manuals,45240,120,Acoustic Grand Piano _ 2
+56.7,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,45360,120,Acoustic Grand Piano _ 2
+56.85,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,45480,120,Acoustic Grand Piano _ 2
+57.0,0.6000000000000014,62,100,Solo Harpsichord with 2 Manuals,45600,480,Acoustic Grand Piano _ 2
+57.6,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,46080,120,Acoustic Grand Piano _ 2
+57.75,0.14999999999999858,79,100,Solo Harpsichord with 2 Manuals,46200,120,Acoustic Grand Piano _ 2
+57.9,0.45000000000000284,81,100,Solo Harpsichord with 2 Manuals,46320,360,Acoustic Grand Piano _ 2
+58.35,0.14999999999999858,83,100,Solo Harpsichord with 2 Manuals,46680,120,Acoustic Grand Piano _ 2
+58.5,0.14999999999999858,81,100,Solo Harpsichord with 2 Manuals,46800,120,Acoustic Grand Piano _ 2
+58.65,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,46920,120,Acoustic Grand Piano _ 2
+58.800000000000004,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,47040,120,Acoustic Grand Piano _ 2
+58.95,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,47160,120,Acoustic Grand Piano _ 2
+59.1,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,47280,120,Acoustic Grand Piano _ 2
+59.25,0.14999999999999858,72,100,Solo Harpsichord with 2 Manuals,47400,120,Acoustic Grand Piano _ 2
+59.4,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,47520,120,Acoustic Grand Piano _ 2
+59.550000000000004,0.14999999999999858,72,100,Solo Harpsichord with 2 Manuals,47640,120,Acoustic Grand Piano _ 2
+59.7,0.44999999999999574,74,100,Solo Harpsichord with 2 Manuals,47760,360,Acoustic Grand Piano _ 2
+60.15,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,48120,120,Acoustic Grand Piano _ 2
+60.300000000000004,0.14999999999999858,74,100,Solo Harpsichord with 2 Manuals,48240,120,Acoustic Grand Piano _ 2
+60.45,0.14999999999999858,72,100,Solo Harpsichord with 2 Manuals,48360,120,Acoustic Grand Piano _ 2
+60.6,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,48480,120,Acoustic Grand Piano _ 2
+60.75,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,48600,120,Acoustic Grand Piano _ 2
+60.9,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,48720,120,Acoustic Grand Piano _ 2
+61.050000000000004,0.14999999999999858,66,100,Solo Harpsichord with 2 Manuals,48840,120,Acoustic Grand Piano _ 2
+61.2,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,48960,120,Acoustic Grand Piano _ 2
+61.35,0.14999999999999858,68,100,Solo Harpsichord with 2 Manuals,49080,120,Acoustic Grand Piano _ 2
+61.5,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,49200,120,Acoustic Grand Piano _ 2
+61.65,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,49320,120,Acoustic Grand Piano _ 2
+61.800000000000004,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,49440,120,Acoustic Grand Piano _ 2
+61.95,0.14999999999999858,64,100,Solo Harpsichord with 2 Manuals,49560,120,Acoustic Grand Piano _ 2
+62.1,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,49680,120,Acoustic Grand Piano _ 2
+62.25,0.14999999999999858,71,100,Solo Harpsichord with 2 Manuals,49800,120,Acoustic Grand Piano _ 2
+62.4,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,49920,120,Acoustic Grand Piano _ 2
+62.550000000000004,0.14999999999999858,69,100,Solo Harpsichord with 2 Manuals,50040,120,Acoustic Grand Piano _ 2
+62.7,0.14999999999999858,75,100,Solo Harpsichord with 2 Manuals,50160,120,Acoustic Grand Piano _ 2
+62.85,0.14999999999999858,76,100,Solo Harpsichord with 2 Manuals,50280,120,Acoustic Grand Piano _ 2
+63.0,0.14999999999999858,78,100,Solo Harpsichord with 2 Manuals,50400,120,Acoustic Grand Piano _ 2
+63.15,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,50520,120,Acoustic Grand Piano _ 2
+63.300000000000004,0.14999999999999858,75,100,Solo Harpsichord with 2 Manuals,50640,120,Acoustic Grand Piano _ 2
+63.45,0.14999999999999858,73,100,Solo Harpsichord with 2 Manuals,50760,120,Acoustic Grand Piano _ 2
+63.6,1.3500000000000014,71,100,Solo Harpsichord with 2 Manuals,50880,1080,Acoustic Grand Piano _ 2
+64.95,0.14999999999999147,75,100,Solo Harpsichord with 2 Manuals,51960,120,Acoustic Grand Piano _ 2
+65.1,0.45000000000000284,76,100,Solo Harpsichord with 2 Manuals,52080,360,Acoustic Grand Piano _ 2
+65.55,0.15000000000000568,63,100,Solo Harpsichord with 2 Manuals,52440,120,Acoustic Grand Piano _ 2
+65.7,0.45000000000000284,64,100,Solo Harpsichord with 2 Manuals,52560,360,Acoustic Grand Piano _ 2
+66.15,0.14999999999999147,51,100,Solo Harpsichord with 2 Manuals,52920,120,Acoustic Grand Piano _ 2
+66.3,0.29999999999999716,52,100,Solo Harpsichord with 2 Manuals,53040,240,Acoustic Grand Piano _ 2
+66.75,0.15000000000000568,80,100,Solo Harpsichord with 2 Manuals,53400,120,Acoustic Grand Piano _ 2
+66.9,0.44999999999998863,81,100,Solo Harpsichord with 2 Manuals,53520,360,Acoustic Grand Piano _ 2
+67.35,0.15000000000000568,68,100,Solo Harpsichord with 2 Manuals,53880,120,Acoustic Grand Piano _ 2
+67.5,0.45000000000000284,69,100,Solo Harpsichord with 2 Manuals,54000,360,Acoustic Grand Piano _ 2
+67.95,0.14999999999999147,56,100,Solo Harpsichord with 2 Manuals,54360,120,Acoustic Grand Piano _ 2
+68.1,0.45000000000000284,57,100,Solo Harpsichord with 2 Manuals,54480,360,Acoustic Grand Piano _ 2
+68.55,0.15000000000000568,59,100,Solo Harpsichord with 2 Manuals,54840,120,Acoustic Grand Piano _ 2
+68.7,0.15000000000000568,60,100,Solo Harpsichord with 2 Manuals,54960,120,Acoustic Grand Piano _ 2
+68.85000000000001,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,55080,120,Acoustic Grand Piano _ 2
+69.0,0.15000000000000568,59,100,Solo Harpsichord with 2 Manuals,55200,120,Acoustic Grand Piano _ 2
+69.15,0.14999999999999147,63,100,Solo Harpsichord with 2 Manuals,55320,120,Acoustic Grand Piano _ 2
+69.3,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,55440,120,Acoustic Grand Piano _ 2
+69.45,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,55560,120,Acoustic Grand Piano _ 2
+69.60000000000001,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,55680,120,Acoustic Grand Piano _ 2
+69.75,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,55800,120,Acoustic Grand Piano _ 2
+69.9,0.14999999999999147,63,100,Solo Harpsichord with 2 Manuals,55920,120,Acoustic Grand Piano _ 2
+70.05,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,56040,120,Acoustic Grand Piano _ 2
+70.2,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,56160,120,Acoustic Grand Piano _ 2
+70.35000000000001,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,56280,120,Acoustic Grand Piano _ 2
+70.5,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,56400,120,Acoustic Grand Piano _ 2
+70.65,0.14999999999999147,63,100,Solo Harpsichord with 2 Manuals,56520,120,Acoustic Grand Piano _ 2
+70.8,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,56640,120,Acoustic Grand Piano _ 2
+70.95,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,56760,120,Acoustic Grand Piano _ 2
+71.10000000000001,0.14999999999999147,59,100,Solo Harpsichord with 2 Manuals,56880,120,Acoustic Grand Piano _ 2
+71.25,0.15000000000000568,57,100,Solo Harpsichord with 2 Manuals,57000,120,Acoustic Grand Piano _ 2
+71.4,0.14999999999999147,55,100,Solo Harpsichord with 2 Manuals,57120,120,Acoustic Grand Piano _ 2
+71.55,0.15000000000000568,59,100,Solo Harpsichord with 2 Manuals,57240,120,Acoustic Grand Piano _ 2
+71.7,0.29999999999999716,52,100,Solo Harpsichord with 2 Manuals,57360,240,Acoustic Grand Piano _ 2
+72.3,0.30000000000001137,76,100,Solo Harpsichord with 2 Manuals,57840,240,Acoustic Grand Piano _ 2
+72.60000000000001,0.29999999999999716,72,100,Solo Harpsichord with 2 Manuals,58080,240,Acoustic Grand Piano _ 2
+72.9,0.29999999999999716,76,100,Solo Harpsichord with 2 Manuals,58320,240,Acoustic Grand Piano _ 2
+73.2,0.29999999999999716,81,100,Solo Harpsichord with 2 Manuals,58560,240,Acoustic Grand Piano _ 2
+73.5,0.29999999999999716,69,100,Solo Harpsichord with 2 Manuals,58800,240,Acoustic Grand Piano _ 2
+74.10000000000001,0.29999999999999716,74,100,Solo Harpsichord with 2 Manuals,59280,240,Acoustic Grand Piano _ 2
+74.4,0.29999999999999716,71,100,Solo Harpsichord with 2 Manuals,59520,240,Acoustic Grand Piano _ 2
+74.7,0.29999999999999716,74,100,Solo Harpsichord with 2 Manuals,59760,240,Acoustic Grand Piano _ 2
+75.0,0.29999999999999716,79,100,Solo Harpsichord with 2 Manuals,60000,240,Acoustic Grand Piano _ 2
+75.3,0.30000000000001137,67,100,Solo Harpsichord with 2 Manuals,60240,240,Acoustic Grand Piano _ 2
+75.60000000000001,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,60480,120,Acoustic Grand Piano _ 2
+75.75,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,60600,120,Acoustic Grand Piano _ 2
+75.9,0.14999999999999147,64,100,Solo Harpsichord with 2 Manuals,60720,120,Acoustic Grand Piano _ 2
+76.05,0.15000000000000568,60,100,Solo Harpsichord with 2 Manuals,60840,120,Acoustic Grand Piano _ 2
+76.2,0.15000000000000568,57,100,Solo Harpsichord with 2 Manuals,60960,120,Acoustic Grand Piano _ 2
+76.35000000000001,0.14999999999999147,60,100,Solo Harpsichord with 2 Manuals,61080,120,Acoustic Grand Piano _ 2
+76.5,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,61200,120,Acoustic Grand Piano _ 2
+76.65,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,61320,120,Acoustic Grand Piano _ 2
+76.8,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,61440,120,Acoustic Grand Piano _ 2
+76.95,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,61560,120,Acoustic Grand Piano _ 2
+77.10000000000001,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,61680,120,Acoustic Grand Piano _ 2
+77.25,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,61800,120,Acoustic Grand Piano _ 2
+77.4,0.14999999999999147,78,100,Solo Harpsichord with 2 Manuals,61920,120,Acoustic Grand Piano _ 2
+77.55,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,62040,120,Acoustic Grand Piano _ 2
+77.7,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,62160,120,Acoustic Grand Piano _ 2
+77.85000000000001,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,62280,120,Acoustic Grand Piano _ 2
+78.0,0.15000000000000568,62,100,Solo Harpsichord with 2 Manuals,62400,120,Acoustic Grand Piano _ 2
+78.15,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,62520,120,Acoustic Grand Piano _ 2
+78.3,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,62640,120,Acoustic Grand Piano _ 2
+78.45,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,62760,120,Acoustic Grand Piano _ 2
+78.60000000000001,0.14999999999999147,78,100,Solo Harpsichord with 2 Manuals,62880,120,Acoustic Grand Piano _ 2
+78.75,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,63000,120,Acoustic Grand Piano _ 2
+78.9,0.14999999999999147,78,100,Solo Harpsichord with 2 Manuals,63120,120,Acoustic Grand Piano _ 2
+79.05,0.15000000000000568,81,100,Solo Harpsichord with 2 Manuals,63240,120,Acoustic Grand Piano _ 2
+79.2,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,63360,120,Acoustic Grand Piano _ 2
+79.35000000000001,0.14999999999999147,79,100,Solo Harpsichord with 2 Manuals,63480,120,Acoustic Grand Piano _ 2
+79.5,0.15000000000000568,74,100,Solo Harpsichord with 2 Manuals,63600,120,Acoustic Grand Piano _ 2
+79.65,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,63720,120,Acoustic Grand Piano _ 2
+79.8,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,63840,120,Acoustic Grand Piano _ 2
+79.95,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,63960,120,Acoustic Grand Piano _ 2
+80.10000000000001,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,64080,120,Acoustic Grand Piano _ 2
+80.25,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,64200,120,Acoustic Grand Piano _ 2
+80.4,0.14999999999999147,83,100,Solo Harpsichord with 2 Manuals,64320,120,Acoustic Grand Piano _ 2
+80.55,0.15000000000000568,77,100,Solo Harpsichord with 2 Manuals,64440,120,Acoustic Grand Piano _ 2
+80.7,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,64560,120,Acoustic Grand Piano _ 2
+80.85000000000001,0.14999999999999147,86,100,Solo Harpsichord with 2 Manuals,64680,120,Acoustic Grand Piano _ 2
+81.0,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,64800,120,Acoustic Grand Piano _ 2
+81.15,0.14999999999999147,86,100,Solo Harpsichord with 2 Manuals,64920,120,Acoustic Grand Piano _ 2
+81.3,0.15000000000000568,84,100,Solo Harpsichord with 2 Manuals,65040,120,Acoustic Grand Piano _ 2
+81.45,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,65160,120,Acoustic Grand Piano _ 2
+81.60000000000001,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,65280,120,Acoustic Grand Piano _ 2
+81.75,0.15000000000000568,84,100,Solo Harpsichord with 2 Manuals,65400,120,Acoustic Grand Piano _ 2
+81.9,0.14999999999999147,83,100,Solo Harpsichord with 2 Manuals,65520,120,Acoustic Grand Piano _ 2
+82.05,0.15000000000000568,74,100,Solo Harpsichord with 2 Manuals,65640,120,Acoustic Grand Piano _ 2
+82.2,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,65760,120,Acoustic Grand Piano _ 2
+82.35000000000001,0.14999999999999147,76,100,Solo Harpsichord with 2 Manuals,65880,120,Acoustic Grand Piano _ 2
+82.5,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,66000,120,Acoustic Grand Piano _ 2
+82.65,0.14999999999999147,79,100,Solo Harpsichord with 2 Manuals,66120,120,Acoustic Grand Piano _ 2
+82.8,0.15000000000000568,81,100,Solo Harpsichord with 2 Manuals,66240,120,Acoustic Grand Piano _ 2
+82.95,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,66360,120,Acoustic Grand Piano _ 2
+83.10000000000001,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,66480,120,Acoustic Grand Piano _ 2
+83.25,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,66600,120,Acoustic Grand Piano _ 2
+83.4,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,66720,120,Acoustic Grand Piano _ 2
+83.55,0.15000000000000568,74,100,Solo Harpsichord with 2 Manuals,66840,120,Acoustic Grand Piano _ 2
+83.7,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,66960,120,Acoustic Grand Piano _ 2
+83.85000000000001,0.14999999999999147,67,100,Solo Harpsichord with 2 Manuals,67080,120,Acoustic Grand Piano _ 2
+84.0,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,67200,120,Acoustic Grand Piano _ 2
+84.15,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,67320,120,Acoustic Grand Piano _ 2
+84.3,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,67440,120,Acoustic Grand Piano _ 2
+84.45,0.15000000000000568,66,100,Solo Harpsichord with 2 Manuals,67560,120,Acoustic Grand Piano _ 2
+84.60000000000001,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,67680,120,Acoustic Grand Piano _ 2
+84.75,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,67800,120,Acoustic Grand Piano _ 2
+84.9,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,67920,120,Acoustic Grand Piano _ 2
+85.05,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,68040,120,Acoustic Grand Piano _ 2
+85.2,0.15000000000000568,62,100,Solo Harpsichord with 2 Manuals,68160,120,Acoustic Grand Piano _ 2
+85.35000000000001,0.14999999999999147,60,100,Solo Harpsichord with 2 Manuals,68280,120,Acoustic Grand Piano _ 2
+85.5,0.15000000000000568,59,100,Solo Harpsichord with 2 Manuals,68400,120,Acoustic Grand Piano _ 2
+85.65,0.14999999999999147,57,100,Solo Harpsichord with 2 Manuals,68520,120,Acoustic Grand Piano _ 2
+85.8,0.6000000000000085,55,100,Solo Harpsichord with 2 Manuals,68640,480,Acoustic Grand Piano _ 2
+86.4,0.14999999999999147,78,100,Solo Harpsichord with 2 Manuals,69120,120,Acoustic Grand Piano _ 2
+86.55,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,69240,120,Acoustic Grand Piano _ 2
+86.7,0.45000000000000284,81,100,Solo Harpsichord with 2 Manuals,69360,360,Acoustic Grand Piano _ 2
+87.15,0.14999999999999147,83,100,Solo Harpsichord with 2 Manuals,69720,120,Acoustic Grand Piano _ 2
+87.3,0.15000000000000568,81,100,Solo Harpsichord with 2 Manuals,69840,120,Acoustic Grand Piano _ 2
+87.45,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,69960,120,Acoustic Grand Piano _ 2
+87.60000000000001,0.14999999999999147,78,100,Solo Harpsichord with 2 Manuals,70080,120,Acoustic Grand Piano _ 2
+87.75,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,70200,120,Acoustic Grand Piano _ 2
+87.9,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,70320,120,Acoustic Grand Piano _ 2
+88.05,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,70440,120,Acoustic Grand Piano _ 2
+88.2,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,70560,120,Acoustic Grand Piano _ 2
+88.35000000000001,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,70680,120,Acoustic Grand Piano _ 2
+88.5,0.45000000000000284,74,100,Solo Harpsichord with 2 Manuals,70800,360,Acoustic Grand Piano _ 2
+88.95,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,71160,120,Acoustic Grand Piano _ 2
+89.10000000000001,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,71280,120,Acoustic Grand Piano _ 2
+89.25,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,71400,120,Acoustic Grand Piano _ 2
+89.4,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,71520,120,Acoustic Grand Piano _ 2
+89.55,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,71640,120,Acoustic Grand Piano _ 2
+89.7,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,71760,120,Acoustic Grand Piano _ 2
+89.85000000000001,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,71880,120,Acoustic Grand Piano _ 2
+90.0,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,72000,120,Acoustic Grand Piano _ 2
+90.15,0.14999999999999147,68,100,Solo Harpsichord with 2 Manuals,72120,120,Acoustic Grand Piano _ 2
+90.3,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,72240,120,Acoustic Grand Piano _ 2
+90.45,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,72360,120,Acoustic Grand Piano _ 2
+90.60000000000001,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,72480,120,Acoustic Grand Piano _ 2
+90.75,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,72600,120,Acoustic Grand Piano _ 2
+90.9,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,72720,120,Acoustic Grand Piano _ 2
+91.05,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,72840,120,Acoustic Grand Piano _ 2
+91.2,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,72960,120,Acoustic Grand Piano _ 2
+91.35000000000001,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,73080,120,Acoustic Grand Piano _ 2
+91.5,0.15000000000000568,75,100,Solo Harpsichord with 2 Manuals,73200,120,Acoustic Grand Piano _ 2
+91.65,0.14999999999999147,76,100,Solo Harpsichord with 2 Manuals,73320,120,Acoustic Grand Piano _ 2
+91.8,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,73440,120,Acoustic Grand Piano _ 2
+91.95,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,73560,120,Acoustic Grand Piano _ 2
+92.10000000000001,0.14999999999999147,75,100,Solo Harpsichord with 2 Manuals,73680,120,Acoustic Grand Piano _ 2
+92.25,0.15000000000000568,73,100,Solo Harpsichord with 2 Manuals,73800,120,Acoustic Grand Piano _ 2
+92.4,1.3499999999999943,71,100,Solo Harpsichord with 2 Manuals,73920,1080,Acoustic Grand Piano _ 2
+93.75,0.15000000000000568,75,100,Solo Harpsichord with 2 Manuals,75000,120,Acoustic Grand Piano _ 2
+93.9,0.45000000000000284,76,100,Solo Harpsichord with 2 Manuals,75120,360,Acoustic Grand Piano _ 2
+94.35000000000001,0.14999999999999147,63,100,Solo Harpsichord with 2 Manuals,75480,120,Acoustic Grand Piano _ 2
+94.5,0.45000000000000284,64,100,Solo Harpsichord with 2 Manuals,75600,360,Acoustic Grand Piano _ 2
+94.95,0.15000000000000568,51,100,Solo Harpsichord with 2 Manuals,75960,120,Acoustic Grand Piano _ 2
+95.10000000000001,0.29999999999999716,52,100,Solo Harpsichord with 2 Manuals,76080,240,Acoustic Grand Piano _ 2
+95.55,0.15000000000000568,80,100,Solo Harpsichord with 2 Manuals,76440,120,Acoustic Grand Piano _ 2
+95.7,0.45000000000000284,81,100,Solo Harpsichord with 2 Manuals,76560,360,Acoustic Grand Piano _ 2
+96.15,0.14999999999999147,68,100,Solo Harpsichord with 2 Manuals,76920,120,Acoustic Grand Piano _ 2
+96.3,0.45000000000000284,69,100,Solo Harpsichord with 2 Manuals,77040,360,Acoustic Grand Piano _ 2
+96.75,0.15000000000000568,56,100,Solo Harpsichord with 2 Manuals,77400,120,Acoustic Grand Piano _ 2
+96.9,0.45000000000000284,57,100,Solo Harpsichord with 2 Manuals,77520,360,Acoustic Grand Piano _ 2
+97.35000000000001,0.14999999999999147,59,100,Solo Harpsichord with 2 Manuals,77880,120,Acoustic Grand Piano _ 2
+97.5,0.15000000000000568,60,100,Solo Harpsichord with 2 Manuals,78000,120,Acoustic Grand Piano _ 2
+97.65,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,78120,120,Acoustic Grand Piano _ 2
+97.8,0.15000000000000568,59,100,Solo Harpsichord with 2 Manuals,78240,120,Acoustic Grand Piano _ 2
+97.95,0.15000000000000568,63,100,Solo Harpsichord with 2 Manuals,78360,120,Acoustic Grand Piano _ 2
+98.10000000000001,0.14999999999999147,64,100,Solo Harpsichord with 2 Manuals,78480,120,Acoustic Grand Piano _ 2
+98.25,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,78600,120,Acoustic Grand Piano _ 2
+98.4,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,78720,120,Acoustic Grand Piano _ 2
+98.55,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,78840,120,Acoustic Grand Piano _ 2
+98.7,0.15000000000000568,63,100,Solo Harpsichord with 2 Manuals,78960,120,Acoustic Grand Piano _ 2
+98.85000000000001,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,79080,120,Acoustic Grand Piano _ 2
+99.0,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,79200,120,Acoustic Grand Piano _ 2
+99.15,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,79320,120,Acoustic Grand Piano _ 2
+99.3,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,79440,120,Acoustic Grand Piano _ 2
+99.45,0.15000000000000568,63,100,Solo Harpsichord with 2 Manuals,79560,120,Acoustic Grand Piano _ 2
+99.60000000000001,0.14999999999999147,64,100,Solo Harpsichord with 2 Manuals,79680,120,Acoustic Grand Piano _ 2
+99.75,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,79800,120,Acoustic Grand Piano _ 2
+99.9,0.14999999999999147,59,100,Solo Harpsichord with 2 Manuals,79920,120,Acoustic Grand Piano _ 2
+100.05,0.15000000000000568,57,100,Solo Harpsichord with 2 Manuals,80040,120,Acoustic Grand Piano _ 2
+100.2,0.15000000000000568,55,100,Solo Harpsichord with 2 Manuals,80160,120,Acoustic Grand Piano _ 2
+100.35000000000001,0.14999999999999147,59,100,Solo Harpsichord with 2 Manuals,80280,120,Acoustic Grand Piano _ 2
+100.5,0.29999999999999716,52,100,Solo Harpsichord with 2 Manuals,80400,240,Acoustic Grand Piano _ 2
+101.10000000000001,0.29999999999999716,76,100,Solo Harpsichord with 2 Manuals,80880,240,Acoustic Grand Piano _ 2
+101.4,0.29999999999999716,72,100,Solo Harpsichord with 2 Manuals,81120,240,Acoustic Grand Piano _ 2
+101.7,0.29999999999999716,76,100,Solo Harpsichord with 2 Manuals,81360,240,Acoustic Grand Piano _ 2
+102.0,0.29999999999999716,81,100,Solo Harpsichord with 2 Manuals,81600,240,Acoustic Grand Piano _ 2
+102.3,0.30000000000001137,69,100,Solo Harpsichord with 2 Manuals,81840,240,Acoustic Grand Piano _ 2
+102.9,0.29999999999999716,74,100,Solo Harpsichord with 2 Manuals,82320,240,Acoustic Grand Piano _ 2
+103.2,0.29999999999999716,71,100,Solo Harpsichord with 2 Manuals,82560,240,Acoustic Grand Piano _ 2
+103.5,0.29999999999999716,74,100,Solo Harpsichord with 2 Manuals,82800,240,Acoustic Grand Piano _ 2
+103.8,0.30000000000001137,79,100,Solo Harpsichord with 2 Manuals,83040,240,Acoustic Grand Piano _ 2
+104.10000000000001,0.29999999999999716,67,100,Solo Harpsichord with 2 Manuals,83280,240,Acoustic Grand Piano _ 2
+104.4,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,83520,120,Acoustic Grand Piano _ 2
+104.55,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,83640,120,Acoustic Grand Piano _ 2
+104.7,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,83760,120,Acoustic Grand Piano _ 2
+104.85000000000001,0.14999999999999147,60,100,Solo Harpsichord with 2 Manuals,83880,120,Acoustic Grand Piano _ 2
+105.0,0.15000000000000568,57,100,Solo Harpsichord with 2 Manuals,84000,120,Acoustic Grand Piano _ 2
+105.15,0.14999999999999147,60,100,Solo Harpsichord with 2 Manuals,84120,120,Acoustic Grand Piano _ 2
+105.3,0.15000000000000568,64,100,Solo Harpsichord with 2 Manuals,84240,120,Acoustic Grand Piano _ 2
+105.45,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,84360,120,Acoustic Grand Piano _ 2
+105.60000000000001,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,84480,120,Acoustic Grand Piano _ 2
+105.75,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,84600,120,Acoustic Grand Piano _ 2
+105.9,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,84720,120,Acoustic Grand Piano _ 2
+106.05,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,84840,120,Acoustic Grand Piano _ 2
+106.2,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,84960,120,Acoustic Grand Piano _ 2
+106.35000000000001,0.14999999999999147,72,100,Solo Harpsichord with 2 Manuals,85080,120,Acoustic Grand Piano _ 2
+106.5,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,85200,120,Acoustic Grand Piano _ 2
+106.65,0.14999999999999147,66,100,Solo Harpsichord with 2 Manuals,85320,120,Acoustic Grand Piano _ 2
+106.8,0.15000000000000568,62,100,Solo Harpsichord with 2 Manuals,85440,120,Acoustic Grand Piano _ 2
+106.95,0.15000000000000568,66,100,Solo Harpsichord with 2 Manuals,85560,120,Acoustic Grand Piano _ 2
+107.10000000000001,0.14999999999999147,69,100,Solo Harpsichord with 2 Manuals,85680,120,Acoustic Grand Piano _ 2
+107.25,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,85800,120,Acoustic Grand Piano _ 2
+107.4,0.14999999999999147,78,100,Solo Harpsichord with 2 Manuals,85920,120,Acoustic Grand Piano _ 2
+107.55,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,86040,120,Acoustic Grand Piano _ 2
+107.7,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,86160,120,Acoustic Grand Piano _ 2
+107.85000000000001,0.14999999999999147,81,100,Solo Harpsichord with 2 Manuals,86280,120,Acoustic Grand Piano _ 2
+108.0,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,86400,120,Acoustic Grand Piano _ 2
+108.15,0.14999999999999147,79,100,Solo Harpsichord with 2 Manuals,86520,120,Acoustic Grand Piano _ 2
+108.3,0.15000000000000568,74,100,Solo Harpsichord with 2 Manuals,86640,120,Acoustic Grand Piano _ 2
+108.45,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,86760,120,Acoustic Grand Piano _ 2
+108.60000000000001,0.14999999999999147,67,100,Solo Harpsichord with 2 Manuals,86880,120,Acoustic Grand Piano _ 2
+108.75,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,87000,120,Acoustic Grand Piano _ 2
+108.9,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,87120,120,Acoustic Grand Piano _ 2
+109.05,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,87240,120,Acoustic Grand Piano _ 2
+109.2,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,87360,120,Acoustic Grand Piano _ 2
+109.35000000000001,0.14999999999999147,77,100,Solo Harpsichord with 2 Manuals,87480,120,Acoustic Grand Piano _ 2
+109.5,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,87600,120,Acoustic Grand Piano _ 2
+109.65,0.14999999999999147,86,100,Solo Harpsichord with 2 Manuals,87720,120,Acoustic Grand Piano _ 2
+109.8,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,87840,120,Acoustic Grand Piano _ 2
+109.95,0.15000000000000568,86,100,Solo Harpsichord with 2 Manuals,87960,120,Acoustic Grand Piano _ 2
+110.10000000000001,0.14999999999999147,84,100,Solo Harpsichord with 2 Manuals,88080,120,Acoustic Grand Piano _ 2
+110.25,0.15000000000000568,76,100,Solo Harpsichord with 2 Manuals,88200,120,Acoustic Grand Piano _ 2
+110.4,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,88320,120,Acoustic Grand Piano _ 2
+110.55,0.15000000000000568,84,100,Solo Harpsichord with 2 Manuals,88440,120,Acoustic Grand Piano _ 2
+110.7,0.15000000000000568,83,100,Solo Harpsichord with 2 Manuals,88560,120,Acoustic Grand Piano _ 2
+110.85000000000001,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,88680,120,Acoustic Grand Piano _ 2
+111.0,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,88800,120,Acoustic Grand Piano _ 2
+111.15,0.14999999999999147,76,100,Solo Harpsichord with 2 Manuals,88920,120,Acoustic Grand Piano _ 2
+111.3,0.15000000000000568,78,100,Solo Harpsichord with 2 Manuals,89040,120,Acoustic Grand Piano _ 2
+111.45,0.15000000000000568,79,100,Solo Harpsichord with 2 Manuals,89160,120,Acoustic Grand Piano _ 2
+111.60000000000001,0.14999999999999147,81,100,Solo Harpsichord with 2 Manuals,89280,120,Acoustic Grand Piano _ 2
+111.75,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,89400,120,Acoustic Grand Piano _ 2
+111.9,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,89520,120,Acoustic Grand Piano _ 2
+112.05,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,89640,120,Acoustic Grand Piano _ 2
+112.2,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,89760,120,Acoustic Grand Piano _ 2
+112.35000000000001,0.14999999999999147,74,100,Solo Harpsichord with 2 Manuals,89880,120,Acoustic Grand Piano _ 2
+112.5,0.15000000000000568,71,100,Solo Harpsichord with 2 Manuals,90000,120,Acoustic Grand Piano _ 2
+112.65,0.14999999999999147,67,100,Solo Harpsichord with 2 Manuals,90120,120,Acoustic Grand Piano _ 2
+112.8,0.15000000000000568,72,100,Solo Harpsichord with 2 Manuals,90240,120,Acoustic Grand Piano _ 2
+112.95,0.15000000000000568,69,100,Solo Harpsichord with 2 Manuals,90360,120,Acoustic Grand Piano _ 2
+113.10000000000001,0.14999999999999147,67,100,Solo Harpsichord with 2 Manuals,90480,120,Acoustic Grand Piano _ 2
+113.25,0.15000000000000568,66,100,Solo Harpsichord with 2 Manuals,90600,120,Acoustic Grand Piano _ 2
+113.4,0.14999999999999147,71,100,Solo Harpsichord with 2 Manuals,90720,120,Acoustic Grand Piano _ 2
+113.55,0.15000000000000568,67,100,Solo Harpsichord with 2 Manuals,90840,120,Acoustic Grand Piano _ 2
+113.7,0.15000000000000568,66,100,Solo Harpsichord with 2 Manuals,90960,120,Acoustic Grand Piano _ 2
+113.85000000000001,0.14999999999999147,64,100,Solo Harpsichord with 2 Manuals,91080,120,Acoustic Grand Piano _ 2
+114.0,0.15000000000000568,62,100,Solo Harpsichord with 2 Manuals,91200,120,Acoustic Grand Piano _ 2
+114.15,0.14999999999999147,60,100,Solo Harpsichord with 2 Manuals,91320,120,Acoustic Grand Piano _ 2
+114.3,0.15000000000000568,59,100,Solo Harpsichord with 2 Manuals,91440,120,Acoustic Grand Piano _ 2
+114.45,0.15000000000000568,57,100,Solo Harpsichord with 2 Manuals,91560,120,Acoustic Grand Piano _ 2
+114.60000000000001,1.25,55,100,Solo Harpsichord with 2 Manuals,91680,480,Acoustic Grand Piano _ 2
+0.0,0.3,43,100,--------------------------------------,0,240,Acoustic Grand Piano _ 1
+0.3,0.15000000000000002,59,100,--------------------------------------,240,120,Acoustic Grand Piano _ 1
+0.45,0.14999999999999997,57,100,--------------------------------------,360,120,Acoustic Grand Piano _ 1
+0.6,0.30000000000000004,59,100,--------------------------------------,480,240,Acoustic Grand Piano _ 1
+0.9,0.29999999999999993,55,100,--------------------------------------,720,240,Acoustic Grand Piano _ 1
+1.2,0.30000000000000004,43,100,--------------------------------------,960,240,Acoustic Grand Piano _ 1
+1.5,0.30000000000000004,55,100,--------------------------------------,1200,240,Acoustic Grand Piano _ 1
+1.8,0.30000000000000004,42,100,--------------------------------------,1440,240,Acoustic Grand Piano _ 1
+2.1,0.1499999999999999,54,100,--------------------------------------,1680,120,Acoustic Grand Piano _ 1
+2.25,0.1499999999999999,52,100,--------------------------------------,1800,120,Acoustic Grand Piano _ 1
+2.4,0.30000000000000027,54,100,--------------------------------------,1920,240,Acoustic Grand Piano _ 1
+2.7,0.2999999999999998,50,100,--------------------------------------,2160,240,Acoustic Grand Piano _ 1
+3.0,0.30000000000000027,42,100,--------------------------------------,2400,240,Acoustic Grand Piano _ 1
+3.3000000000000003,0.2999999999999998,50,100,--------------------------------------,2640,240,Acoustic Grand Piano _ 1
+3.6,0.2999999999999998,40,100,--------------------------------------,2880,240,Acoustic Grand Piano _ 1
+3.9,0.1499999999999999,52,100,--------------------------------------,3120,120,Acoustic Grand Piano _ 1
+4.05,0.15000000000000036,50,100,--------------------------------------,3240,120,Acoustic Grand Piano _ 1
+4.2,0.2999999999999998,52,100,--------------------------------------,3360,240,Acoustic Grand Piano _ 1
+4.5,0.2999999999999998,55,100,--------------------------------------,3600,240,Acoustic Grand Piano _ 1
+4.8,0.3000000000000007,45,100,--------------------------------------,3840,240,Acoustic Grand Piano _ 1
+5.1000000000000005,0.2999999999999998,61,100,--------------------------------------,4080,240,Acoustic Grand Piano _ 1
+5.4,0.2999999999999998,50,100,--------------------------------------,4320,240,Acoustic Grand Piano _ 1
+5.7,0.15000000000000036,54,100,--------------------------------------,4560,120,Acoustic Grand Piano _ 1
+5.8500000000000005,0.14999999999999947,52,100,--------------------------------------,4680,120,Acoustic Grand Piano _ 1
+6.0,0.2999999999999998,54,100,--------------------------------------,4800,240,Acoustic Grand Piano _ 1
+6.3,0.3000000000000007,50,100,--------------------------------------,5040,240,Acoustic Grand Piano _ 1
+6.6000000000000005,0.2999999999999998,38,100,--------------------------------------,5280,240,Acoustic Grand Piano _ 1
+7.05,0.15000000000000036,48,100,--------------------------------------,5640,120,Acoustic Grand Piano _ 1
+7.2,0.15000000000000036,47,100,--------------------------------------,5760,120,Acoustic Grand Piano _ 1
+7.3500000000000005,0.14999999999999947,45,100,--------------------------------------,5880,120,Acoustic Grand Piano _ 1
+7.5,0.4500000000000002,47,100,--------------------------------------,6000,360,Acoustic Grand Piano _ 1
+7.95,0.14999999999999947,50,100,--------------------------------------,6360,120,Acoustic Grand Piano _ 1
+8.1,0.15000000000000036,52,100,--------------------------------------,6480,120,Acoustic Grand Piano _ 1
+8.25,0.15000000000000036,54,100,--------------------------------------,6600,120,Acoustic Grand Piano _ 1
+8.4,0.15000000000000036,55,100,--------------------------------------,6720,120,Acoustic Grand Piano _ 1
+8.55,0.15000000000000036,57,100,--------------------------------------,6840,120,Acoustic Grand Piano _ 1
+8.700000000000001,0.14999999999999858,59,100,--------------------------------------,6960,120,Acoustic Grand Piano _ 1
+8.85,0.15000000000000036,55,100,--------------------------------------,7080,120,Acoustic Grand Piano _ 1
+9.0,0.15000000000000036,48,100,--------------------------------------,7200,120,Acoustic Grand Piano _ 1
+9.15,0.15000000000000036,47,100,--------------------------------------,7320,120,Acoustic Grand Piano _ 1
+9.3,0.4499999999999993,48,100,--------------------------------------,7440,360,Acoustic Grand Piano _ 1
+9.75,0.15000000000000036,52,100,--------------------------------------,7800,120,Acoustic Grand Piano _ 1
+9.9,0.15000000000000036,54,100,--------------------------------------,7920,120,Acoustic Grand Piano _ 1
+10.05,0.15000000000000036,55,100,--------------------------------------,8040,120,Acoustic Grand Piano _ 1
+10.200000000000001,0.14999999999999858,57,100,--------------------------------------,8160,120,Acoustic Grand Piano _ 1
+10.35,0.15000000000000036,59,100,--------------------------------------,8280,120,Acoustic Grand Piano _ 1
+10.5,0.15000000000000036,60,100,--------------------------------------,8400,120,Acoustic Grand Piano _ 1
+10.65,0.15000000000000036,57,100,--------------------------------------,8520,120,Acoustic Grand Piano _ 1
+10.8,0.15000000000000036,50,100,--------------------------------------,8640,120,Acoustic Grand Piano _ 1
+10.950000000000001,0.14999999999999858,49,100,--------------------------------------,8760,120,Acoustic Grand Piano _ 1
+11.1,0.45000000000000107,50,100,--------------------------------------,8880,360,Acoustic Grand Piano _ 1
+11.55,0.15000000000000036,57,100,--------------------------------------,9240,120,Acoustic Grand Piano _ 1
+11.700000000000001,0.14999999999999858,59,100,--------------------------------------,9360,120,Acoustic Grand Piano _ 1
+11.85,0.15000000000000036,60,100,--------------------------------------,9480,120,Acoustic Grand Piano _ 1
+12.0,0.15000000000000036,62,100,--------------------------------------,9600,120,Acoustic Grand Piano _ 1
+12.15,0.15000000000000036,64,100,--------------------------------------,9720,120,Acoustic Grand Piano _ 1
+12.3,0.15000000000000036,66,100,--------------------------------------,9840,120,Acoustic Grand Piano _ 1
+12.450000000000001,0.14999999999999858,62,100,--------------------------------------,9960,120,Acoustic Grand Piano _ 1
+12.6,0.15000000000000036,67,100,--------------------------------------,10080,120,Acoustic Grand Piano _ 1
+12.75,0.15000000000000036,66,100,--------------------------------------,10200,120,Acoustic Grand Piano _ 1
+12.9,0.15000000000000036,67,100,--------------------------------------,10320,120,Acoustic Grand Piano _ 1
+13.05,0.15000000000000036,62,100,--------------------------------------,10440,120,Acoustic Grand Piano _ 1
+13.200000000000001,0.14999999999999858,59,100,--------------------------------------,10560,120,Acoustic Grand Piano _ 1
+13.35,0.15000000000000036,62,100,--------------------------------------,10680,120,Acoustic Grand Piano _ 1
+13.5,0.15000000000000036,55,100,--------------------------------------,10800,120,Acoustic Grand Piano _ 1
+13.65,0.15000000000000036,59,100,--------------------------------------,10920,120,Acoustic Grand Piano _ 1
+13.8,0.15000000000000036,50,100,--------------------------------------,11040,120,Acoustic Grand Piano _ 1
+13.950000000000001,0.14999999999999858,55,100,--------------------------------------,11160,120,Acoustic Grand Piano _ 1
+14.1,0.15000000000000036,47,100,--------------------------------------,11280,120,Acoustic Grand Piano _ 1
+14.25,0.15000000000000036,50,100,--------------------------------------,11400,120,Acoustic Grand Piano _ 1
+14.4,0.3000000000000007,43,100,--------------------------------------,11520,240,Acoustic Grand Piano _ 1
+14.700000000000001,0.29999999999999893,55,100,--------------------------------------,11760,240,Acoustic Grand Piano _ 1
+15.0,0.3000000000000007,59,100,--------------------------------------,12000,240,Acoustic Grand Piano _ 1
+15.3,0.29999999999999893,55,100,--------------------------------------,12240,240,Acoustic Grand Piano _ 1
+15.6,0.3000000000000007,43,100,--------------------------------------,12480,240,Acoustic Grand Piano _ 1
+15.9,0.29999999999999893,55,100,--------------------------------------,12720,240,Acoustic Grand Piano _ 1
+16.2,0.3000000000000007,42,100,--------------------------------------,12960,240,Acoustic Grand Piano _ 1
+16.5,0.3000000000000007,54,100,--------------------------------------,13200,240,Acoustic Grand Piano _ 1
+16.8,0.3000000000000007,57,100,--------------------------------------,13440,240,Acoustic Grand Piano _ 1
+17.1,0.3000000000000007,54,100,--------------------------------------,13680,240,Acoustic Grand Piano _ 1
+17.400000000000002,0.29999999999999716,42,100,--------------------------------------,13920,240,Acoustic Grand Piano _ 1
+17.7,0.3000000000000007,54,100,--------------------------------------,14160,240,Acoustic Grand Piano _ 1
+18.0,0.3000000000000007,40,100,--------------------------------------,14400,240,Acoustic Grand Piano _ 1
+18.3,0.3000000000000007,52,100,--------------------------------------,14640,240,Acoustic Grand Piano _ 1
+18.6,0.3000000000000007,55,100,--------------------------------------,14880,240,Acoustic Grand Piano _ 1
+18.900000000000002,0.29999999999999716,52,100,--------------------------------------,15120,240,Acoustic Grand Piano _ 1
+19.2,0.3000000000000007,40,100,--------------------------------------,15360,240,Acoustic Grand Piano _ 1
+19.5,0.3000000000000007,55,100,--------------------------------------,15600,240,Acoustic Grand Piano _ 1
+19.8,0.3000000000000007,45,100,--------------------------------------,15840,240,Acoustic Grand Piano _ 1
+20.1,0.3000000000000007,52,100,--------------------------------------,16080,240,Acoustic Grand Piano _ 1
+20.400000000000002,0.29999999999999716,55,100,--------------------------------------,16320,240,Acoustic Grand Piano _ 1
+20.7,0.3000000000000007,52,100,--------------------------------------,16560,240,Acoustic Grand Piano _ 1
+21.0,0.3000000000000007,45,100,--------------------------------------,16800,240,Acoustic Grand Piano _ 1
+21.3,0.3000000000000007,55,100,--------------------------------------,17040,240,Acoustic Grand Piano _ 1
+21.6,0.14999999999999858,54,100,--------------------------------------,17280,120,Acoustic Grand Piano _ 1
+21.75,0.15000000000000213,57,100,--------------------------------------,17400,120,Acoustic Grand Piano _ 1
+21.900000000000002,0.14999999999999858,62,100,--------------------------------------,17520,120,Acoustic Grand Piano _ 1
+22.05,0.14999999999999858,66,100,--------------------------------------,17640,120,Acoustic Grand Piano _ 1
+22.2,0.15000000000000213,69,100,--------------------------------------,17760,120,Acoustic Grand Piano _ 1
+22.35,0.14999999999999858,66,100,--------------------------------------,17880,120,Acoustic Grand Piano _ 1
+22.5,0.15000000000000213,62,100,--------------------------------------,18000,120,Acoustic Grand Piano _ 1
+22.650000000000002,0.14999999999999858,57,100,--------------------------------------,18120,120,Acoustic Grand Piano _ 1
+22.8,0.14999999999999858,54,100,--------------------------------------,18240,120,Acoustic Grand Piano _ 1
+22.95,0.15000000000000213,57,100,--------------------------------------,18360,120,Acoustic Grand Piano _ 1
+23.1,0.14999999999999858,50,100,--------------------------------------,18480,120,Acoustic Grand Piano _ 1
+23.25,0.15000000000000213,54,100,--------------------------------------,18600,120,Acoustic Grand Piano _ 1
+23.400000000000002,0.14999999999999858,55,100,--------------------------------------,18720,120,Acoustic Grand Piano _ 1
+23.55,0.14999999999999858,59,100,--------------------------------------,18840,120,Acoustic Grand Piano _ 1
+23.7,0.15000000000000213,62,100,--------------------------------------,18960,120,Acoustic Grand Piano _ 1
+23.85,0.14999999999999858,67,100,--------------------------------------,19080,120,Acoustic Grand Piano _ 1
+24.0,0.15000000000000213,71,100,--------------------------------------,19200,120,Acoustic Grand Piano _ 1
+24.150000000000002,0.14999999999999858,67,100,--------------------------------------,19320,120,Acoustic Grand Piano _ 1
+24.3,0.14999999999999858,62,100,--------------------------------------,19440,120,Acoustic Grand Piano _ 1
+24.45,0.15000000000000213,59,100,--------------------------------------,19560,120,Acoustic Grand Piano _ 1
+24.6,0.14999999999999858,55,100,--------------------------------------,19680,120,Acoustic Grand Piano _ 1
+24.75,0.15000000000000213,59,100,--------------------------------------,19800,120,Acoustic Grand Piano _ 1
+24.900000000000002,0.14999999999999858,52,100,--------------------------------------,19920,120,Acoustic Grand Piano _ 1
+25.05,0.14999999999999858,55,100,--------------------------------------,20040,120,Acoustic Grand Piano _ 1
+25.2,0.3000000000000007,57,100,--------------------------------------,20160,240,Acoustic Grand Piano _ 1
+25.5,0.3000000000000007,61,100,--------------------------------------,20400,240,Acoustic Grand Piano _ 1
+25.8,0.14999999999999858,62,100,--------------------------------------,20640,120,Acoustic Grand Piano _ 1
+25.95,0.15000000000000213,57,100,--------------------------------------,20760,120,Acoustic Grand Piano _ 1
+26.1,0.14999999999999858,54,100,--------------------------------------,20880,120,Acoustic Grand Piano _ 1
+26.25,0.15000000000000213,50,100,--------------------------------------,21000,120,Acoustic Grand Piano _ 1
+26.400000000000002,0.29999999999999716,57,100,--------------------------------------,21120,240,Acoustic Grand Piano _ 1
+26.7,0.3000000000000007,45,100,--------------------------------------,21360,240,Acoustic Grand Piano _ 1
+27.0,0.15000000000000213,38,100,--------------------------------------,21600,120,Acoustic Grand Piano _ 1
+27.150000000000002,0.14999999999999858,50,100,--------------------------------------,21720,120,Acoustic Grand Piano _ 1
+27.3,0.14999999999999858,52,100,--------------------------------------,21840,120,Acoustic Grand Piano _ 1
+27.45,0.15000000000000213,54,100,--------------------------------------,21960,120,Acoustic Grand Piano _ 1
+27.6,0.14999999999999858,55,100,--------------------------------------,22080,120,Acoustic Grand Piano _ 1
+27.75,0.15000000000000213,57,100,--------------------------------------,22200,120,Acoustic Grand Piano _ 1
+27.900000000000002,0.14999999999999858,59,100,--------------------------------------,22320,120,Acoustic Grand Piano _ 1
+28.05,0.14999999999999858,61,100,--------------------------------------,22440,120,Acoustic Grand Piano _ 1
+28.2,0.6000000000000014,62,100,--------------------------------------,22560,480,Acoustic Grand Piano _ 1
+28.8,0.3000000000000007,43,100,--------------------------------------,23040,240,Acoustic Grand Piano _ 1
+29.1,0.14999999999999858,59,100,--------------------------------------,23280,120,Acoustic Grand Piano _ 1
+29.25,0.15000000000000213,57,100,--------------------------------------,23400,120,Acoustic Grand Piano _ 1
+29.400000000000002,0.29999999999999716,59,100,--------------------------------------,23520,240,Acoustic Grand Piano _ 1
+29.7,0.3000000000000007,55,100,--------------------------------------,23760,240,Acoustic Grand Piano _ 1
+30.0,0.3000000000000007,43,100,--------------------------------------,24000,240,Acoustic Grand Piano _ 1
+30.3,0.3000000000000007,55,100,--------------------------------------,24240,240,Acoustic Grand Piano _ 1
+30.6,0.3000000000000007,42,100,--------------------------------------,24480,240,Acoustic Grand Piano _ 1
+30.900000000000002,0.14999999999999858,54,100,--------------------------------------,24720,120,Acoustic Grand Piano _ 1
+31.05,0.14999999999999858,52,100,--------------------------------------,24840,120,Acoustic Grand Piano _ 1
+31.2,0.3000000000000007,54,100,--------------------------------------,24960,240,Acoustic Grand Piano _ 1
+31.5,0.3000000000000007,50,100,--------------------------------------,25200,240,Acoustic Grand Piano _ 1
+31.8,0.3000000000000007,42,100,--------------------------------------,25440,240,Acoustic Grand Piano _ 1
+32.1,0.29999999999999716,50,100,--------------------------------------,25680,240,Acoustic Grand Piano _ 1
+32.4,0.30000000000000426,40,100,--------------------------------------,25920,240,Acoustic Grand Piano _ 1
+32.7,0.14999999999999858,52,100,--------------------------------------,26160,120,Acoustic Grand Piano _ 1
+32.85,0.14999999999999858,50,100,--------------------------------------,26280,120,Acoustic Grand Piano _ 1
+33.0,0.29999999999999716,52,100,--------------------------------------,26400,240,Acoustic Grand Piano _ 1
+33.3,0.30000000000000426,55,100,--------------------------------------,26640,240,Acoustic Grand Piano _ 1
+33.6,0.29999999999999716,45,100,--------------------------------------,26880,240,Acoustic Grand Piano _ 1
+33.9,0.30000000000000426,61,100,--------------------------------------,27120,240,Acoustic Grand Piano _ 1
+34.2,0.29999999999999716,50,100,--------------------------------------,27360,240,Acoustic Grand Piano _ 1
+34.5,0.14999999999999858,54,100,--------------------------------------,27600,120,Acoustic Grand Piano _ 1
+34.65,0.15000000000000568,52,100,--------------------------------------,27720,120,Acoustic Grand Piano _ 1
+34.800000000000004,0.29999999999999716,54,100,--------------------------------------,27840,240,Acoustic Grand Piano _ 1
+35.1,0.29999999999999716,50,100,--------------------------------------,28080,240,Acoustic Grand Piano _ 1
+35.4,0.30000000000000426,38,100,--------------------------------------,28320,240,Acoustic Grand Piano _ 1
+35.85,0.14999999999999858,48,100,--------------------------------------,28680,120,Acoustic Grand Piano _ 1
+36.0,0.14999999999999858,47,100,--------------------------------------,28800,120,Acoustic Grand Piano _ 1
+36.15,0.15000000000000568,45,100,--------------------------------------,28920,120,Acoustic Grand Piano _ 1
+36.300000000000004,0.44999999999999574,47,100,--------------------------------------,29040,360,Acoustic Grand Piano _ 1
+36.75,0.14999999999999858,50,100,--------------------------------------,29400,120,Acoustic Grand Piano _ 1
+36.9,0.15000000000000568,52,100,--------------------------------------,29520,120,Acoustic Grand Piano _ 1
+37.050000000000004,0.14999999999999858,54,100,--------------------------------------,29640,120,Acoustic Grand Piano _ 1
+37.2,0.14999999999999858,55,100,--------------------------------------,29760,120,Acoustic Grand Piano _ 1
+37.35,0.14999999999999858,57,100,--------------------------------------,29880,120,Acoustic Grand Piano _ 1
+37.5,0.14999999999999858,59,100,--------------------------------------,30000,120,Acoustic Grand Piano _ 1
+37.65,0.15000000000000568,55,100,--------------------------------------,30120,120,Acoustic Grand Piano _ 1
+37.800000000000004,0.14999999999999858,48,100,--------------------------------------,30240,120,Acoustic Grand Piano _ 1
+37.95,0.14999999999999858,47,100,--------------------------------------,30360,120,Acoustic Grand Piano _ 1
+38.1,0.45000000000000284,48,100,--------------------------------------,30480,360,Acoustic Grand Piano _ 1
+38.550000000000004,0.14999999999999858,52,100,--------------------------------------,30840,120,Acoustic Grand Piano _ 1
+38.7,0.14999999999999858,54,100,--------------------------------------,30960,120,Acoustic Grand Piano _ 1
+38.85,0.14999999999999858,55,100,--------------------------------------,31080,120,Acoustic Grand Piano _ 1
+39.0,0.14999999999999858,57,100,--------------------------------------,31200,120,Acoustic Grand Piano _ 1
+39.15,0.15000000000000568,59,100,--------------------------------------,31320,120,Acoustic Grand Piano _ 1
+39.300000000000004,0.14999999999999858,60,100,--------------------------------------,31440,120,Acoustic Grand Piano _ 1
+39.45,0.14999999999999858,57,100,--------------------------------------,31560,120,Acoustic Grand Piano _ 1
+39.6,0.14999999999999858,50,100,--------------------------------------,31680,120,Acoustic Grand Piano _ 1
+39.75,0.14999999999999858,49,100,--------------------------------------,31800,120,Acoustic Grand Piano _ 1
+39.9,0.45000000000000284,50,100,--------------------------------------,31920,360,Acoustic Grand Piano _ 1
+40.35,0.14999999999999858,57,100,--------------------------------------,32280,120,Acoustic Grand Piano _ 1
+40.5,0.14999999999999858,59,100,--------------------------------------,32400,120,Acoustic Grand Piano _ 1
+40.65,0.15000000000000568,60,100,--------------------------------------,32520,120,Acoustic Grand Piano _ 1
+40.800000000000004,0.14999999999999858,62,100,--------------------------------------,32640,120,Acoustic Grand Piano _ 1
+40.95,0.14999999999999858,64,100,--------------------------------------,32760,120,Acoustic Grand Piano _ 1
+41.1,0.14999999999999858,66,100,--------------------------------------,32880,120,Acoustic Grand Piano _ 1
+41.25,0.14999999999999858,62,100,--------------------------------------,33000,120,Acoustic Grand Piano _ 1
+41.4,0.15000000000000568,67,100,--------------------------------------,33120,120,Acoustic Grand Piano _ 1
+41.550000000000004,0.14999999999999858,66,100,--------------------------------------,33240,120,Acoustic Grand Piano _ 1
+41.7,0.14999999999999858,67,100,--------------------------------------,33360,120,Acoustic Grand Piano _ 1
+41.85,0.14999999999999858,62,100,--------------------------------------,33480,120,Acoustic Grand Piano _ 1
+42.0,0.14999999999999858,59,100,--------------------------------------,33600,120,Acoustic Grand Piano _ 1
+42.15,0.15000000000000568,62,100,--------------------------------------,33720,120,Acoustic Grand Piano _ 1
+42.300000000000004,0.14999999999999858,55,100,--------------------------------------,33840,120,Acoustic Grand Piano _ 1
+42.45,0.14999999999999858,59,100,--------------------------------------,33960,120,Acoustic Grand Piano _ 1
+42.6,0.14999999999999858,50,100,--------------------------------------,34080,120,Acoustic Grand Piano _ 1
+42.75,0.14999999999999858,55,100,--------------------------------------,34200,120,Acoustic Grand Piano _ 1
+42.9,0.15000000000000568,47,100,--------------------------------------,34320,120,Acoustic Grand Piano _ 1
+43.050000000000004,0.14999999999999858,50,100,--------------------------------------,34440,120,Acoustic Grand Piano _ 1
+43.2,0.29999999999999716,43,100,--------------------------------------,34560,240,Acoustic Grand Piano _ 1
+43.5,0.30000000000000426,55,100,--------------------------------------,34800,240,Acoustic Grand Piano _ 1
+43.800000000000004,0.29999999999999716,59,100,--------------------------------------,35040,240,Acoustic Grand Piano _ 1
+44.1,0.29999999999999716,55,100,--------------------------------------,35280,240,Acoustic Grand Piano _ 1
+44.4,0.30000000000000426,43,100,--------------------------------------,35520,240,Acoustic Grand Piano _ 1
+44.7,0.29999999999999716,55,100,--------------------------------------,35760,240,Acoustic Grand Piano _ 1
+45.0,0.30000000000000426,42,100,--------------------------------------,36000,240,Acoustic Grand Piano _ 1
+45.300000000000004,0.29999999999999716,54,100,--------------------------------------,36240,240,Acoustic Grand Piano _ 1
+45.6,0.29999999999999716,57,100,--------------------------------------,36480,240,Acoustic Grand Piano _ 1
+45.9,0.30000000000000426,54,100,--------------------------------------,36720,240,Acoustic Grand Piano _ 1
+46.2,0.29999999999999716,42,100,--------------------------------------,36960,240,Acoustic Grand Piano _ 1
+46.5,0.30000000000000426,54,100,--------------------------------------,37200,240,Acoustic Grand Piano _ 1
+46.800000000000004,0.29999999999999716,40,100,--------------------------------------,37440,240,Acoustic Grand Piano _ 1
+47.1,0.29999999999999716,52,100,--------------------------------------,37680,240,Acoustic Grand Piano _ 1
+47.4,0.30000000000000426,55,100,--------------------------------------,37920,240,Acoustic Grand Piano _ 1
+47.7,0.29999999999999716,52,100,--------------------------------------,38160,240,Acoustic Grand Piano _ 1
+48.0,0.30000000000000426,40,100,--------------------------------------,38400,240,Acoustic Grand Piano _ 1
+48.300000000000004,0.29999999999999716,55,100,--------------------------------------,38640,240,Acoustic Grand Piano _ 1
+48.6,0.29999999999999716,45,100,--------------------------------------,38880,240,Acoustic Grand Piano _ 1
+48.9,0.30000000000000426,52,100,--------------------------------------,39120,240,Acoustic Grand Piano _ 1
+49.2,0.29999999999999716,55,100,--------------------------------------,39360,240,Acoustic Grand Piano _ 1
+49.5,0.30000000000000426,52,100,--------------------------------------,39600,240,Acoustic Grand Piano _ 1
+49.800000000000004,0.29999999999999716,45,100,--------------------------------------,39840,240,Acoustic Grand Piano _ 1
+50.1,0.29999999999999716,55,100,--------------------------------------,40080,240,Acoustic Grand Piano _ 1
+50.4,0.15000000000000568,54,100,--------------------------------------,40320,120,Acoustic Grand Piano _ 1
+50.550000000000004,0.14999999999999858,57,100,--------------------------------------,40440,120,Acoustic Grand Piano _ 1
+50.7,0.14999999999999858,62,100,--------------------------------------,40560,120,Acoustic Grand Piano _ 1
+50.85,0.14999999999999858,66,100,--------------------------------------,40680,120,Acoustic Grand Piano _ 1
+51.0,0.14999999999999858,69,100,--------------------------------------,40800,120,Acoustic Grand Piano _ 1
+51.15,0.15000000000000568,66,100,--------------------------------------,40920,120,Acoustic Grand Piano _ 1
+51.300000000000004,0.14999999999999858,62,100,--------------------------------------,41040,120,Acoustic Grand Piano _ 1
+51.45,0.14999999999999858,57,100,--------------------------------------,41160,120,Acoustic Grand Piano _ 1
+51.6,0.14999999999999858,54,100,--------------------------------------,41280,120,Acoustic Grand Piano _ 1
+51.75,0.14999999999999858,57,100,--------------------------------------,41400,120,Acoustic Grand Piano _ 1
+51.9,0.15000000000000568,50,100,--------------------------------------,41520,120,Acoustic Grand Piano _ 1
+52.050000000000004,0.14999999999999858,54,100,--------------------------------------,41640,120,Acoustic Grand Piano _ 1
+52.2,0.14999999999999858,55,100,--------------------------------------,41760,120,Acoustic Grand Piano _ 1
+52.35,0.14999999999999858,59,100,--------------------------------------,41880,120,Acoustic Grand Piano _ 1
+52.5,0.14999999999999858,62,100,--------------------------------------,42000,120,Acoustic Grand Piano _ 1
+52.65,0.15000000000000568,67,100,--------------------------------------,42120,120,Acoustic Grand Piano _ 1
+52.800000000000004,0.14999999999999858,71,100,--------------------------------------,42240,120,Acoustic Grand Piano _ 1
+52.95,0.14999999999999858,67,100,--------------------------------------,42360,120,Acoustic Grand Piano _ 1
+53.1,0.14999999999999858,62,100,--------------------------------------,42480,120,Acoustic Grand Piano _ 1
+53.25,0.14999999999999858,59,100,--------------------------------------,42600,120,Acoustic Grand Piano _ 1
+53.4,0.15000000000000568,55,100,--------------------------------------,42720,120,Acoustic Grand Piano _ 1
+53.550000000000004,0.14999999999999858,59,100,--------------------------------------,42840,120,Acoustic Grand Piano _ 1
+53.7,0.14999999999999858,52,100,--------------------------------------,42960,120,Acoustic Grand Piano _ 1
+53.85,0.14999999999999858,55,100,--------------------------------------,43080,120,Acoustic Grand Piano _ 1
+54.0,0.30000000000000426,57,100,--------------------------------------,43200,240,Acoustic Grand Piano _ 1
+54.300000000000004,0.29999999999999716,61,100,--------------------------------------,43440,240,Acoustic Grand Piano _ 1
+54.6,0.14999999999999858,62,100,--------------------------------------,43680,120,Acoustic Grand Piano _ 1
+54.75,0.14999999999999858,57,100,--------------------------------------,43800,120,Acoustic Grand Piano _ 1
+54.9,0.15000000000000568,54,100,--------------------------------------,43920,120,Acoustic Grand Piano _ 1
+55.050000000000004,0.14999999999999858,50,100,--------------------------------------,44040,120,Acoustic Grand Piano _ 1
+55.2,0.29999999999999716,57,100,--------------------------------------,44160,240,Acoustic Grand Piano _ 1
+55.5,0.30000000000000426,45,100,--------------------------------------,44400,240,Acoustic Grand Piano _ 1
+55.800000000000004,0.14999999999999858,38,100,--------------------------------------,44640,120,Acoustic Grand Piano _ 1
+55.95,0.14999999999999858,50,100,--------------------------------------,44760,120,Acoustic Grand Piano _ 1
+56.1,0.14999999999999858,52,100,--------------------------------------,44880,120,Acoustic Grand Piano _ 1
+56.25,0.14999999999999858,54,100,--------------------------------------,45000,120,Acoustic Grand Piano _ 1
+56.4,0.15000000000000568,55,100,--------------------------------------,45120,120,Acoustic Grand Piano _ 1
+56.550000000000004,0.14999999999999858,57,100,--------------------------------------,45240,120,Acoustic Grand Piano _ 1
+56.7,0.14999999999999858,59,100,--------------------------------------,45360,120,Acoustic Grand Piano _ 1
+56.85,0.14999999999999858,61,100,--------------------------------------,45480,120,Acoustic Grand Piano _ 1
+57.0,0.6000000000000014,62,100,--------------------------------------,45600,480,Acoustic Grand Piano _ 1
+57.6,0.29999999999999716,38,100,--------------------------------------,46080,240,Acoustic Grand Piano _ 1
+57.9,0.15000000000000568,54,100,--------------------------------------,46320,120,Acoustic Grand Piano _ 1
+58.050000000000004,0.14999999999999858,52,100,--------------------------------------,46440,120,Acoustic Grand Piano _ 1
+58.2,0.29999999999999716,54,100,--------------------------------------,46560,240,Acoustic Grand Piano _ 1
+58.5,0.30000000000000426,50,100,--------------------------------------,46800,240,Acoustic Grand Piano _ 1
+58.800000000000004,0.29999999999999716,38,100,--------------------------------------,47040,240,Acoustic Grand Piano _ 1
+59.1,0.29999999999999716,54,100,--------------------------------------,47280,240,Acoustic Grand Piano _ 1
+59.4,0.30000000000000426,43,100,--------------------------------------,47520,240,Acoustic Grand Piano _ 1
+59.7,0.14999999999999858,59,100,--------------------------------------,47760,120,Acoustic Grand Piano _ 1
+59.85,0.14999999999999858,57,100,--------------------------------------,47880,120,Acoustic Grand Piano _ 1
+60.0,0.30000000000000426,59,100,--------------------------------------,48000,240,Acoustic Grand Piano _ 1
+60.300000000000004,0.29999999999999716,55,100,--------------------------------------,48240,240,Acoustic Grand Piano _ 1
+60.6,0.29999999999999716,43,100,--------------------------------------,48480,240,Acoustic Grand Piano _ 1
+60.9,0.30000000000000426,59,100,--------------------------------------,48720,240,Acoustic Grand Piano _ 1
+61.2,0.29999999999999716,48,100,--------------------------------------,48960,240,Acoustic Grand Piano _ 1
+61.5,0.14999999999999858,60,100,--------------------------------------,49200,120,Acoustic Grand Piano _ 1
+61.65,0.15000000000000568,59,100,--------------------------------------,49320,120,Acoustic Grand Piano _ 1
+61.800000000000004,0.29999999999999716,60,100,--------------------------------------,49440,240,Acoustic Grand Piano _ 1
+62.1,0.29999999999999716,54,100,--------------------------------------,49680,240,Acoustic Grand Piano _ 1
+62.4,0.30000000000000426,57,100,--------------------------------------,49920,240,Acoustic Grand Piano _ 1
+62.7,0.29999999999999716,60,100,--------------------------------------,50160,240,Acoustic Grand Piano _ 1
+63.0,0.30000000000000426,57,100,--------------------------------------,50400,240,Acoustic Grand Piano _ 1
+63.300000000000004,0.29999999999999716,54,100,--------------------------------------,50640,240,Acoustic Grand Piano _ 1
+63.6,0.14999999999999858,51,100,--------------------------------------,50880,120,Acoustic Grand Piano _ 1
+63.75,0.14999999999999858,47,100,--------------------------------------,51000,120,Acoustic Grand Piano _ 1
+63.9,0.14999999999999858,51,100,--------------------------------------,51120,120,Acoustic Grand Piano _ 1
+64.05,0.15000000000000568,54,100,--------------------------------------,51240,120,Acoustic Grand Piano _ 1
+64.2,0.14999999999999147,59,100,--------------------------------------,51360,120,Acoustic Grand Piano _ 1
+64.35,0.15000000000000568,63,100,--------------------------------------,51480,120,Acoustic Grand Piano _ 1
+64.5,0.15000000000000568,66,100,--------------------------------------,51600,120,Acoustic Grand Piano _ 1
+64.65,0.14999999999999147,69,100,--------------------------------------,51720,120,Acoustic Grand Piano _ 1
+64.8,0.45000000000000284,67,100,--------------------------------------,51840,360,Acoustic Grand Piano _ 1
+65.25,0.15000000000000568,66,100,--------------------------------------,52200,120,Acoustic Grand Piano _ 1
+65.4,0.44999999999998863,67,100,--------------------------------------,52320,360,Acoustic Grand Piano _ 1
+65.85,0.15000000000000568,54,100,--------------------------------------,52680,120,Acoustic Grand Piano _ 1
+66.0,0.45000000000000284,55,100,--------------------------------------,52800,360,Acoustic Grand Piano _ 1
+66.45,0.14999999999999147,47,100,--------------------------------------,53160,120,Acoustic Grand Piano _ 1
+66.6,0.45000000000000284,48,100,--------------------------------------,53280,360,Acoustic Grand Piano _ 1
+67.05,0.15000000000000568,71,100,--------------------------------------,53640,120,Acoustic Grand Piano _ 1
+67.2,0.45000000000000284,72,100,--------------------------------------,53760,360,Acoustic Grand Piano _ 1
+67.65,0.14999999999999147,59,100,--------------------------------------,54120,120,Acoustic Grand Piano _ 1
+67.8,0.45000000000000284,60,100,--------------------------------------,54240,360,Acoustic Grand Piano _ 1
+68.25,0.15000000000000568,52,100,--------------------------------------,54600,120,Acoustic Grand Piano _ 1
+68.4,0.29999999999999716,51,100,--------------------------------------,54720,240,Acoustic Grand Piano _ 1
+68.7,0.29999999999999716,57,100,--------------------------------------,54960,240,Acoustic Grand Piano _ 1
+69.0,0.29999999999999716,55,100,--------------------------------------,55200,240,Acoustic Grand Piano _ 1
+69.3,0.30000000000001137,46,100,--------------------------------------,55440,240,Acoustic Grand Piano _ 1
+69.60000000000001,0.29999999999999716,47,100,--------------------------------------,55680,240,Acoustic Grand Piano _ 1
+69.9,0.29999999999999716,54,100,--------------------------------------,55920,240,Acoustic Grand Piano _ 1
+70.2,0.29999999999999716,52,100,--------------------------------------,56160,240,Acoustic Grand Piano _ 1
+70.5,0.15000000000000568,55,100,--------------------------------------,56400,120,Acoustic Grand Piano _ 1
+70.65,0.14999999999999147,54,100,--------------------------------------,56520,120,Acoustic Grand Piano _ 1
+70.8,0.30000000000001137,55,100,--------------------------------------,56640,240,Acoustic Grand Piano _ 1
+71.10000000000001,0.29999999999999716,52,100,--------------------------------------,56880,240,Acoustic Grand Piano _ 1
+71.4,0.29999999999999716,40,100,--------------------------------------,57120,240,Acoustic Grand Piano _ 1
+71.85000000000001,0.14999999999999147,50,100,--------------------------------------,57480,120,Acoustic Grand Piano _ 1
+72.0,0.15000000000000568,48,100,--------------------------------------,57600,120,Acoustic Grand Piano _ 1
+72.15,0.14999999999999147,52,100,--------------------------------------,57720,120,Acoustic Grand Piano _ 1
+72.3,0.15000000000000568,57,100,--------------------------------------,57840,120,Acoustic Grand Piano _ 1
+72.45,0.15000000000000568,60,100,--------------------------------------,57960,120,Acoustic Grand Piano _ 1
+72.60000000000001,0.14999999999999147,64,100,--------------------------------------,58080,120,Acoustic Grand Piano _ 1
+72.75,0.15000000000000568,60,100,--------------------------------------,58200,120,Acoustic Grand Piano _ 1
+72.9,0.14999999999999147,57,100,--------------------------------------,58320,120,Acoustic Grand Piano _ 1
+73.05,0.15000000000000568,52,100,--------------------------------------,58440,120,Acoustic Grand Piano _ 1
+73.2,0.15000000000000568,48,100,--------------------------------------,58560,120,Acoustic Grand Piano _ 1
+73.35000000000001,0.14999999999999147,52,100,--------------------------------------,58680,120,Acoustic Grand Piano _ 1
+73.5,0.15000000000000568,50,100,--------------------------------------,58800,120,Acoustic Grand Piano _ 1
+73.65,0.14999999999999147,48,100,--------------------------------------,58920,120,Acoustic Grand Piano _ 1
+73.8,0.15000000000000568,47,100,--------------------------------------,59040,120,Acoustic Grand Piano _ 1
+73.95,0.15000000000000568,50,100,--------------------------------------,59160,120,Acoustic Grand Piano _ 1
+74.10000000000001,0.14999999999999147,55,100,--------------------------------------,59280,120,Acoustic Grand Piano _ 1
+74.25,0.15000000000000568,59,100,--------------------------------------,59400,120,Acoustic Grand Piano _ 1
+74.4,0.14999999999999147,62,100,--------------------------------------,59520,120,Acoustic Grand Piano _ 1
+74.55,0.15000000000000568,59,100,--------------------------------------,59640,120,Acoustic Grand Piano _ 1
+74.7,0.15000000000000568,55,100,--------------------------------------,59760,120,Acoustic Grand Piano _ 1
+74.85000000000001,0.14999999999999147,50,100,--------------------------------------,59880,120,Acoustic Grand Piano _ 1
+75.0,0.15000000000000568,47,100,--------------------------------------,60000,120,Acoustic Grand Piano _ 1
+75.15,0.14999999999999147,50,100,--------------------------------------,60120,120,Acoustic Grand Piano _ 1
+75.3,0.15000000000000568,48,100,--------------------------------------,60240,120,Acoustic Grand Piano _ 1
+75.45,0.15000000000000568,47,100,--------------------------------------,60360,120,Acoustic Grand Piano _ 1
+75.60000000000001,0.29999999999999716,45,100,--------------------------------------,60480,240,Acoustic Grand Piano _ 1
+75.9,0.29999999999999716,48,100,--------------------------------------,60720,240,Acoustic Grand Piano _ 1
+76.2,0.29999999999999716,52,100,--------------------------------------,60960,240,Acoustic Grand Piano _ 1
+76.5,0.29999999999999716,55,100,--------------------------------------,61200,240,Acoustic Grand Piano _ 1
+76.8,0.30000000000001137,54,100,--------------------------------------,61440,240,Acoustic Grand Piano _ 1
+77.10000000000001,0.29999999999999716,52,100,--------------------------------------,61680,240,Acoustic Grand Piano _ 1
+77.4,0.29999999999999716,50,100,--------------------------------------,61920,240,Acoustic Grand Piano _ 1
+77.7,0.29999999999999716,54,100,--------------------------------------,62160,240,Acoustic Grand Piano _ 1
+78.0,0.29999999999999716,57,100,--------------------------------------,62400,240,Acoustic Grand Piano _ 1
+78.3,0.30000000000001137,60,100,--------------------------------------,62640,240,Acoustic Grand Piano _ 1
+78.60000000000001,0.29999999999999716,59,100,--------------------------------------,62880,240,Acoustic Grand Piano _ 1
+78.9,0.29999999999999716,57,100,--------------------------------------,63120,240,Acoustic Grand Piano _ 1
+79.2,0.29999999999999716,55,100,--------------------------------------,63360,240,Acoustic Grand Piano _ 1
+79.5,0.29999999999999716,59,100,--------------------------------------,63600,240,Acoustic Grand Piano _ 1
+79.8,0.30000000000001137,62,100,--------------------------------------,63840,240,Acoustic Grand Piano _ 1
+80.10000000000001,0.29999999999999716,65,100,--------------------------------------,64080,240,Acoustic Grand Piano _ 1
+80.4,0.29999999999999716,64,100,--------------------------------------,64320,240,Acoustic Grand Piano _ 1
+80.7,0.29999999999999716,62,100,--------------------------------------,64560,240,Acoustic Grand Piano _ 1
+81.0,0.29999999999999716,60,100,--------------------------------------,64800,240,Acoustic Grand Piano _ 1
+81.3,0.30000000000001137,64,100,--------------------------------------,65040,240,Acoustic Grand Piano _ 1
+81.60000000000001,0.29999999999999716,66,100,--------------------------------------,65280,240,Acoustic Grand Piano _ 1
+81.9,0.29999999999999716,68,100,--------------------------------------,65520,240,Acoustic Grand Piano _ 1
+82.2,0.29999999999999716,69,100,--------------------------------------,65760,240,Acoustic Grand Piano _ 1
+82.5,0.29999999999999716,67,100,--------------------------------------,66000,240,Acoustic Grand Piano _ 1
+82.8,0.30000000000001137,66,100,--------------------------------------,66240,240,Acoustic Grand Piano _ 1
+83.10000000000001,0.29999999999999716,62,100,--------------------------------------,66480,240,Acoustic Grand Piano _ 1
+83.4,0.29999999999999716,67,100,--------------------------------------,66720,240,Acoustic Grand Piano _ 1
+83.7,0.29999999999999716,55,100,--------------------------------------,66960,240,Acoustic Grand Piano _ 1
+84.0,0.29999999999999716,62,100,--------------------------------------,67200,240,Acoustic Grand Piano _ 1
+84.3,0.30000000000001137,50,100,--------------------------------------,67440,240,Acoustic Grand Piano _ 1
+84.60000000000001,0.14999999999999147,55,100,--------------------------------------,67680,120,Acoustic Grand Piano _ 1
+84.75,0.15000000000000568,43,100,--------------------------------------,67800,120,Acoustic Grand Piano _ 1
+84.9,0.14999999999999147,45,100,--------------------------------------,67920,120,Acoustic Grand Piano _ 1
+85.05,0.15000000000000568,47,100,--------------------------------------,68040,120,Acoustic Grand Piano _ 1
+85.2,0.15000000000000568,48,100,--------------------------------------,68160,120,Acoustic Grand Piano _ 1
+85.35000000000001,0.14999999999999147,50,100,--------------------------------------,68280,120,Acoustic Grand Piano _ 1
+85.5,0.15000000000000568,52,100,--------------------------------------,68400,120,Acoustic Grand Piano _ 1
+85.65,0.14999999999999147,54,100,--------------------------------------,68520,120,Acoustic Grand Piano _ 1
+85.8,0.6000000000000085,55,100,--------------------------------------,68640,480,Acoustic Grand Piano _ 1
+86.4,0.29999999999999716,38,100,--------------------------------------,69120,240,Acoustic Grand Piano _ 1
+86.7,0.15000000000000568,54,100,--------------------------------------,69360,120,Acoustic Grand Piano _ 1
+86.85000000000001,0.14999999999999147,52,100,--------------------------------------,69480,120,Acoustic Grand Piano _ 1
+87.0,0.29999999999999716,54,100,--------------------------------------,69600,240,Acoustic Grand Piano _ 1
+87.3,0.30000000000001137,50,100,--------------------------------------,69840,240,Acoustic Grand Piano _ 1
+87.60000000000001,0.29999999999999716,38,100,--------------------------------------,70080,240,Acoustic Grand Piano _ 1
+87.9,0.29999999999999716,54,100,--------------------------------------,70320,240,Acoustic Grand Piano _ 1
+88.2,0.29999999999999716,43,100,--------------------------------------,70560,240,Acoustic Grand Piano _ 1
+88.5,0.15000000000000568,59,100,--------------------------------------,70800,120,Acoustic Grand Piano _ 1
+88.65,0.14999999999999147,57,100,--------------------------------------,70920,120,Acoustic Grand Piano _ 1
+88.8,0.30000000000001137,59,100,--------------------------------------,71040,240,Acoustic Grand Piano _ 1
+89.10000000000001,0.29999999999999716,55,100,--------------------------------------,71280,240,Acoustic Grand Piano _ 1
+89.4,0.29999999999999716,43,100,--------------------------------------,71520,240,Acoustic Grand Piano _ 1
+89.7,0.29999999999999716,59,100,--------------------------------------,71760,240,Acoustic Grand Piano _ 1
+90.0,0.29999999999999716,48,100,--------------------------------------,72000,240,Acoustic Grand Piano _ 1
+90.3,0.15000000000000568,60,100,--------------------------------------,72240,120,Acoustic Grand Piano _ 1
+90.45,0.15000000000000568,59,100,--------------------------------------,72360,120,Acoustic Grand Piano _ 1
+90.60000000000001,0.29999999999999716,60,100,--------------------------------------,72480,240,Acoustic Grand Piano _ 1
+90.9,0.29999999999999716,54,100,--------------------------------------,72720,240,Acoustic Grand Piano _ 1
+91.2,0.29999999999999716,57,100,--------------------------------------,72960,240,Acoustic Grand Piano _ 1
+91.5,0.29999999999999716,60,100,--------------------------------------,73200,240,Acoustic Grand Piano _ 1
+91.8,0.30000000000001137,57,100,--------------------------------------,73440,240,Acoustic Grand Piano _ 1
+92.10000000000001,0.29999999999999716,54,100,--------------------------------------,73680,240,Acoustic Grand Piano _ 1
+92.4,0.14999999999999147,51,100,--------------------------------------,73920,120,Acoustic Grand Piano _ 1
+92.55,0.15000000000000568,47,100,--------------------------------------,74040,120,Acoustic Grand Piano _ 1
+92.7,0.15000000000000568,51,100,--------------------------------------,74160,120,Acoustic Grand Piano _ 1
+92.85000000000001,0.14999999999999147,54,100,--------------------------------------,74280,120,Acoustic Grand Piano _ 1
+93.0,0.15000000000000568,59,100,--------------------------------------,74400,120,Acoustic Grand Piano _ 1
+93.15,0.14999999999999147,63,100,--------------------------------------,74520,120,Acoustic Grand Piano _ 1
+93.3,0.15000000000000568,66,100,--------------------------------------,74640,120,Acoustic Grand Piano _ 1
+93.45,0.15000000000000568,69,100,--------------------------------------,74760,120,Acoustic Grand Piano _ 1
+93.60000000000001,0.44999999999998863,67,100,--------------------------------------,74880,360,Acoustic Grand Piano _ 1
+94.05,0.15000000000000568,66,100,--------------------------------------,75240,120,Acoustic Grand Piano _ 1
+94.2,0.45000000000000284,67,100,--------------------------------------,75360,360,Acoustic Grand Piano _ 1
+94.65,0.14999999999999147,54,100,--------------------------------------,75720,120,Acoustic Grand Piano _ 1
+94.8,0.45000000000000284,55,100,--------------------------------------,75840,360,Acoustic Grand Piano _ 1
+95.25,0.15000000000000568,47,100,--------------------------------------,76200,120,Acoustic Grand Piano _ 1
+95.4,0.45000000000000284,48,100,--------------------------------------,76320,360,Acoustic Grand Piano _ 1
+95.85000000000001,0.14999999999999147,71,100,--------------------------------------,76680,120,Acoustic Grand Piano _ 1
+96.0,0.45000000000000284,72,100,--------------------------------------,76800,360,Acoustic Grand Piano _ 1
+96.45,0.15000000000000568,59,100,--------------------------------------,77160,120,Acoustic Grand Piano _ 1
+96.60000000000001,0.44999999999998863,60,100,--------------------------------------,77280,360,Acoustic Grand Piano _ 1
+97.05,0.15000000000000568,52,100,--------------------------------------,77640,120,Acoustic Grand Piano _ 1
+97.2,0.29999999999999716,51,100,--------------------------------------,77760,240,Acoustic Grand Piano _ 1
+97.5,0.29999999999999716,57,100,--------------------------------------,78000,240,Acoustic Grand Piano _ 1
+97.8,0.30000000000001137,55,100,--------------------------------------,78240,240,Acoustic Grand Piano _ 1
+98.10000000000001,0.29999999999999716,46,100,--------------------------------------,78480,240,Acoustic Grand Piano _ 1
+98.4,0.29999999999999716,47,100,--------------------------------------,78720,240,Acoustic Grand Piano _ 1
+98.7,0.29999999999999716,54,100,--------------------------------------,78960,240,Acoustic Grand Piano _ 1
+99.0,0.29999999999999716,52,100,--------------------------------------,79200,240,Acoustic Grand Piano _ 1
+99.3,0.15000000000000568,55,100,--------------------------------------,79440,120,Acoustic Grand Piano _ 1
+99.45,0.15000000000000568,54,100,--------------------------------------,79560,120,Acoustic Grand Piano _ 1
+99.60000000000001,0.29999999999999716,55,100,--------------------------------------,79680,240,Acoustic Grand Piano _ 1
+99.9,0.29999999999999716,52,100,--------------------------------------,79920,240,Acoustic Grand Piano _ 1
+100.2,0.29999999999999716,40,100,--------------------------------------,80160,240,Acoustic Grand Piano _ 1
+100.65,0.14999999999999147,50,100,--------------------------------------,80520,120,Acoustic Grand Piano _ 1
+100.8,0.15000000000000568,48,100,--------------------------------------,80640,120,Acoustic Grand Piano _ 1
+100.95,0.15000000000000568,52,100,--------------------------------------,80760,120,Acoustic Grand Piano _ 1
+101.10000000000001,0.14999999999999147,57,100,--------------------------------------,80880,120,Acoustic Grand Piano _ 1
+101.25,0.15000000000000568,60,100,--------------------------------------,81000,120,Acoustic Grand Piano _ 1
+101.4,0.14999999999999147,64,100,--------------------------------------,81120,120,Acoustic Grand Piano _ 1
+101.55,0.15000000000000568,60,100,--------------------------------------,81240,120,Acoustic Grand Piano _ 1
+101.7,0.15000000000000568,57,100,--------------------------------------,81360,120,Acoustic Grand Piano _ 1
+101.85000000000001,0.14999999999999147,52,100,--------------------------------------,81480,120,Acoustic Grand Piano _ 1
+102.0,0.15000000000000568,48,100,--------------------------------------,81600,120,Acoustic Grand Piano _ 1
+102.15,0.14999999999999147,52,100,--------------------------------------,81720,120,Acoustic Grand Piano _ 1
+102.3,0.15000000000000568,50,100,--------------------------------------,81840,120,Acoustic Grand Piano _ 1
+102.45,0.15000000000000568,48,100,--------------------------------------,81960,120,Acoustic Grand Piano _ 1
+102.60000000000001,0.14999999999999147,47,100,--------------------------------------,82080,120,Acoustic Grand Piano _ 1
+102.75,0.15000000000000568,50,100,--------------------------------------,82200,120,Acoustic Grand Piano _ 1
+102.9,0.14999999999999147,55,100,--------------------------------------,82320,120,Acoustic Grand Piano _ 1
+103.05,0.15000000000000568,59,100,--------------------------------------,82440,120,Acoustic Grand Piano _ 1
+103.2,0.15000000000000568,62,100,--------------------------------------,82560,120,Acoustic Grand Piano _ 1
+103.35000000000001,0.14999999999999147,59,100,--------------------------------------,82680,120,Acoustic Grand Piano _ 1
+103.5,0.15000000000000568,55,100,--------------------------------------,82800,120,Acoustic Grand Piano _ 1
+103.65,0.14999999999999147,50,100,--------------------------------------,82920,120,Acoustic Grand Piano _ 1
+103.8,0.15000000000000568,47,100,--------------------------------------,83040,120,Acoustic Grand Piano _ 1
+103.95,0.15000000000000568,50,100,--------------------------------------,83160,120,Acoustic Grand Piano _ 1
+104.10000000000001,0.14999999999999147,48,100,--------------------------------------,83280,120,Acoustic Grand Piano _ 1
+104.25,0.15000000000000568,47,100,--------------------------------------,83400,120,Acoustic Grand Piano _ 1
+104.4,0.29999999999999716,45,100,--------------------------------------,83520,240,Acoustic Grand Piano _ 1
+104.7,0.29999999999999716,48,100,--------------------------------------,83760,240,Acoustic Grand Piano _ 1
+105.0,0.29999999999999716,52,100,--------------------------------------,84000,240,Acoustic Grand Piano _ 1
+105.3,0.30000000000001137,55,100,--------------------------------------,84240,240,Acoustic Grand Piano _ 1
+105.60000000000001,0.29999999999999716,54,100,--------------------------------------,84480,240,Acoustic Grand Piano _ 1
+105.9,0.29999999999999716,52,100,--------------------------------------,84720,240,Acoustic Grand Piano _ 1
+106.2,0.29999999999999716,50,100,--------------------------------------,84960,240,Acoustic Grand Piano _ 1
+106.5,0.29999999999999716,54,100,--------------------------------------,85200,240,Acoustic Grand Piano _ 1
+106.8,0.30000000000001137,57,100,--------------------------------------,85440,240,Acoustic Grand Piano _ 1
+107.10000000000001,0.29999999999999716,60,100,--------------------------------------,85680,240,Acoustic Grand Piano _ 1
+107.4,0.29999999999999716,59,100,--------------------------------------,85920,240,Acoustic Grand Piano _ 1
+107.7,0.29999999999999716,57,100,--------------------------------------,86160,240,Acoustic Grand Piano _ 1
+108.0,0.29999999999999716,55,100,--------------------------------------,86400,240,Acoustic Grand Piano _ 1
+108.3,0.30000000000001137,59,100,--------------------------------------,86640,240,Acoustic Grand Piano _ 1
+108.60000000000001,0.29999999999999716,62,100,--------------------------------------,86880,240,Acoustic Grand Piano _ 1
+108.9,0.29999999999999716,65,100,--------------------------------------,87120,240,Acoustic Grand Piano _ 1
+109.2,0.29999999999999716,64,100,--------------------------------------,87360,240,Acoustic Grand Piano _ 1
+109.5,0.29999999999999716,62,100,--------------------------------------,87600,240,Acoustic Grand Piano _ 1
+109.8,0.30000000000001137,60,100,--------------------------------------,87840,240,Acoustic Grand Piano _ 1
+110.10000000000001,0.29999999999999716,64,100,--------------------------------------,88080,240,Acoustic Grand Piano _ 1
+110.4,0.29999999999999716,66,100,--------------------------------------,88320,240,Acoustic Grand Piano _ 1
+110.7,0.29999999999999716,68,100,--------------------------------------,88560,240,Acoustic Grand Piano _ 1
+111.0,0.29999999999999716,69,100,--------------------------------------,88800,240,Acoustic Grand Piano _ 1
+111.3,0.30000000000001137,67,100,--------------------------------------,89040,240,Acoustic Grand Piano _ 1
+111.60000000000001,0.29999999999999716,66,100,--------------------------------------,89280,240,Acoustic Grand Piano _ 1
+111.9,0.29999999999999716,62,100,--------------------------------------,89520,240,Acoustic Grand Piano _ 1
+112.2,0.29999999999999716,67,100,--------------------------------------,89760,240,Acoustic Grand Piano _ 1
+112.5,0.29999999999999716,55,100,--------------------------------------,90000,240,Acoustic Grand Piano _ 1
+112.8,0.30000000000001137,62,100,--------------------------------------,90240,240,Acoustic Grand Piano _ 1
+113.10000000000001,0.29999999999999716,50,100,--------------------------------------,90480,240,Acoustic Grand Piano _ 1
+113.4,0.14999999999999147,55,100,--------------------------------------,90720,120,Acoustic Grand Piano _ 1
+113.55,0.15000000000000568,43,100,--------------------------------------,90840,120,Acoustic Grand Piano _ 1
+113.7,0.15000000000000568,45,100,--------------------------------------,90960,120,Acoustic Grand Piano _ 1
+113.85000000000001,0.14999999999999147,47,100,--------------------------------------,91080,120,Acoustic Grand Piano _ 1
+114.0,0.15000000000000568,48,100,--------------------------------------,91200,120,Acoustic Grand Piano _ 1
+114.15,0.14999999999999147,50,100,--------------------------------------,91320,120,Acoustic Grand Piano _ 1
+114.3,0.15000000000000568,52,100,--------------------------------------,91440,120,Acoustic Grand Piano _ 1
+114.45,0.15000000000000568,54,100,--------------------------------------,91560,120,Acoustic Grand Piano _ 1
+114.60000000000001,1.25,55,100,--------------------------------------,91680,480,Acoustic Grand Piano _ 1

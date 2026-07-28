@@ -1,0 +1,13 @@
+{
+    "bpm": 250.0,
+    "numerator": 3,
+    "denominator": 4,
+    "ticks_per_beat": 192,
+    "avg_velocity": 111.13310384394721,
+    "timbre_complexity": 0.6224117342587409,
+    "harmonic_complexity": 7.025888565295818,
+    "genre": "Rock",
+    "artist": "R.E.M",
+    "title": "Man on the Moon",
+    "duration_sec": 248.0825
+}

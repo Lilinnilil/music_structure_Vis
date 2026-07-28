@@ -1,0 +1,13 @@
+{
+    "bpm": 150.0,
+    "numerator": 4,
+    "denominator": 4,
+    "ticks_per_beat": 480,
+    "avg_velocity": 93.2949094046592,
+    "timbre_complexity": 0.7609912803033133,
+    "harmonic_complexity": 38.04330820270077,
+    "genre": "Rock",
+    "artist": "The Beatles",
+    "title": "Help!",
+    "duration_sec": 152.3263952
+}

@@ -1,0 +1,13 @@
+{
+    "bpm": 80.0,
+    "numerator": 4,
+    "denominator": 4,
+    "ticks_per_beat": 192,
+    "avg_velocity": 78.45643153526972,
+    "timbre_complexity": 0.8250988975208443,
+    "harmonic_complexity": 9.925353925353924,
+    "genre": "Rock",
+    "artist": "The Beatles",
+    "title": "Golden Slumbers",
+    "duration_sec": 97.125
+}

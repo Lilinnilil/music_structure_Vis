@@ -1,0 +1,965 @@
+time_start_sec,duration_sec,pitch,velocity,track,instrument,track_new,time_start_tick,duration_tick
+0.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1536,96
+0.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1536,96
+0.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1632,96
+0.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1728,96
+0.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1728,96
+1.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1824,96
+1.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1920,96
+1.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,1920,96
+1.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2016,96
+2.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2112,96
+2.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2112,96
+2.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2208,96
+3.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2304,96
+3.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2304,96
+3.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2400,96
+3.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2496,96
+3.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2496,96
+4.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2592,96
+4.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2688,96
+4.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2688,96
+4.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2784,96
+5.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2880,96
+5.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2880,96
+5.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,2976,96
+6.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3072,96
+6.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3072,96
+6.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3168,96
+6.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3264,96
+6.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3264,96
+7.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3360,96
+7.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3456,96
+7.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3456,96
+7.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3552,96
+8.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3648,96
+8.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3648,96
+8.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3744,96
+6.0,3.0,45,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3072,768
+9.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3840,96
+9.0,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3840,96
+9.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,3936,96
+9.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4032,96
+9.75,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4032,96
+10.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4128,96
+10.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4224,96
+10.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4224,96
+10.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4320,96
+11.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4416,96
+11.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4416,96
+11.8125,0.1875,38,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4560,48
+11.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4512,96
+12.0,0.375,69,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4608,96
+12.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4608,96
+12.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4704,96
+12.75,0.375,69,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4800,96
+12.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4800,96
+13.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4896,96
+13.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4992,96
+13.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4992,96
+13.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5088,96
+12.0,2.25,38,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,4608,576
+14.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5184,96
+14.25,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5184,96
+14.8125,0.1875,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5328,48
+14.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5280,96
+15.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5376,96
+15.0,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5376,96
+15.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5472,96
+15.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5568,96
+15.75,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5568,96
+16.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5664,96
+16.5,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5760,96
+16.5,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5760,96
+15.0,2.25,43,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5376,576
+16.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5856,96
+17.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5952,96
+17.25,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,5952,96
+17.8125,0.1875,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6096,48
+17.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6048,96
+18.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6144,96
+18.0,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6144,96
+18.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6240,96
+18.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6336,96
+18.75,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6336,96
+19.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6432,96
+19.5,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6528,96
+19.5,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6528,96
+19.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6624,96
+20.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6720,96
+20.25,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6720,96
+20.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6816,96
+18.0,3.0,43,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6144,768
+21.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6912,96
+21.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6912,96
+21.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6912,96
+21.375,0.3125,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7008,80
+21.75,0.3125,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7104,80
+21.75,0.3125,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7104,80
+21.75,0.3125,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7104,80
+22.125,0.3125,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7200,80
+21.0,1.5,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6912,384
+21.0,1.5,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,6912,384
+22.5,0.375,68,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7296,96
+22.5,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7296,96
+22.875,0.3125,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7392,80
+23.25,0.3125,68,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7488,80
+23.25,0.3125,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7488,80
+23.625,0.3125,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7584,80
+22.5,1.5,40,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7296,384
+22.5,1.5,52,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7296,384
+24.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7680,96
+24.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7680,96
+24.375,0.3125,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7776,80
+24.75,0.3125,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7872,80
+24.75,0.3125,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7872,80
+25.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7968,96
+24.0,1.5,45,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,7680,384
+25.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8064,96
+25.5,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8064,96
+25.875,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8160,96
+26.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8256,96
+26.25,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8256,96
+26.625,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8352,96
+27.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8448,96
+27.0,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8448,96
+27.375,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8544,96
+27.75,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8640,96
+27.75,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8640,96
+28.125,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8736,96
+25.5,3.0,50,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8064,768
+25.5,3.0,38,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8064,768
+28.5,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8832,160
+28.5,0.625,55,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8832,160
+28.5,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8832,160
+29.25,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9024,160
+29.25,0.625,57,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9024,160
+29.25,0.625,60,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9024,160
+30.0,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9216,160
+30.0,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9216,160
+30.0,0.625,62,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9216,160
+28.5,2.484375,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,8832,636
+30.75,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9408,160
+30.75,0.625,55,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9408,160
+30.75,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9408,160
+31.5,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9600,96
+31.5,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9600,96
+31.5,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9600,96
+31.875,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9696,96
+32.25,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9792,96
+32.25,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9792,96
+32.25,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9792,96
+32.625,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9888,96
+33.0,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9984,96
+33.0,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9984,96
+33.0,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9984,96
+33.375,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10080,96
+33.75,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10176,96
+33.75,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10176,96
+33.75,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10176,96
+34.125,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10272,96
+31.5,3.0,36,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9600,768
+31.5,3.0,48,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,9600,768
+34.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10368,96
+34.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10368,96
+34.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10368,96
+34.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10464,96
+35.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10560,96
+35.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10560,96
+35.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10560,96
+35.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10656,96
+36.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10752,96
+36.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10752,96
+36.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10752,96
+34.5,2.25,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10368,576
+34.5,2.25,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10368,576
+36.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10848,96
+36.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10944,96
+36.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10944,96
+36.75,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10944,96
+37.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11040,96
+36.75,0.75,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10944,192
+36.75,0.75,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,10944,192
+37.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11136,96
+37.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11136,96
+37.5,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11136,96
+37.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11232,96
+38.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11328,96
+38.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11328,96
+38.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11328,96
+38.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11424,96
+39.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11520,96
+39.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11520,96
+39.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11520,96
+39.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11616,96
+39.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11712,96
+39.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11712,96
+39.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11712,96
+40.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11808,96
+37.5,3.0,53,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11136,768
+37.5,3.0,41,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11136,768
+40.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11904,96
+40.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11904,96
+40.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11904,96
+40.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12000,96
+41.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12096,96
+41.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12096,96
+41.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12096,96
+41.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12192,96
+42.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12288,96
+42.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12288,96
+42.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12288,96
+42.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12384,96
+42.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12480,96
+42.75,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12480,96
+42.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12480,96
+43.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12576,96
+40.5,3.0,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11904,768
+40.5,3.0,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,11904,768
+43.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12672,96
+43.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12672,96
+43.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12672,96
+43.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12768,96
+44.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12864,96
+44.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12864,96
+44.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12864,96
+44.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12960,96
+45.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13056,96
+45.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13056,96
+45.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13056,96
+43.5,2.25,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12672,576
+43.5,2.25,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,12672,576
+45.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13152,96
+45.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13248,96
+45.75,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13248,96
+45.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13248,96
+46.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13344,96
+45.75,0.75,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13248,192
+45.75,0.75,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13248,192
+46.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13440,96
+46.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13440,96
+46.5,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13440,96
+46.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13536,96
+47.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13632,96
+47.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13632,96
+47.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13632,96
+47.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13728,96
+48.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13824,96
+48.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13824,96
+48.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13824,96
+48.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13920,96
+48.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14016,96
+48.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14016,96
+48.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14016,96
+49.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14112,96
+46.5,3.0,53,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13440,768
+46.5,3.0,41,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,13440,768
+49.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14208,96
+49.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14208,96
+49.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14208,96
+49.875,0.3125,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14304,80
+49.5,0.75,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14208,192
+49.5,0.75,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14208,192
+50.25,0.3125,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14400,80
+50.25,0.3125,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14400,80
+50.25,0.3125,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14400,80
+50.25,0.625,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14400,160
+50.25,0.625,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14400,160
+50.625,0.3125,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14496,80
+51.0,0.375,68,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14592,96
+51.0,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14592,96
+51.375,0.3125,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14688,80
+51.0,0.75,35,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14592,192
+51.0,0.75,47,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14592,192
+51.75,0.3125,68,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14784,80
+51.75,0.3125,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14784,80
+51.75,0.625,35,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14784,160
+51.75,0.625,47,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14784,160
+52.125,0.3125,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14880,80
+52.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14976,96
+52.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14976,96
+52.875,0.3125,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15072,80
+52.5,0.75,45,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,14976,192
+53.25,0.3125,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15168,80
+53.25,0.3125,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15168,80
+53.25,0.625,45,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15168,160
+53.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15264,96
+54.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15360,96
+54.0,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15360,96
+54.375,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15456,96
+54.75,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15552,96
+54.75,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15552,96
+55.125,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15648,96
+55.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15744,96
+55.5,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15744,96
+55.875,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15840,96
+56.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15936,96
+56.25,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15936,96
+56.625,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16032,96
+54.0,3.0,50,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15360,768
+54.0,3.0,38,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,15360,768
+57.0,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16128,160
+57.0,0.625,55,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16128,160
+57.0,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16128,160
+57.75,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16320,160
+57.75,0.625,57,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16320,160
+57.75,0.625,60,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16320,160
+58.5,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16512,160
+58.5,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16512,160
+58.5,0.625,62,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16512,160
+57.0,2.484375,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16128,636
+59.25,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16704,160
+59.25,0.625,55,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16704,160
+59.25,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16704,160
+60.0,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16896,96
+60.0,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16896,96
+60.0,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16896,96
+60.375,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16992,96
+60.75,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17088,96
+60.75,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17088,96
+60.75,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17088,96
+61.125,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17184,96
+61.5,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17280,96
+61.5,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17280,96
+61.5,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17280,96
+61.875,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17376,96
+62.25,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17472,96
+62.25,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17472,96
+62.25,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17472,96
+62.625,0.3125,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17568,80
+60.0,3.0,36,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16896,768
+60.0,3.0,48,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,16896,768
+63.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17664,96
+63.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17664,96
+63.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17760,96
+63.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17856,96
+63.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17856,96
+64.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,17952,96
+64.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18048,96
+64.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18048,96
+64.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18144,96
+65.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18240,96
+65.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18240,96
+65.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18336,96
+66.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18432,96
+66.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18432,96
+66.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18528,96
+66.75,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18624,96
+66.75,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18624,96
+67.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18720,96
+67.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18816,96
+67.5,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18816,96
+67.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18912,96
+68.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19008,96
+68.25,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19008,96
+68.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19104,96
+66.0,3.0,45,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,18432,768
+69.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19200,96
+69.0,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19200,96
+69.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19296,96
+69.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19392,96
+69.75,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19392,96
+70.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19488,96
+70.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19584,96
+70.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19584,96
+70.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19680,96
+71.25,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19776,96
+71.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19776,96
+71.8125,0.1875,38,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19920,48
+71.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19872,96
+72.0,0.375,69,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19968,96
+72.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19968,96
+72.375,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20064,96
+72.75,0.375,69,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20160,96
+72.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20160,96
+73.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20256,96
+73.5,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20352,96
+73.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20352,96
+73.875,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20448,96
+72.0,2.25,38,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,19968,576
+74.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20544,96
+74.25,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20544,96
+74.8125,0.1875,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20688,48
+74.625,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20640,96
+75.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20736,96
+75.0,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20736,96
+75.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20832,96
+75.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20928,96
+75.75,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20928,96
+76.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21024,96
+76.5,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21120,96
+76.5,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21120,96
+75.0,2.25,43,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,20736,576
+76.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21216,96
+77.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21312,96
+77.25,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21312,96
+77.8125,0.1875,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21456,48
+77.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21408,96
+78.0,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21504,96
+78.0,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21504,96
+78.375,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21600,96
+78.75,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21696,96
+78.75,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21696,96
+79.125,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21792,96
+79.5,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21888,96
+79.5,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21888,96
+79.875,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21984,96
+80.25,0.375,65,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22080,96
+80.25,0.375,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22080,96
+80.625,0.375,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22176,96
+78.0,3.0,43,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,21504,768
+81.0,0.375,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22272,96
+81.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22272,96
+81.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22272,96
+81.375,0.3125,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22368,80
+81.75,0.3125,67,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22464,80
+81.75,0.3125,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22464,80
+81.75,0.3125,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22464,80
+82.125,0.3125,55,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22560,80
+81.0,1.5,36,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22272,384
+81.0,1.5,48,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22272,384
+82.5,0.375,68,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22656,96
+82.5,0.375,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22656,96
+82.875,0.3125,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22752,80
+83.25,0.3125,68,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22848,80
+83.25,0.3125,62,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22848,80
+83.625,0.3125,59,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22944,80
+82.5,1.5,40,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22656,384
+82.5,1.5,52,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,22656,384
+84.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23040,96
+84.0,0.375,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23040,96
+84.375,0.3125,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23136,80
+84.75,0.3125,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23232,80
+84.75,0.3125,60,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23232,80
+85.125,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23328,96
+84.0,1.5,45,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23040,384
+85.5,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23424,96
+85.5,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23424,96
+85.875,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23520,96
+86.25,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23616,96
+86.25,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23616,96
+86.625,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23712,96
+87.0,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23808,96
+87.0,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23808,96
+87.375,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23904,96
+87.75,0.375,64,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24000,96
+87.75,0.375,57,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24000,96
+88.125,0.375,53,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24096,96
+85.5,3.0,50,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23424,768
+85.5,3.0,38,80,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,23424,768
+88.5,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24192,160
+88.5,0.625,55,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24192,160
+88.5,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24192,160
+89.25,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24384,160
+89.25,0.625,57,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24384,160
+89.25,0.625,60,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24384,160
+90.0,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24576,160
+90.0,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24576,160
+90.0,0.625,62,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24576,160
+88.5,2.484375,43,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24192,636
+90.75,0.625,59,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24768,160
+90.75,0.625,55,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24768,160
+90.75,0.625,65,58,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24768,160
+91.5,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24960,96
+91.5,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24960,96
+91.5,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24960,96
+91.875,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25056,96
+92.25,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25152,96
+92.25,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25152,96
+92.25,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25152,96
+92.625,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25248,96
+93.0,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25344,96
+93.0,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25344,96
+93.0,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25344,96
+93.375,0.375,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25440,96
+93.75,0.375,67,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25536,96
+93.75,0.375,60,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25536,96
+93.75,0.375,64,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25536,96
+94.125,0.3125,55,65,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,25632,80
+91.5,3.0,36,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24960,768
+91.5,3.0,48,74,tk1,Acoustic Grand Piano _ 1,Acoustic Grand Piano _ 1,24960,768
+6.0,3.0,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,3072,768
+6.0,3.0,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,3072,768
+6.0,3.0,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,3072,768
+9.0,1.5,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,3840,384
+9.0,1.5,62,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,3840,384
+10.5,1.5,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,4224,384
+10.5,1.5,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,4224,384
+12.0,1.5,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,4608,384
+12.0,1.5,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,4608,384
+13.5,0.75,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,4992,192
+13.5,0.75,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,4992,192
+14.25,0.75,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,5184,192
+14.25,0.75,62,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,5184,192
+15.0,3.0,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,5376,768
+15.0,3.0,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,5376,768
+15.0,3.0,55,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,5376,768
+18.0,3.0,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,6144,768
+18.0,3.0,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,6144,768
+18.0,3.0,55,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,6144,768
+21.0,1.5,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,6912,384
+21.0,1.5,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,6912,384
+21.0,1.5,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,6912,384
+22.5,1.5,68,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7296,384
+22.5,1.5,62,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7296,384
+22.5,1.5,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7296,384
+24.0,0.75,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7680,192
+24.0,0.75,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7680,192
+24.0,0.75,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7680,192
+24.75,0.75,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7872,192
+24.75,0.75,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7872,192
+24.75,0.75,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,7872,192
+25.5,3.0,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,8064,768
+25.5,3.0,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,8064,768
+28.5,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,8832,192
+28.5,0.75,55,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,8832,192
+28.5,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,8832,192
+29.25,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9024,192
+29.25,0.75,60,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9024,192
+29.25,0.75,57,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9024,192
+30.0,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9216,192
+30.0,0.75,62,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9216,192
+30.0,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9216,192
+30.75,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9408,192
+30.75,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9408,192
+30.75,0.75,55,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9408,192
+31.5,3.0,64,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9600,768
+31.5,3.0,55,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9600,768
+31.5,3.0,60,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,9600,768
+34.5,2.703125,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,10368,692
+34.5,2.703125,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,10368,692
+34.5,2.703125,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,10368,692
+37.5,2.703125,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,11136,692
+37.5,2.703125,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,11136,692
+37.5,2.703125,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,11136,692
+40.5,2.703125,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,11904,692
+40.5,2.703125,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,11904,692
+40.5,2.703125,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,11904,692
+43.5,2.703125,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,12672,692
+43.5,2.703125,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,12672,692
+43.5,2.703125,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,12672,692
+46.5,2.703125,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,13440,692
+46.5,2.703125,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,13440,692
+46.5,2.703125,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,13440,692
+49.5,1.5,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14208,384
+49.5,1.5,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14208,384
+49.5,1.5,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14208,384
+51.0,1.5,68,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14592,384
+51.0,1.5,62,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14592,384
+51.0,1.5,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14592,384
+52.5,0.75,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14976,192
+52.5,0.75,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,14976,192
+53.25,0.75,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,15168,192
+53.25,0.75,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,15168,192
+53.25,0.75,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,15168,192
+54.0,3.0,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,15360,768
+54.0,3.0,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,15360,768
+54.0,3.0,65,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,15360,768
+57.0,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16128,192
+57.0,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16128,192
+57.75,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16320,192
+57.75,0.75,60,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16320,192
+58.5,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16512,192
+58.5,0.75,62,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16512,192
+59.25,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16704,192
+59.25,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16704,192
+60.0,3.0,64,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16896,768
+60.0,3.0,60,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,16896,768
+66.0,3.0,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,18432,768
+66.0,3.0,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,18432,768
+66.0,3.0,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,18432,768
+69.375,0.375,57,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19296,96
+69.75,0.375,62,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19392,96
+70.125,0.1875,64,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19488,48
+70.3125,0.1875,65,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19536,48
+70.5,0.375,64,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19584,96
+70.875,0.375,62,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19680,96
+71.25,0.375,64,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19776,96
+69.0,2.703125,50,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19200,692
+71.625,0.375,65,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19872,96
+72.0,0.375,69,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19968,96
+72.375,0.375,65,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20064,96
+72.75,0.375,64,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20160,96
+73.125,0.375,57,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20256,96
+73.5,0.375,62,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20352,96
+73.875,0.1875,64,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20448,48
+74.0625,0.1875,65,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20496,48
+74.25,0.375,62,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20544,96
+72.0,2.703125,50,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,19968,692
+74.625,0.375,60,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20640,96
+75.0,1.5,59,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20736,384
+76.6875,0.1875,55,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21168,48
+76.875,0.1875,59,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21216,48
+77.0625,0.1875,60,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21264,48
+77.25,0.375,59,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21312,96
+75.0,2.703125,43,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,20736,692
+77.625,0.375,55,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21408,96
+78.0,2.703125,55,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21504,692
+78.0,2.703125,43,110,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,21504,692
+81.0,1.5,67,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,22272,384
+81.0,1.5,64,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,22272,384
+81.0,1.5,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,22272,384
+82.5,1.5,68,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,22656,384
+82.5,1.5,62,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,22656,384
+82.5,1.5,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,22656,384
+84.0,0.75,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23040,192
+84.0,0.75,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23040,192
+84.0,0.75,60,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23040,192
+84.75,0.75,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23232,192
+84.75,0.75,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23232,192
+84.75,0.75,59,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23232,192
+85.5,3.0,69,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23424,768
+85.5,3.0,57,69,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,23424,768
+88.5,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24192,192
+88.5,0.75,55,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24192,192
+88.5,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24192,192
+89.25,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24384,192
+89.25,0.75,60,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24384,192
+89.25,0.75,57,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24384,192
+90.0,0.75,65,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24576,192
+90.0,0.75,62,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24576,192
+90.0,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24576,192
+90.75,0.75,62,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24768,192
+90.75,0.75,59,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24768,192
+90.75,0.75,55,53,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24768,192
+91.5,2.703125,64,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24960,692
+91.5,2.703125,60,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24960,692
+91.5,2.703125,55,60,tk2,String Ensemble 1 _ 1,String Ensemble 1 _ 1,24960,692
+6.0,2.703125,64,60,tk3,Brass Section _ 1,Brass Section _ 1,3072,692
+9.0,1.34375,62,60,tk3,Brass Section _ 1,Brass Section _ 1,3840,344
+10.5,1.34375,64,60,tk3,Brass Section _ 1,Brass Section _ 1,4224,344
+12.0,1.34375,65,60,tk3,Brass Section _ 1,Brass Section _ 1,4608,344
+13.5,0.671875,64,60,tk3,Brass Section _ 1,Brass Section _ 1,4992,172
+14.25,0.671875,62,60,tk3,Brass Section _ 1,Brass Section _ 1,5184,172
+15.0,3.0,62,60,tk3,Brass Section _ 1,Brass Section _ 1,5376,768
+21.0,1.34375,64,60,tk3,Brass Section _ 1,Brass Section _ 1,6912,344
+22.5,1.34375,62,60,tk3,Brass Section _ 1,Brass Section _ 1,7296,344
+24.0,3.0,64,60,tk3,Brass Section _ 1,Brass Section _ 1,7680,768
+28.5,0.671875,65,50,tk3,Brass Section _ 1,Brass Section _ 1,8832,172
+28.5,0.671875,59,50,tk3,Brass Section _ 1,Brass Section _ 1,8832,172
+29.25,0.671875,64,50,tk3,Brass Section _ 1,Brass Section _ 1,9024,172
+29.25,0.671875,60,50,tk3,Brass Section _ 1,Brass Section _ 1,9024,172
+30.0,0.671875,65,50,tk3,Brass Section _ 1,Brass Section _ 1,9216,172
+30.0,0.671875,62,50,tk3,Brass Section _ 1,Brass Section _ 1,9216,172
+30.75,0.671875,62,50,tk3,Brass Section _ 1,Brass Section _ 1,9408,172
+30.75,0.671875,59,50,tk3,Brass Section _ 1,Brass Section _ 1,9408,172
+31.5,2.703125,64,55,tk3,Brass Section _ 1,Brass Section _ 1,9600,692
+31.5,2.703125,60,55,tk3,Brass Section _ 1,Brass Section _ 1,9600,692
+35.625,1.5,67,85,tk3,Brass Section _ 1,Brass Section _ 1,10656,384
+35.625,1.5,60,85,tk3,Brass Section _ 1,Brass Section _ 1,10656,384
+35.625,1.5,55,85,tk3,Brass Section _ 1,Brass Section _ 1,10656,384
+38.625,1.5,67,85,tk3,Brass Section _ 1,Brass Section _ 1,11424,384
+38.625,1.5,60,85,tk3,Brass Section _ 1,Brass Section _ 1,11424,384
+38.625,1.5,57,85,tk3,Brass Section _ 1,Brass Section _ 1,11424,384
+41.625,1.5,67,85,tk3,Brass Section _ 1,Brass Section _ 1,12192,384
+41.625,1.5,60,85,tk3,Brass Section _ 1,Brass Section _ 1,12192,384
+41.625,1.5,55,85,tk3,Brass Section _ 1,Brass Section _ 1,12192,384
+44.625,1.5,67,85,tk3,Brass Section _ 1,Brass Section _ 1,12960,384
+44.625,1.5,60,85,tk3,Brass Section _ 1,Brass Section _ 1,12960,384
+44.625,1.5,55,85,tk3,Brass Section _ 1,Brass Section _ 1,12960,384
+47.625,1.5,67,85,tk3,Brass Section _ 1,Brass Section _ 1,13728,384
+47.625,1.5,60,85,tk3,Brass Section _ 1,Brass Section _ 1,13728,384
+47.625,1.5,57,85,tk3,Brass Section _ 1,Brass Section _ 1,13728,384
+49.5,1.34375,67,60,tk3,Brass Section _ 1,Brass Section _ 1,14208,344
+49.5,1.34375,64,60,tk3,Brass Section _ 1,Brass Section _ 1,14208,344
+51.0,1.34375,68,60,tk3,Brass Section _ 1,Brass Section _ 1,14592,344
+51.0,1.34375,64,60,tk3,Brass Section _ 1,Brass Section _ 1,14592,344
+52.5,0.671875,69,60,tk3,Brass Section _ 1,Brass Section _ 1,14976,172
+52.5,0.671875,64,60,tk3,Brass Section _ 1,Brass Section _ 1,14976,172
+53.25,0.671875,69,60,tk3,Brass Section _ 1,Brass Section _ 1,15168,172
+53.25,0.671875,64,60,tk3,Brass Section _ 1,Brass Section _ 1,15168,172
+54.0,2.703125,69,60,tk3,Brass Section _ 1,Brass Section _ 1,15360,692
+54.0,2.703125,64,60,tk3,Brass Section _ 1,Brass Section _ 1,15360,692
+66.0,2.703125,64,60,tk3,Brass Section _ 1,Brass Section _ 1,18432,692
+69.0,1.34375,62,60,tk3,Brass Section _ 1,Brass Section _ 1,19200,344
+70.5,1.34375,64,60,tk3,Brass Section _ 1,Brass Section _ 1,19584,344
+72.0,1.34375,65,60,tk3,Brass Section _ 1,Brass Section _ 1,19968,344
+73.5,0.671875,64,60,tk3,Brass Section _ 1,Brass Section _ 1,20352,172
+74.25,0.671875,62,60,tk3,Brass Section _ 1,Brass Section _ 1,20544,172
+75.0,3.0,62,60,tk3,Brass Section _ 1,Brass Section _ 1,20736,768
+81.0,0.671875,67,69,tk3,Brass Section _ 1,Brass Section _ 1,22272,172
+81.75,0.671875,69,69,tk3,Brass Section _ 1,Brass Section _ 1,22464,172
+82.5,0.671875,64,69,tk3,Brass Section _ 1,Brass Section _ 1,22656,172
+83.25,0.671875,62,69,tk3,Brass Section _ 1,Brass Section _ 1,22848,172
+84.0,0.671875,60,69,tk3,Brass Section _ 1,Brass Section _ 1,23040,172
+84.75,0.671875,57,69,tk3,Brass Section _ 1,Brass Section _ 1,23232,172
+85.5,2.703125,53,69,tk3,Brass Section _ 1,Brass Section _ 1,23424,692
+88.5,0.671875,65,50,tk3,Brass Section _ 1,Brass Section _ 1,24192,172
+88.5,0.671875,59,50,tk3,Brass Section _ 1,Brass Section _ 1,24192,172
+89.25,0.671875,64,50,tk3,Brass Section _ 1,Brass Section _ 1,24384,172
+89.25,0.671875,60,50,tk3,Brass Section _ 1,Brass Section _ 1,24384,172
+90.0,0.671875,65,50,tk3,Brass Section _ 1,Brass Section _ 1,24576,172
+90.0,0.671875,62,50,tk3,Brass Section _ 1,Brass Section _ 1,24576,172
+90.75,0.671875,62,50,tk3,Brass Section _ 1,Brass Section _ 1,24768,172
+90.75,0.671875,59,50,tk3,Brass Section _ 1,Brass Section _ 1,24768,172
+91.5,2.703125,64,55,tk3,Brass Section _ 1,Brass Section _ 1,24960,692
+91.5,2.703125,60,55,tk3,Brass Section _ 1,Brass Section _ 1,24960,692
+3.0,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,2304,40
+3.1875,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,2352,40
+3.375,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,2400,40
+3.5625,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,2448,40
+3.75,0.625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,2496,160
+7.3125,0.15625,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,3408,40
+7.5,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,3456,80
+7.875,0.625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,3552,160
+8.625,0.3125,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,3744,80
+9.0,0.625,50,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,3840,160
+15.0,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,5376,40
+15.1875,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,5424,40
+15.375,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,5472,40
+15.5625,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,5520,40
+15.75,0.625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,5568,160
+19.3125,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,6480,40
+19.5,0.3125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,6528,80
+19.875,0.625,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,6624,160
+20.625,0.3125,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,6816,80
+22.3125,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7248,40
+22.5,0.15625,69,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7296,40
+22.6875,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7344,40
+22.875,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7392,40
+23.0625,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7440,40
+23.25,0.75,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7488,192
+24.1875,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7728,40
+24.375,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7776,80
+24.75,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7872,40
+24.9375,0.3125,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,7920,80
+25.3125,1.5,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,8016,384
+28.875,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,8928,40
+29.0625,0.34375,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,8976,88
+29.4375,0.3125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9072,80
+29.625,0.6875,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9120,176
+30.5625,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9360,40
+30.75,0.203125,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9408,52
+31.0,0.203125,53,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9472,52
+31.25,0.5,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9536,128
+31.875,1.125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,9696,288
+34.5,1.5,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,10368,384
+36.375,0.625,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,10848,160
+37.125,0.9375,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,11040,240
+38.25,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,11328,80
+38.625,0.9375,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,11424,240
+39.75,0.15625,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,11712,40
+39.9375,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,11760,40
+40.125,2.25,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,11808,576
+43.5,2.25,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,12672,576
+45.75,0.3125,69,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,13248,80
+46.125,0.9375,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,13344,240
+47.25,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,13632,80
+47.625,0.9375,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,13728,240
+48.75,0.15625,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14016,40
+48.9375,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14064,40
+49.125,0.9375,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14112,240
+50.8125,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14544,40
+51.0,0.15625,69,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14592,40
+51.1875,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14640,40
+51.375,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14688,40
+51.5625,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14736,40
+51.75,0.75,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,14784,192
+52.6875,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,15024,40
+52.875,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,15072,80
+53.25,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,15168,40
+53.4375,0.3125,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,15216,80
+53.8125,1.5,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,15312,384
+57.375,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16224,40
+57.5625,0.3125,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16272,80
+57.9375,0.3125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16368,80
+58.3125,0.46875,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16464,120
+58.875,0.3125,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16608,80
+59.25,0.203125,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16704,52
+59.5,0.203125,53,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16768,52
+59.75,0.5,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16832,128
+60.375,0.9375,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,16992,240
+63.0,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,17664,40
+63.1875,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,17712,40
+63.375,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,17760,40
+63.5625,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,17808,40
+63.75,0.625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,17856,160
+67.3125,0.15625,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,18768,40
+67.5,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,18816,80
+67.875,0.625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,18912,160
+68.625,0.3125,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,19104,80
+69.0,0.625,50,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,19200,160
+75.0,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,20736,40
+75.1875,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,20784,40
+75.375,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,20832,40
+75.5625,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,20880,40
+75.75,0.625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,20928,160
+79.3125,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,21840,40
+79.5,0.3125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,21888,80
+79.875,0.625,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,21984,160
+80.625,0.3125,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22176,80
+82.3125,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22608,40
+82.5,0.15625,69,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22656,40
+82.6875,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22704,40
+82.875,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22752,40
+83.0625,0.15625,67,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22800,40
+83.25,0.75,64,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,22848,192
+84.1875,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,23088,40
+84.375,0.3125,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,23136,80
+84.75,0.15625,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,23232,40
+84.9375,0.3125,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,23280,80
+85.3125,1.5,57,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,23376,384
+88.875,0.15625,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24288,40
+89.0625,0.34375,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24336,88
+89.4375,0.3125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24432,80
+89.625,0.6875,62,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24480,176
+90.5625,0.15625,59,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24720,40
+90.75,0.203125,55,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24768,52
+91.0,0.203125,53,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24832,52
+91.25,0.5,52,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,24896,128
+91.875,1.125,60,105,tk4,Voice Oohs _ 1,Voice Oohs _ 1,25056,288
+28.5,0.75,43,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,8832,192
+29.25,0.75,45,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,9024,192
+30.0,0.75,47,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,9216,192
+30.75,0.75,43,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,9408,192
+31.5,3.0,36,90,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,9600,768
+34.5,0.375,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,10368,96
+35.625,1.125,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,10656,288
+36.75,0.1875,31,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,10944,48
+36.9375,0.1875,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,10992,48
+37.125,0.25,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11040,64
+37.5,0.375,41,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11136,96
+38.625,1.125,41,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11424,288
+39.75,0.1875,31,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11712,48
+39.9375,0.1875,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11760,48
+40.125,0.25,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11808,64
+40.5,0.375,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,11904,96
+41.625,1.125,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,12192,288
+42.75,0.1875,31,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,12480,48
+42.9375,0.1875,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,12528,48
+43.125,0.25,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,12576,64
+43.5,0.375,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,12672,96
+44.625,1.125,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,12960,288
+45.75,0.1875,31,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,13248,48
+45.9375,0.1875,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,13296,48
+46.125,0.25,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,13344,64
+46.5,0.375,41,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,13440,96
+47.625,1.125,41,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,13728,288
+48.75,0.1875,31,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14016,48
+48.9375,0.1875,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14064,48
+49.125,0.25,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14112,64
+49.5,0.75,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14208,192
+50.25,0.75,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14400,192
+51.0,0.75,35,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14592,192
+51.75,0.75,35,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14784,192
+52.5,0.75,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,14976,192
+53.25,0.75,33,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,15168,192
+54.0,3.0,38,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,15360,768
+57.0,0.75,43,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,16128,192
+57.75,0.75,45,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,16320,192
+58.5,0.75,47,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,16512,192
+59.25,0.75,43,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,16704,192
+60.0,3.0,36,90,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,16896,768
+63.0,3.0,45,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,17664,768
+66.0,3.0,45,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,18432,768
+69.0,2.25,38,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,19200,576
+71.625,0.1875,50,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,19872,48
+72.0,2.25,38,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,19968,576
+74.25,0.1875,38,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,20544,48
+74.4375,0.1875,40,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,20592,48
+74.625,0.25,43,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,20640,64
+75.0,2.25,43,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,20736,576
+77.25,0.25,43,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,21312,64
+77.625,0.25,38,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,21408,64
+78.0,3.0,31,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,21504,768
+81.0,1.5,36,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,22272,384
+82.5,1.5,40,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,22656,384
+84.0,0.75,45,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,23040,192
+84.75,0.75,47,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,23232,192
+85.5,3.0,38,100,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,23424,768
+88.5,0.75,43,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,24192,192
+89.25,0.75,45,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,24384,192
+90.0,0.75,47,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,24576,192
+90.75,0.75,50,84,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,24768,192
+91.5,3.0,48,90,tk9,Acoustic Bass _ 1,Acoustic Bass _ 1,24960,768
+33.0,0.1875,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,9984,48
+33.1875,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10032,96
+33.5625,0.1875,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10128,48
+33.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10176,192
+33.9375,0.75,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10224,192
+34.125,0.75,47,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10272,192
+34.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10368,192
+34.5,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10368,192
+35.625,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10656,192
+35.625,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10656,192
+36.375,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10848,96
+36.9375,0.1875,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10992,48
+36.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10944,192
+36.75,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,10944,192
+37.125,0.75,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11040,192
+37.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11136,192
+37.5,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11136,192
+38.625,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11424,192
+38.625,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11424,192
+39.375,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11616,96
+39.9375,0.1875,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11760,48
+39.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11712,192
+39.75,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11712,192
+40.125,0.75,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11808,192
+40.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11904,192
+40.5,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,11904,192
+41.625,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12192,192
+41.625,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12192,192
+42.375,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12384,96
+42.9375,0.1875,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12528,48
+42.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12480,192
+42.75,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12480,192
+43.125,0.75,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12576,192
+43.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12672,192
+43.5,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12672,192
+44.625,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12960,192
+44.625,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,12960,192
+45.375,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13152,96
+45.9375,0.1875,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13296,48
+45.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13248,192
+45.75,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13248,192
+46.125,0.75,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13344,192
+46.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13440,192
+46.5,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13440,192
+47.625,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13728,192
+47.625,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13728,192
+48.375,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,13920,96
+48.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14016,192
+48.75,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14016,192
+49.125,0.75,43,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14112,192
+49.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14208,192
+49.5,0.75,49,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14208,192
+49.875,0.375,42,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14304,96
+50.25,0.375,42,106,tk10,Drum Kit _ 1,Drum Kit _ 1,14400,96
+50.25,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14400,192
+50.625,0.375,42,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14496,96
+51.0,0.375,42,106,tk10,Drum Kit _ 1,Drum Kit _ 1,14592,96
+51.0,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14592,192
+51.375,0.375,42,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14688,96
+51.75,0.375,42,106,tk10,Drum Kit _ 1,Drum Kit _ 1,14784,96
+51.75,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14784,192
+52.125,0.375,42,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14880,96
+52.5,0.375,42,106,tk10,Drum Kit _ 1,Drum Kit _ 1,14976,96
+52.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,14976,192
+52.875,0.375,42,84,tk10,Drum Kit _ 1,Drum Kit _ 1,15072,96
+53.25,0.375,42,106,tk10,Drum Kit _ 1,Drum Kit _ 1,15168,96
+53.25,0.75,38,84,tk10,Drum Kit _ 1,Drum Kit _ 1,15168,192
+53.625,0.75,42,84,tk10,Drum Kit _ 1,Drum Kit _ 1,15264,192
+54.0,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,15360,192
+54.0,0.75,51,106,tk10,Drum Kit _ 1,Drum Kit _ 1,15360,192
+63.0,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,17664,192
+69.0,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,19200,192
+75.0,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,20736,192
+81.0,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,22272,192
+81.0,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,22272,192
+81.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,22464,192
+82.5,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,22656,192
+82.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,22656,192
+83.25,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,22848,192
+84.0,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,23040,192
+84.0,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,23040,192
+84.75,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,23232,192
+85.5,0.75,51,84,tk10,Drum Kit _ 1,Drum Kit _ 1,23424,192
+85.5,0.75,36,84,tk10,Drum Kit _ 1,Drum Kit _ 1,23424,192
+93.1875,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25392,96
+93.0,0.75,47,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25344,192
+93.5625,0.375,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25488,96
+93.75,0.375,47,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25536,96
+93.9375,0.1875,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25584,48
+94.125,0.75,50,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25632,192
+94.125,0.75,47,84,tk10,Drum Kit _ 1,Drum Kit _ 1,25632,192

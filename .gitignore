@@ -1,0 +1,16 @@
+sample/
+sample_/
+wav/
+csv/
+demo/
+reference/
+previous/
+previous_/
+csv_/
+midi_to_csv_clean_.py
+viewD_origin.js
+memo/
+midis/
+plan/
+.vscode/
+code.txt

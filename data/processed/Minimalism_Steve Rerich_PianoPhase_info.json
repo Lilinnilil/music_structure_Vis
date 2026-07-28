@@ -1,0 +1,13 @@
+{
+    "bpm": 120.0,
+    "numerator": 4,
+    "denominator": 4,
+    "ticks_per_beat": 384,
+    "avg_velocity": 80.0,
+    "timbre_complexity": 0.0,
+    "harmonic_complexity": 15.948259463572379,
+    "genre": "Minimalism",
+    "artist": "Steve Rerich",
+    "title": "PianoPhase",
+    "duration_sec": 82.140625
+}

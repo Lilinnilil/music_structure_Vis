@@ -1,0 +1,13 @@
+{
+    "bpm": 96.0,
+    "numerator": 4,
+    "denominator": 4,
+    "ticks_per_beat": 96,
+    "avg_velocity": 101.66543804933372,
+    "timbre_complexity": 0.8148904192590719,
+    "harmonic_complexity": 19.25664522091494,
+    "genre": "Rock",
+    "artist": "The Beatles ",
+    "title": "Octopus's Garden",
+    "duration_sec": 183.15755208333334
+}

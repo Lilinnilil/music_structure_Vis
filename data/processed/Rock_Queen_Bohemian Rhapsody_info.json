@@ -1,0 +1,13 @@
+{
+    "bpm": 64.0,
+    "numerator": 4,
+    "denominator": 4,
+    "ticks_per_beat": 192,
+    "avg_velocity": 87.93862651152179,
+    "timbre_complexity": 0.7826347841816683,
+    "harmonic_complexity": 12.34403940708174,
+    "genre": "Rock",
+    "artist": "Queen",
+    "title": "Bohemian Rhapsody",
+    "duration_sec": 355.0701561666666
+}
