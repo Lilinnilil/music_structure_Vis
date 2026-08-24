@@ -7,6 +7,8 @@ The app has a single main view. It supports *Piano Roll*, *Rhythmic Framework*, 
 
 ![Pitch Visualization](assets/overview_markedt.png)
 
+[demo vedio](assets/peer_gynt.mp4)
+
 ## Features
 
 - Load available pieces from `data/manifest.json`
