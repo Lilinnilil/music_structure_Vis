@@ -1,6 +1,6 @@
-# Music Structure Visualizer
+# 🎼Music Structure Visualizer
 
-An interactive browser-based visualizer for MIDI-derived music data with synchronized audio playback.
+An interactive browser-based structure visualizer for MIDI-derived music data with synchronized audio playback.
 
 The app has a single main view. It supports 
 
@@ -20,10 +20,8 @@ Example: *Peer Gynt Suite No.1 Op.46:4. In The Hall Of The Mountain King*
 ## Features
 
 - Load available pieces from `data/manifest.json`
-- Play synchronized audio from `public/mp3`
 - Explore pitch, timing, velocity, instrument color, rhythm, and melodic motion
 - Toggle percussion visibility
-- Scrub through time with the horizontal timeline control
 - Extend the dataset by adding new MIDI files and processing them with the included script
 
 ## Project Structure
