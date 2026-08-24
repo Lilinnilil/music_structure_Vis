@@ -2,8 +2,16 @@
 
 An interactive browser-based visualizer for MIDI-derived music data with synchronized audio playback.
 
-The app has a single main view. It supports *Piano Roll*, *Rhythmic Framework*, *Monophonic Melody*, *Expanded Melody*, and *Rhythmic Melody* modes.
+The app has a single main view. It supports 
 
+1. Rhythmic Framework
+2.  Monophonic Melody
+3.  Expanded Melody
+4.  Rhythmic Melody
+
+and *Piano Roll* for reference, five structure visulaization modes in total.
+
+Example: *Peer Gynt Suite No.1 Op.46:4. In The Hall Of The Mountain King*
 
 ![Pitch Visualization](assets/overview_markedt.png)
 
