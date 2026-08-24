@@ -2,7 +2,10 @@
 
 An interactive browser-based visualizer for MIDI-derived music data with synchronized audio playback.
 
-The app has a single main view. It supports Piano Roll, Rhythmic Framework, Monophonic Melody, Expanded Melody, and Rhythmic Melody modes.
+The app has a single main view. It supports *Piano Roll*, *Rhythmic Framework*, *Monophonic Melody*, *Expanded Melody*, and *Rhythmic Melody* modes.
+
+
+![Pitch Visualization](assets/overview_markedt.png)
 
 ## Features
 
